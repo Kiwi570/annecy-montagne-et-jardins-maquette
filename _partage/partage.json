@@ -1,0 +1,180 @@
+{
+  "avertissements": [],
+  "cartes": [
+    {
+      "page": "accueil",
+      "langue": "fr",
+      "fichier": "assets/partage/accueil-fr.jpg",
+      "gabarit": "plein",
+      "image": "accueil-ouverture-1280.webp",
+      "poids": 92778,
+      "sujet": {
+        "x": 406,
+        "y": 90,
+        "l": 371,
+        "h": 222
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 404,
+          "l": 820,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 547,
+          "l": 820,
+          "h": 35
+        },
+        {
+          "x": 1004,
+          "y": 518,
+          "l": 132,
+          "h": 64
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "contact",
+      "langue": "fr",
+      "fichier": "assets/partage/contact-fr.jpg",
+      "gabarit": "droite",
+      "image": "real-escalier-traverses-960.webp",
+      "poids": 111165,
+      "sujet": {
+        "x": 600,
+        "y": 129,
+        "l": 600,
+        "h": 270
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "creation",
+      "langue": "fr",
+      "fichier": "assets/partage/creation-fr.jpg",
+      "gabarit": "plein",
+      "image": "creation-piscine-1280.webp",
+      "poids": 158473,
+      "sujet": {
+        "x": 371,
+        "y": 193,
+        "l": 547,
+        "h": 149
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 468,
+          "l": 578,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 547,
+          "l": 578,
+          "h": 35
+        },
+        {
+          "x": 1004,
+          "y": 518,
+          "l": 132,
+          "h": 64
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "eco-paturage",
+      "langue": "fr",
+      "fichier": "assets/partage/eco-paturage-fr.jpg",
+      "gabarit": "plein",
+      "image": "eco-troupeau-1280.webp",
+      "poids": 163211,
+      "sujet": {
+        "x": 300,
+        "y": 134,
+        "l": 600,
+        "h": 186
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 404,
+          "l": 820,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 547,
+          "l": 820,
+          "h": 35
+        },
+        {
+          "x": 1004,
+          "y": 518,
+          "l": 132,
+          "h": 64
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "entretien",
+      "langue": "fr",
+      "fichier": "assets/partage/entretien-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/entretien-ouverture-1280.webp",
+      "poids": 92176,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 630
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    }
+  ]
+}

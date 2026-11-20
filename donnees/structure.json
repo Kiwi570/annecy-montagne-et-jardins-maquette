@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LandscapingBusiness",
+  "name": "Annecy Montagne et Jardins",
+  "alternateName": "AMJ",
+  "url": "https://annecy-montagne-et-jardins-maquette.vercel.app/",
+  "telephone": "+33670549324",
+  "email": "creations@a-m-j.fr",
+  "foundingDate": "2018",
+  "address": { "@type": "PostalAddress", "streetAddress": "201 route du Robinson", "postalCode": "74150", "addressLocality": "Vallières-sur-Fier", "addressCountry": "FR" },
+  "areaServed": ["Albanais", "Bassin annécien", "Bassin aixois"],
+  "sameAs": ["https://www.facebook.com/annecymontagneetjardins", "https://www.instagram.com/annecymontagneetjardins/"],
+  "description": "Entretien des espaces verts, création paysagère, élagage et abattage, éco-pâturage, pour les particuliers, les copropriétés, les entreprises et les collectivités."
+}

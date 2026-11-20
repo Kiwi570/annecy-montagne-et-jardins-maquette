@@ -1,0 +1,181 @@
+{
+  "echecs": [
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1000×560",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.conteneur.hero-contenu:nth-of-type(2) > div.hero-texte:nth-of-type(1) > p.hero-info:nth-of-type(4) « Albanais · bassins annécien et aixois »",
+      "lieux": [
+        "1000×560 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/creation",
+      "taille": "1000×560",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.conteneur.ouverture-croquis-grille > div.ouverture-texte:nth-of-type(1) > p.info-cle:nth-of-type(4) « Matériaux locaux, paillages sans plastique »",
+      "lieux": [
+        "1000×560 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "photo faible affichée en grand",
+      "detail": "eco-pre (3/5, faible, 36 % de l'écran) : en vignette, ou une meilleure image",
+      "etape": "mesures",
+      "page": "/eco-paturage",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "li:nth-of-type(4) > figure.media.mosaique-media > picture > img « Moutons dans un pré fleuri au pied d’un bâtiment »",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/entretien",
+      "taille": "1000×560",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.conteneur.ouverture-scindee-grille > div.ouverture-texte:nth-of-type(1) > p.info-cle:nth-of-type(4) « Crédit d'impôt de 50 % pour les particuliers »",
+      "lieux": [
+        "1000×560 sansJs"
+      ]
+    }
+  ],
+  "aRegarder": [
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#fin « Parlons de votre jardin. Entretien régulier, nouve »",
+      "lieux": [
+        "390×844 normal",
+        "375×667 normal",
+        "844×390 normal",
+        "320×568 normal",
+        "768×1024 normal",
+        "320×568 sansJs",
+        "375×667 sansJs",
+        "390×844 sansJs",
+        "320×568 sansWebgl",
+        "844×390 sansJs",
+        "375×667 sansWebgl",
+        "390×844 sansWebgl",
+        "768×1024 sansJs",
+        "844×390 sansWebgl",
+        "768×1024 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/creation",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#fin « Parlons de votre jardin. Entretien régulier, nouve »",
+      "lieux": [
+        "320×568 normal",
+        "375×667 normal",
+        "390×844 normal",
+        "844×390 normal",
+        "768×1024 normal",
+        "320×568 sansJs",
+        "375×667 sansJs",
+        "390×844 sansJs",
+        "320×568 sansWebgl",
+        "844×390 sansJs",
+        "375×667 sansWebgl",
+        "768×1024 sansJs",
+        "390×844 sansWebgl",
+        "844×390 sansWebgl",
+        "768×1024 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/eco-paturage",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#fin « Parlons de votre jardin. Entretien régulier, nouve »",
+      "lieux": [
+        "320×568 normal",
+        "375×667 normal",
+        "390×844 normal",
+        "844×390 normal",
+        "768×1024 normal",
+        "320×568 sansJs",
+        "375×667 sansJs",
+        "390×844 sansJs",
+        "320×568 sansWebgl",
+        "844×390 sansJs",
+        "375×667 sansWebgl",
+        "768×1024 sansJs",
+        "390×844 sansWebgl",
+        "844×390 sansWebgl",
+        "768×1024 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/entretien",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#fin « Parlons de votre jardin. Entretien régulier, nouve »",
+      "lieux": [
+        "320×568 normal",
+        "375×667 normal",
+        "390×844 normal",
+        "844×390 normal",
+        "768×1024 normal",
+        "320×568 sansJs",
+        "375×667 sansJs",
+        "390×844 sansJs",
+        "320×568 sansWebgl",
+        "844×390 sansJs",
+        "375×667 sansWebgl",
+        "768×1024 sansJs",
+        "390×844 sansWebgl",
+        "844×390 sansWebgl",
+        "768×1024 sansWebgl"
+      ]
+    }
+  ],
+  "nonLances": [],
+  "oks": {
+    "mesures": 234,
+    "balayage": 5,
+    "tient dans l’écran": 8,
+    "films des épinglages": 1
+  },
+  "infos": [
+    "Accessibilité : axe-core 4.12.1 en plus des contrôles intégrés.",
+    "Tient dans l'écran /contact : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /creation : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /eco-paturage : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /entretien : aucune section épinglée ou plein écran."
+  ],
+  "grille": []
+}

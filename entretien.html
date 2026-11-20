@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Entretien des espaces verts : Annecy Montagne et Jardins</title>
+<meta name="description" content="Tonte, taille et débroussaillage pour les particuliers, les copropriétés et les entreprises. Crédit d&#39;impôt de 50 % pour les particuliers : AMJ est déclarée service à la personne.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://annecy-montagne-et-jardins-maquette.vercel.app/entretien">
+<style>:root{--fond:#f4f2ea;--texte:#1b2a20;--voile-fond:#1b2a20;--ouverture-fond:#1b2a20;--menu-fond:#1b2a20}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#f4f2ea">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Annecy Montagne et Jardins">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Entretien des espaces verts : Annecy Montagne et Jardins">
+<meta property="og:description" content="Tonte, taille et débroussaillage pour les particuliers, les copropriétés et les entreprises. Crédit d&#39;impôt de 50 % pour les particuliers : AMJ est déclarée service à la personne.">
+<meta property="og:url" content="https://annecy-montagne-et-jardins-maquette.vercel.app/entretien">
+<meta property="og:image" content="https://annecy-montagne-et-jardins-maquette.vercel.app/assets/partage/entretien-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Entretien des espaces verts par Annecy Montagne et Jardins">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LandscapingBusiness","name":"Annecy Montagne et Jardins","alternateName":"AMJ","url":"https://annecy-montagne-et-jardins-maquette.vercel.app/","telephone":"+33670549324","email":"creations@a-m-j.fr","foundingDate":"2018","address":{"@type":"PostalAddress","streetAddress":"201 route du Robinson","postalCode":"74150","addressLocality":"Vallières-sur-Fier","addressCountry":"FR"},"areaServed":["Albanais","Bassin annécien","Bassin aixois"],"sameAs":["https://www.facebook.com/annecymontagneetjardins","https://www.instagram.com/annecymontagneetjardins/"],"description":"Entretien des espaces verts, création paysagère, élagage et abattage, éco-pâturage, pour les particuliers, les copropriétés, les entreprises et les collectivités."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="vague" aria-hidden="true"><svg class="voile-vague voile-vague--haut" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 120 V92 L120 80 L210 88 L330 54 L380 66 L470 22 L520 40 L560 30 L650 70 L720 62 L820 84 L900 76 L1000 96 L1080 70 L1170 46 L1230 58 L1320 82 L1440 74 V120 Z"/></svg><svg class="voile-vague voile-vague--bas" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 V28 L120 40 L210 32 L330 66 L380 54 L470 98 L520 80 L560 90 L650 50 L720 58 L820 36 L900 44 L1000 24 L1080 50 L1170 74 L1230 62 L1320 38 L1440 46 V0 Z"/></svg><div class="voile-contenu"><img src="/assets/images/logo-clair-240.webp" alt="" width="240" height="114"><span data-voile-libelle>Entretien</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <svg class="ouverture-crete" viewBox="0 0 400 90" aria-hidden="true"><path class="crete-ligne" pathLength="1" d="M4 80 L52 66 L84 72 L128 40 L146 50 L182 12 L204 30 L222 22 L262 58 L292 50 L336 74 L396 68" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path class="crete-hachures" d="M182 14 L172 36 M192 24 L183 44 M201 32 L193 50 M146 52 L138 66 M226 26 L218 44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+  <img class="ouverture-logo" src="/assets/images/logo-clair-240.webp" alt="" width="240" height="114" data-ouverture-objet>
+  <p class="ouverture-ligne">Paysagiste dans l&#39;Albanais</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="Annecy Montagne et Jardins : Accueil" data-libelle="Accueil">
+      <img src="/assets/images/logo-240.webp" alt="Annecy Montagne et Jardins" width="240" height="114">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/entretien" data-libelle="Entretien" aria-current="page">Entretien</a></li><li><a href="/creation" data-libelle="Création">Création</a></li><li><a href="/eco-paturage" data-libelle="Éco-pâturage">Éco-pâturage</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#devis" data-libelle="Contact">Demander un devis</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/entretien" class="menu-lien" data-libelle="Entretien" aria-current="page">Entretien</a></li><li style="--i:2"><a href="/creation" class="menu-lien" data-libelle="Création">Création</a></li><li style="--i:3"><a href="/eco-paturage" class="menu-lien" data-libelle="Éco-pâturage">Éco-pâturage</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33670549324">Appeler 06 70 54 93 24</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouverture-scindee" id="debut">
+  <div class="conteneur ouverture-scindee-grille">
+    <div class="ouverture-texte">
+      <p class="surtitre"><svg viewBox="0 0 40 14" aria-hidden="true"><path d="M1 12 L9 7 L13 9 L20 2 L26 8 L30 6 L39 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>Entretien des espaces verts</p>
+      <h1 data-anime="lignes">Travail soigné, <em>budget allégé.</em></h1>
+      <p class="masque-ecran-tres-bas masque-petit" data-anime>Nous entretenons vos parcs et jardins de la manière la plus durable possible, pour les particuliers, les copropriétés et les entreprises de l&#39;Albanais et des bassins annécien et aixois.</p>
+      <p class="actions" data-anime><a href="/contact?sujet=entretien#devis" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Demander un devis</a></p>
+      <p class="info-cle" data-info-cle>Crédit d&#39;impôt de 50 % pour les particuliers</p>
+    </div>
+    <div class="ouverture-visuel">
+      <figure class="media ouverture-scindee-media" data-grok data-fx="parallaxe" data-fx-force="8" style="--cadrage:60% 55%;--apercu:url(data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADwAwCdASoUAAsAPtFWpEuoJKOhsAgBABoJaACsACHrM+N/0XE5SlcAAP7zo9DxdRKT77dIw9TDW1664fYjF5WqHcYvANpg6ZL+Kbo9AN+R0PFawTXD/akOTAg79sc/gTtqLXdgAAA=);--apercu-mobile:url(data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAACQBQCdASoUACQAPtFeqE+oJKOiJWsxABoJQBdkMWiEP395/abM7UuqNA8ic5QhY1LTzx534AD+9ir6KHcnUtG5hu2ifNrzOxI8EW6CQnqt3vfiL/EGwOjkmCpKVNmMEG7xdQKY3i1ck4PK66/5JFYArjIPls4kAow9oGgIgRAOLrVTuLvpFVW5IhfFt9I1Urfm+hCDBp4eSLLVcs2QwfbVStspSlNESkcdfuVWe/LYOulAAAA=)">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/entretien-ouverture-mobile-640.webp 640w, /assets/images/grok/entretien-ouverture-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 55vw">
+    <img src="/assets/images/grok/entretien-ouverture-1280.webp" srcset="/assets/images/grok/entretien-ouverture-640.webp 640w, /assets/images/grok/entretien-ouverture-1280.webp 1280w, /assets/images/grok/entretien-ouverture-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 55vw" alt="Pelouse fraîchement tondue en bandes, haie taillée et montagnes au loin" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+      <div class="tampon" data-iris-centre="disque" data-superpose role="img" aria-label="Crédit d&#39;impôt de 50 % sur l&#39;entretien" data-tampon>
+  <svg class="tampon-texte" viewBox="0 0 200 200" aria-hidden="true">
+    <defs><path id="tampon-cercle" d="M100 100 m-78 0 a78 78 0 1 1 156 0 a78 78 0 1 1 -156 0"/></defs>
+    <text><textPath href="#tampon-cercle" textLength="486" lengthAdjust="spacingAndGlyphs">Crédit d&#39;impôt · service à la personne · </textPath></text>
+  </svg>
+  <span class="tampon-coeur" aria-hidden="true"><strong>50 %</strong></span>
+</div>
+    </div>
+  </div>
+</section>
+<section class="section travaux" id="travaux">
+  <div class="conteneur">
+    <div class="tete ">
+  <p class="surtitre"><svg viewBox="0 0 40 14" aria-hidden="true"><path d="M1 12 L9 7 L13 9 L20 2 L26 8 L30 6 L39 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>L&#39;entretien régulier</p>
+  <h2 data-anime="lignes">Ce que nous <em>entretenons.</em></h2>
+</div>
+    <ul class="travaux-grille" data-anime="cascade">
+      <li class="travail" data-fx="vitesse" data-fx-force="2">
+        <figure class="media travail-media" style="--cadrage:55% 60%">
+  <picture>
+    <img src="/assets/images/entretien-pin-960.webp" srcset="/assets/images/entretien-pin-480.webp 480w, /assets/images/entretien-pin-640.webp 640w, /assets/images/entretien-pin-960.webp 960w" sizes="(max-width: 760px) 90vw, 30vw" alt="" width="960" height="1280" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p class="travail-num">01</p>
+        <h3>Tonte</h3>
+        <p>Pelouses et grands espaces enherbés.</p>
+      </li><li class="travail" data-fx="vitesse" data-fx-force="2">
+        <figure class="media travail-media" style="--cadrage:45% 50%">
+  <picture>
+    <img src="/assets/images/entretien-copro-960.webp" srcset="/assets/images/entretien-copro-480.webp 480w, /assets/images/entretien-copro-640.webp 640w, /assets/images/entretien-copro-960.webp 960w" sizes="(max-width: 760px) 90vw, 30vw" alt="" width="960" height="1280" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p class="travail-num">02</p>
+        <h3>Taille</h3>
+        <p>Haies, arbustes et massifs.</p>
+      </li><li class="travail" data-fx="vitesse" data-fx-force="2">
+        <figure class="media travail-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/entretien-talus-960.webp" srcset="/assets/images/entretien-talus-480.webp 480w, /assets/images/entretien-talus-640.webp 640w, /assets/images/entretien-talus-960.webp 960w" sizes="(max-width: 760px) 90vw, 30vw" alt="" width="960" height="1280" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p class="travail-num">03</p>
+        <h3>Débroussaillage</h3>
+        <p>Talus, abords et terrains.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+<section class="section pourqui" id="pour-qui">
+  <div class="conteneur pourqui-grille">
+    <div>
+      <div class="tete ">
+  <p class="surtitre"><svg viewBox="0 0 40 14" aria-hidden="true"><path d="M1 12 L9 7 L13 9 L20 2 L26 8 L30 6 L39 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>Pour qui</p>
+  <h2 data-anime="lignes">Particuliers, copropriétés, <em>entreprises.</em></h2>
+</div>
+      <dl class="pourqui-liste" data-anime="cascade">
+        <div><dt>Particuliers</dt><dd>AMJ est déclarée service à la personne : l&#39;entretien régulier de votre jardin ouvre droit à un crédit d&#39;impôt de 50 %.</dd></div><div><dt>Copropriétés</dt><dd>Les espaces verts de votre résidence entretenus par une équipe locale.</dd></div><div><dt>Entreprises</dt><dd>Les abords de vos locaux entretenus de manière durable.</dd></div>
+      </dl>
+    </div>
+    <figure class="media pourqui-photo" data-anime="rideau" style="--cadrage:40% 40%">
+  <picture>
+    <img src="/assets/images/equipe-terrain-960.webp" srcset="/assets/images/equipe-terrain-480.webp 480w, /assets/images/equipe-terrain-640.webp 640w, /assets/images/equipe-terrain-960.webp 960w" sizes="(max-width: 760px) 100vw, 45vw" alt="L’équipe et son camion-benne au travail dans une résidence" width="960" height="640" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+<section class="section section--sapin budget" id="calcul">
+  <div class="conteneur budget-grille">
+    <div>
+      <div class="tete tete--clair">
+  <p class="surtitre"><svg viewBox="0 0 40 14" aria-hidden="true"><path d="M1 12 L9 7 L13 9 L20 2 L26 8 L30 6 L39 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>Simulez votre crédit d&#39;impôt</p>
+  <h2 data-anime="lignes">Combien vous coûte <em>vraiment</em> l'entretien ?</h2>
+</div>
+      <p data-anime>Faites glisser le montant de votre budget annuel : la moitié revient en crédit d&#39;impôt, dans la limite du plafond.</p>
+      <figure class="media budget-sap" data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/sap-800.webp" srcset="/assets/images/sap-480.webp 480w, /assets/images/sap-640.webp 640w, /assets/images/sap-800.webp 800w" sizes="160px" alt="Logo Services à la personne" width="800" height="600" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+    <div class="calcul" data-calcul data-effet="secateur" id="calcul-entretien-outil">
+  <div class="calcul-champ">
+    <label for="calcul-entretien-montant">Votre budget d&#39;entretien sur l&#39;année</label>
+    <output class="calcul-montant" for="calcul-entretien-montant" data-calcul-montant data-prix>1 200 €</output>
+    <input type="range" id="calcul-entretien-montant" min="300" max="8000" step="100" value="1200" data-calcul-curseur aria-describedby="calcul-entretien-note">
+  </div>
+  <div class="calcul-barre" data-visuel aria-hidden="true">
+    <div class="calcul-part calcul-part--reste" data-calcul-reste-barre><span>À payer</span></div>
+    <div class="calcul-part calcul-part--credit" data-calcul-credit-barre><span>Crédit</span></div>
+    <svg class="calcul-coupe" viewBox="0 0 20 100" preserveAspectRatio="none" data-calcul-coupe><line x1="10" y1="0" x2="10" y2="100" stroke="currentColor" stroke-width="3" stroke-dasharray="6 6" vector-effect="non-scaling-stroke"/></svg>
+    <svg class="calcul-lame" viewBox="0 0 48 48" data-calcul-lame><path d="M24 4 C30 14 30 22 24 30 C18 22 18 14 24 4 Z" fill="currentColor"/><circle cx="24" cy="36" r="7" fill="none" stroke="currentColor" stroke-width="3"/></svg>
+  </div>
+  <dl class="calcul-chiffres">
+    <div><dt>Facture</dt><dd data-calcul-facture data-prix>1 200 €</dd></div>
+    <div class="calcul-credit"><dt>Crédit d&#39;impôt</dt><dd data-calcul-credit data-prix>600 €</dd></div>
+    <div class="calcul-reste"><dt>Reste à votre charge</dt><dd data-calcul-reste data-prix>600 €</dd></div>
+  </dl>
+  <p class="calcul-plafond" data-calcul-plafond>Au-delà de 5 000 € de dépenses par an, le crédit d&#39;impôt est plafonné à 2 500 €.</p>
+  <p class="calcul-note" id="calcul-entretien-note">Exemple de calcul, sans valeur de devis. Pour les particuliers, dans leur résidence principale ou secondaire en France ; dépenses retenues jusqu&#39;à 5 000 € par an et par foyer pour les petits travaux de jardinage, selon la réglementation en vigueur.</p>
+  <p class="visuellement-cache" aria-live="polite" data-calcul-annonce></p>
+</div>
+  </div>
+</section>
+<section class="section elagage" id="elagage">
+  <div class="conteneur elagage-grille">
+    <div class="elagage-photos">
+      <figure class="media elagage-grande" data-fx="parallaxe" style="--cadrage:62% 42%">
+  <picture>
+    <img src="/assets/images/metier-elagage-784.webp" srcset="/assets/images/metier-elagage-480.webp 480w, /assets/images/metier-elagage-640.webp 640w, /assets/images/metier-elagage-784.webp 784w" sizes="(max-width: 760px) 70vw, 28vw" alt="Élagueur encordé dans la couronne d’un chêne, ciel bleu" width="784" height="1176" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <figure class="media elagage-petite" data-fx="vitesse" data-fx-force="3" style="--cadrage:50% 35%">
+  <picture>
+    <img src="/assets/images/elagueur-tronc-960.webp" srcset="/assets/images/elagueur-tronc-480.webp 480w, /assets/images/elagueur-tronc-640.webp 640w, /assets/images/elagueur-tronc-960.webp 960w" sizes="(max-width: 760px) 45vw, 18vw" alt="Élagueur encordé le long d’un tronc" width="960" height="1280" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+    <div>
+      <div class="tete ">
+  <p class="surtitre"><svg viewBox="0 0 40 14" aria-hidden="true"><path d="M1 12 L9 7 L13 9 L20 2 L26 8 L30 6 L39 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>Élagage et abattage</p>
+  <h2 data-anime="lignes">Prendre soin <em>de vos arbres.</em></h2>
+</div>
+      <p data-anime>Nous vous proposons de prendre soin de vos arbres, de l&#39;élagage à l&#39;abattage. Décrivez-nous l&#39;arbre et son emplacement dans votre demande de devis.</p>
+      <p class="actions" data-anime><a href="/contact?sujet=elagage#devis" class="bouton" data-libelle="Contact" data-survol="magnetique">Demander un devis d&#39;élagage</a></p>
+    </div>
+  </div>
+</section>
+<section class="section mosaique-section" id="realisations">
+  <div class="conteneur">
+    <div class="tete ">
+  <p class="surtitre"><svg viewBox="0 0 40 14" aria-hidden="true"><path d="M1 12 L9 7 L13 9 L20 2 L26 8 L30 6 L39 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>Réalisations</p>
+  <h2 data-anime="lignes">Quelques chantiers <em>d'entretien.</em></h2>
+</div>
+    <ul class="mosaique" data-anime="cascade">
+      <li><figure class="media mosaique-media" data-fx="parallaxe" data-fx-force="6" style="--cadrage:42% 50%">
+  <picture>
+    <img src="/assets/images/metier-entretien-784.webp" srcset="/assets/images/metier-entretien-480.webp 480w, /assets/images/metier-entretien-640.webp 640w, /assets/images/metier-entretien-784.webp 784w" sizes="(max-width: 760px) 90vw, 30vw" alt="Pelouse entretenue, arbustes en fleurs et allée bordée" width="784" height="1176" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li><figure class="media mosaique-media" data-fx="parallaxe" data-fx-force="6" style="--cadrage:41% 45%">
+  <picture>
+    <img src="/assets/images/entretien-allee-960.webp" srcset="/assets/images/entretien-allee-480.webp 480w, /assets/images/entretien-allee-640.webp 640w, /assets/images/entretien-allee-960.webp 960w" sizes="(max-width: 760px) 90vw, 30vw" alt="Massif entretenu le long d’une allée de résidence" width="960" height="1280" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li><figure class="media mosaique-media" data-fx="parallaxe" data-fx-force="6" style="--cadrage:80% 30%">
+  <picture>
+    <img src="/assets/images/real-bambous-800.webp" srcset="/assets/images/real-bambous-480.webp 480w, /assets/images/real-bambous-640.webp 640w, /assets/images/real-bambous-800.webp 800w" sizes="(max-width: 760px) 90vw, 30vw" alt="Jardinier qui prépare une plate-bande le long d’une haie de bambous" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li><figure class="media mosaique-media" data-fx="parallaxe" data-fx-force="6" style="--cadrage:35% 58%">
+  <picture>
+    <img src="/assets/images/entretien-broyeur-800.webp" srcset="/assets/images/entretien-broyeur-480.webp 480w, /assets/images/entretien-broyeur-640.webp 640w, /assets/images/entretien-broyeur-800.webp 800w" sizes="(max-width: 760px) 90vw, 30vw" alt="Broyeur de végétaux dans un jardin en pente" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li><figure class="media mosaique-media" data-fx="parallaxe" data-fx-force="6" style="--cadrage:50% 60%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/accueil-ouverture-mobile-640.webp 640w, /assets/images/accueil-ouverture-mobile-1080.webp 1080w" sizes="(max-width: 760px) 90vw, 30vw">
+    <img src="/assets/images/accueil-ouverture-1280.webp" srcset="/assets/images/accueil-ouverture-640.webp 640w, /assets/images/accueil-ouverture-1280.webp 1280w, /assets/images/accueil-ouverture-1920.webp 1920w" sizes="(max-width: 760px) 90vw, 30vw" alt="Pelouse tondue au pied de la montagne, le lac en contrebas" width="1280" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure></li>
+    </ul>
+  </div>
+</section>
+<section class="section section--sapin fin" id="fin">
+  <svg class="fin-crete" viewBox="0 0 1440 90" preserveAspectRatio="none" data-fx="trace" data-visuel aria-hidden="true"><path d="M0 70 L90 60 L160 66 L260 40 L300 48 L380 14 L420 30 L450 22 L540 56 L600 50 L700 70 L780 62 L880 76 L960 56 L1040 34 L1100 44 L1190 66 L1280 58 L1360 68 L1440 62" fill="none" stroke="currentColor" stroke-width="2.5" vector-effect="non-scaling-stroke" stroke-linejoin="round" stroke-linecap="round"/></svg>
+  <div class="conteneur fin-grille">
+    <h2 data-anime="lignes">Parlons de <em>votre jardin.</em></h2>
+    <div>
+      <p data-anime>Entretien régulier, nouveau projet, arbre à soigner ou prairie à faire pâturer : décrivez-nous votre besoin, nous revenons vers vous.</p>
+      <p class="actions" data-anime>
+        <a href="/contact?sujet=entretien#devis" class="bouton" data-libelle="Contact" data-survol="magnetique">Demander un devis</a>
+        <a class="bouton bouton--clair" href="tel:+33670549324" data-survol="magnetique">06 70 54 93 24</a>
+      </p>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <svg class="pied-crete" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true" data-fx="trace"><path d="M0 70 L90 60 L160 66 L260 40 L300 48 L380 14 L420 30 L450 22 L540 56 L600 50 L700 70 L780 62 L880 76 L960 56 L1040 34 L1100 44 L1190 66 L1280 58 L1360 68 L1440 62" fill="none" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round"/></svg>
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-clair-240.webp" alt="Annecy Montagne et Jardins" width="240" height="114" loading="lazy">
+      <p>Entretien, création, élagage et éco-pâturage dans l&#39;Albanais et les bassins annécien et aixois.</p>
+    </div>
+    <div>
+      <p class="pied-titre">Contact</p>
+      <p>201 route du Robinson, 74150 Vallières-sur-Fier<br><a href="tel:+33670549324">06 70 54 93 24</a><br><a href="mailto:creations@a-m-j.fr">creations@a-m-j.fr</a></p>
+    </div>
+    <nav aria-label="Plan du site">
+      <p class="pied-titre">Plan du site</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/entretien" data-libelle="Entretien" aria-current="page">Entretien</a></li><li><a href="/creation" data-libelle="Création">Création</a></li><li><a href="/eco-paturage" data-libelle="Éco-pâturage">Éco-pâturage</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Nous suivre</p>
+      <ul>
+        <li><a href="https://www.facebook.com/annecymontagneetjardins" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://www.instagram.com/annecymontagneetjardins/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales · Politique de confidentialité : à compléter</p><p>Maquette de démonstration : les formulaires sont simulés, rien n&#39;est envoyé.</p><p>© Annecy Montagne et Jardins</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33670549324">Appeler</a>
+  <a class="bouton" href="/contact#devis" data-libelle="Contact">Demander un devis</a>
+</div>
+</body>
+</html>

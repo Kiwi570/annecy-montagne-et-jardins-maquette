@@ -1,0 +1,1774 @@
+{
+  "echecs": [
+    {
+      "niveau": "echec",
+      "controle": "image de partage",
+      "detail": "fichier introuvable : /assets/partage/contact-fr.jpg",
+      "etape": "fichiers",
+      "page": "contact.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "image de partage",
+      "detail": "fichier introuvable : /assets/partage/creation-fr.jpg",
+      "etape": "fichiers",
+      "page": "creation.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "image de partage",
+      "detail": "fichier introuvable : /assets/partage/eco-paturage-fr.jpg",
+      "etape": "fichiers",
+      "page": "eco-paturage.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "image de partage",
+      "detail": "fichier introuvable : /assets/partage/entretien-fr.jpg",
+      "etape": "fichiers",
+      "page": "entretien.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "image de partage",
+      "detail": "fichier introuvable : /assets/partage/accueil-fr.jpg",
+      "etape": "fichiers",
+      "page": "index.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.hero-contenu:nth-of-type(2) > div.hero-texte:nth-of-type(1) > p.hero-info:nth-of-type(4) « Albanais · bassins annécien et aixois »",
+      "lieux": [
+        "320×568 normal",
+        "390×844 sansJs",
+        "1366×768 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "le contenu dépasse de son cadre",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "div#calcul-accueil-outil > div.calcul-barre:nth-of-type(2) > div.calcul-part.calcul-part--reste:nth-of-type(1) > span « Reste à votre charge »",
+      "lieux": [
+        "768×1024 normal",
+        "320×568 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#zone > div.conteneur.zone-grille > figure.carte-zone > svg",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "figure.carte-zone > svg > g.etiquettes:nth-of-type(5) > text.etiquette-lac:nth-of-type(4)",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.conteneur.hero-contenu:nth-of-type(2) > div.tampon:nth-of-type(2) > span.tampon-coeur > strong « 50 % »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "div.tampon:nth-of-type(2) > svg.tampon-texte > text > textpath",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "1920×1080 normal",
+        "1366×768 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "320×568 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément sans nom accessible",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "body#haut > header > div.entete-rangee > a.entete-logo",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "photo faible affichée en grand",
+      "detail": "elagueur-tronc (3/5, faible, 37 % de l'écran) : en vignette, ou une meilleure image",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "article#realisation-2 > figure.media.carte-real-media > picture > img « Élagueur encordé le long du tronc »",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.tampon:nth-of-type(2) > svg.tampon-texte > text > textpath",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.hero-contenu:nth-of-type(2) > div.hero-texte:nth-of-type(1) > p.surtitre.surtitre--clair:nth-of-type(1) « PAYSAGISTE · VALLIÈRES-SUR-FIER »",
+      "lieux": [
+        "320×568 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.conteneur.hero-contenu:nth-of-type(2) > div.tampon:nth-of-type(2) > span.tampon-coeur > strong « 50 % »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.hero-contenu:nth-of-type(2) > div.hero-texte:nth-of-type(1) > p.surtitre.surtitre--clair:nth-of-type(1) « PAYSAGISTE · VALLIÈRES-SUR-FIER »",
+      "lieux": [
+        "320×568 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.tampon:nth-of-type(2) > svg.tampon-texte > text > textpath",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "div.hero-texte:nth-of-type(1) > h1.hero-titre > span.ligne:nth-of-type(1) > span.ligne-in « Vos jardins, »",
+      "lieux": [
+        "320×568 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.tampon:nth-of-type(2) > svg.tampon-texte > text > textpath",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "div.hero-texte:nth-of-type(1) > h1.hero-titre > span.ligne:nth-of-type(2) > span.ligne-in « au pied des »",
+      "lieux": [
+        "320×568 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément recouvert",
+      "detail": "par figure.carte-zone > svg > g.villes:nth-of-type(4) > text:nth-of-type(3)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "figure.carte-zone > svg > g.zones:nth-of-type(2) > path.zone.zone-albanais:nth-of-type(1)",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément recouvert",
+      "detail": "par figure.carte-zone > svg > g.lacs:nth-of-type(3) > path.lac-eau:nth-of-type(4)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "figure.carte-zone > svg > g.zones:nth-of-type(2) > path.zone.zone-aixois:nth-of-type(3)",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "1920×1080 normal",
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément recouvert",
+      "detail": "par figure.carte-zone > svg > g.zones:nth-of-type(2) > path.zone.zone-albanais:nth-of-type(1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "div.conteneur.zone-grille > figure.carte-zone > svg > g.siege:nth-of-type(6)",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "1920×1080 normal",
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste sur image",
+      "detail": "4.30:1 sur les 10 % de la photo les moins favorables (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.hero-contenu:nth-of-type(2) > div.hero-texte:nth-of-type(1) > p.surtitre.surtitre--clair:nth-of-type(1) « PAYSAGISTE · VALLIÈRES-SUR-FIER »",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste sur image",
+      "detail": "1.47:1 sur les 10 % de la photo les moins favorables (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.conteneur.hero-contenu:nth-of-type(2) > div.hero-texte:nth-of-type(1) > p.actions.hero-actions:nth-of-type(3) > a.bouton:nth-of-type(1) « Demander un devis »",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "photo faible affichée en grand",
+      "detail": "equipe-terrain (3/5, faible, 26 % de l'écran) : en vignette, ou une meilleure image",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.conteneur.confiance-grille:nth-of-type(1) > figure.media.confiance-photo > picture > img « L’équipe et son camion-benne au travail dans une r »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "sansJs",
+      "selecteur": "div.conteneur.hero-contenu:nth-of-type(2) > div.hero-texte:nth-of-type(1) > p.actions.hero-actions:nth-of-type(3) > a.bouton:nth-of-type(1) « Demander un devis »",
+      "lieux": [
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste sur image",
+      "detail": "2.68:1 sur les 10 % de la photo les moins favorables (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.hero-contenu:nth-of-type(2) > div.hero-texte:nth-of-type(1) > p.surtitre.surtitre--clair:nth-of-type(1) « PAYSAGISTE · VALLIÈRES-SUR-FIER »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.ouverture-contact-grille > div.ouverture-texte > p.info-cle:nth-of-type(4) « 06 70 54 93 24 »",
+      "lieux": [
+        "320×568 normal",
+        "844×390 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "844×390",
+      "mode": "normal",
+      "selecteur": "div.conteneur.ouverture-contact-grille > div.ouverture-texte > p.actions:nth-of-type(3) > a.bouton:nth-of-type(1) « Revenir à l'accueil »",
+      "lieux": [
+        "844×390 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément sans nom accessible",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "body#haut > header > div.entete-rangee > a.entete-logo",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.ouverture-contact-grille > div.ouverture-texte > p.info-cle:nth-of-type(4) « Albanais · bassins annécien et aixois »",
+      "lieux": [
+        "320×568 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte sous 12 px",
+      "detail": "0.0 px",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.devis-grille:nth-of-type(2) > form.formulaire.devis-form > ol.devis-progres > li.courant:nth-of-type(1) « 1 Votre besoin »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte sous 12 px",
+      "detail": "0.0 px",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.devis-grille:nth-of-type(2) > form.formulaire.devis-form > ol.devis-progres > li:nth-of-type(2) « 2 Vous êtes »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte sous 12 px",
+      "detail": "0.0 px",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.devis-grille:nth-of-type(2) > form.formulaire.devis-form > ol.devis-progres > li:nth-of-type(3) « 3 Votre terrain »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte sous 12 px",
+      "detail": "0.0 px",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.devis-grille:nth-of-type(2) > form.formulaire.devis-form > ol.devis-progres > li:nth-of-type(4) « 4 Vos coordonnées »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#zone > div.conteneur.zone-grille > figure.carte-zone > svg",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "figure.carte-zone > svg > g.etiquettes:nth-of-type(5) > text.etiquette-lac:nth-of-type(4)",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "768×1024 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément sans nom accessible",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "body#haut > header > div.entete-rangee > a.entete-logo",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément recouvert",
+      "detail": "par figure.carte-zone > svg > g.villes:nth-of-type(4) > text:nth-of-type(3)",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "figure.carte-zone > svg > g.zones:nth-of-type(2) > path.zone.zone-albanais:nth-of-type(1)",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément recouvert",
+      "detail": "par figure.carte-zone > svg > g.lacs:nth-of-type(3) > path.lac-eau:nth-of-type(4)",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "figure.carte-zone > svg > g.zones:nth-of-type(2) > path.zone.zone-aixois:nth-of-type(3)",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "1366×768 normal",
+        "1920×1080 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément recouvert",
+      "detail": "par figure.carte-zone > svg > g.zones:nth-of-type(2) > path.zone.zone-albanais:nth-of-type(1)",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.conteneur.zone-grille > figure.carte-zone > svg > g.siege:nth-of-type(6)",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "1366×768 normal",
+        "1920×1080 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/creation",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.ouverture-croquis-grille > div.ouverture-texte:nth-of-type(1) > p.info-cle:nth-of-type(4) « Matériaux locaux, paillages sans plastique »",
+      "lieux": [
+        "320×568 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément sans nom accessible",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/creation",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "body#haut > header > div.entete-rangee > a.entete-logo",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.tete > h2 > span.nobr > em « collectivités »",
+      "etape": "mesures",
+      "page": "/creation",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "div > div.tete > h2 > em « et les »",
+      "lieux": [
+        "320×568 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div > div.tete > h2 > span.nobr « collectivités. »",
+      "etape": "mesures",
+      "page": "/creation",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "div > div.tete > h2 > em « et les »",
+      "lieux": [
+        "320×568 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/eco-paturage",
+      "taille": "844×390",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.ouverture-plein-contenu > div.ouverture-texte:nth-of-type(1) > p.info-cle:nth-of-type(4) « Copropriétés, collectivités et entreprises »",
+      "lieux": [
+        "844×390 normal",
+        "768×1024 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansWebgl",
+        "1366×768 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.tampon:nth-of-type(2) > svg.tampon-texte > text > textpath",
+      "etape": "mesures",
+      "page": "/eco-paturage",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.ouverture-plein-contenu > div.ouverture-texte:nth-of-type(1) > h1 « Des moutons pour vos pelouses. »",
+      "lieux": [
+        "320×568 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.tampon:nth-of-type(2) > svg.tampon-texte > text > textpath",
+      "etape": "mesures",
+      "page": "/eco-paturage",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "div.ouverture-texte:nth-of-type(1) > h1 > span.nobr > em « pelouses »",
+      "lieux": [
+        "320×568 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.tampon:nth-of-type(2) > svg.tampon-texte > text > textpath",
+      "etape": "mesures",
+      "page": "/eco-paturage",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "div.conteneur.ouverture-plein-contenu > div.ouverture-texte:nth-of-type(1) > h1 > span.nobr « pelouses. »",
+      "lieux": [
+        "320×568 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.tete > h2 > span.nobr > em « troupeau »",
+      "etape": "mesures",
+      "page": "/eco-paturage",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "div > div.tete > h2 > em « au pas du »",
+      "lieux": [
+        "320×568 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "320×568 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div > div.tete > h2 > span.nobr « troupeau. »",
+      "etape": "mesures",
+      "page": "/eco-paturage",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "div > div.tete > h2 > em « au pas du »",
+      "lieux": [
+        "320×568 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "320×568 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.tete > h2 > span.nobr > em « main »",
+      "etape": "mesures",
+      "page": "/eco-paturage",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "div.conteneur > div.tete > h2 > em « clé en »",
+      "lieux": [
+        "320×568 normal",
+        "390×844 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.conteneur > div.tete > h2 > span.nobr « main, »",
+      "etape": "mesures",
+      "page": "/eco-paturage",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "div.conteneur > div.tete > h2 > em « clé en »",
+      "lieux": [
+        "320×568 normal",
+        "390×844 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément sans nom accessible",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/eco-paturage",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "body#haut > header > div.entete-rangee > a.entete-logo",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste sur image",
+      "detail": "2.62:1 sur les 10 % de la photo les moins favorables (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/eco-paturage",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.ouverture-plein-contenu > div.ouverture-texte:nth-of-type(1) > p.surtitre.surtitre--clair:nth-of-type(1) « ÉCO-PÂTURAGE »",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/eco-paturage",
+      "taille": "1366×768",
+      "mode": "sansJs",
+      "selecteur": "div.conteneur.ouverture-plein-contenu > div.ouverture-texte:nth-of-type(1) > p.actions:nth-of-type(3) > a.bouton « Demander un devis »",
+      "lieux": [
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/entretien",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.ouverture-scindee-grille > div.ouverture-texte:nth-of-type(1) > p.info-cle:nth-of-type(4) « Crédit d'impôt de 50 % pour les particuliers »",
+      "lieux": [
+        "320×568 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.tampon > svg.tampon-texte > text > textpath",
+      "etape": "mesures",
+      "page": "/entretien",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.conteneur.ouverture-scindee-grille > div.ouverture-visuel:nth-of-type(2) > figure.media.ouverture-scindee-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.ouverture-visuel:nth-of-type(2) > div.tampon > span.tampon-coeur > strong « 50 % »",
+      "etape": "mesures",
+      "page": "/entretien",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.conteneur.ouverture-scindee-grille > div.ouverture-visuel:nth-of-type(2) > figure.media.ouverture-scindee-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.ouverture-visuel:nth-of-type(2) > div.tampon > span.tampon-coeur > strong « 50 % »",
+      "etape": "mesures",
+      "page": "/entretien",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.tampon > svg.tampon-texte > text > textpath",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1920×1080 normal",
+        "1366×768 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément sans nom accessible",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/entretien",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "body#haut > header > div.entete-rangee > a.entete-logo",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "le contenu dépasse de son cadre",
+      "etape": "mesures",
+      "page": "/entretien",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "div#calcul-entretien-outil > div.calcul-barre:nth-of-type(2) > div.calcul-part.calcul-part--reste:nth-of-type(1) > span « Reste à votre charge »",
+      "lieux": [
+        "320×568 normal",
+        "768×1024 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "photo faible affichée en grand",
+      "detail": "entretien-broyeur (3/5, faible, 35 % de l'écran) : en vignette, ou une meilleure image",
+      "etape": "mesures",
+      "page": "/entretien",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "li:nth-of-type(4) > figure.media.mosaique-media > picture > img « Broyeur de végétaux dans un jardin en pente »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    }
+  ],
+  "aRegarder": [
+    {
+      "niveau": "regarder",
+      "controle": "« à compléter » visible",
+      "detail": "5 fois hors du pied de page : remplacer par une phrase vraie qui oriente le visiteur (« Tarifs selon la saison, donnés à la réservation ») ou retirer l'élément, et le noter dans la fiche du README (sauf sens propre : « dossier à compléter »)",
+      "etape": "fichiers",
+      "page": "contact.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : effet signature qui ne se manipule pas (point 1)",
+      "detail": "aucun élément data-grille=\"manipuler\" sur l’accueil : objet à attraper, faire tourner ou glisser (module objet-a-faire-tourner, lumiere-au-pointeur…)",
+      "etape": "grille",
+      "page": "/",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : rien ne relie les sections (point 4)",
+      "detail": "sur aucune page : élément du métier qui relie les sections et les pages (fil dans la marge, objet unique qui change, lumière qui passe, carte, folio, frise), marqué data-grille=\"fil\"",
+      "etape": "grille",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : aucun titre ne fait l’événement (point 5)",
+      "detail": "sur aucune page : titre fabriqué par le métier, axe de police animé ou titre joué avec l’image (modules axes-au-defilement, titre-cousu, texte-grave-en-direct), marqué data-grille=\"typo\"",
+      "etape": "grille",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : galerie horizontale générique (point 6)",
+      "detail": "le métier a-t-il son geste (feuilleter un bac, empiler des planches, tourner les pages, ouvrir un tiroir) ? Modules bac-a-feuilleter, planches-empilees ; si la rangée qui défile est le geste du métier, ajouter data-grille=\"scene\"",
+      "etape": "grille",
+      "page": "/",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : action principale sans retour physique (point 7)",
+      "detail": "ajout au panier, réservation, envoi ou filtre : quelque chose de l’objet part, se pose ou se transforme (module envol-vers-le-panier, tampon « reçu »), marqué data-grille=\"retour\"",
+      "etape": "grille",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "section#fin « Parlons de votre jardin. Entretien régulier, nouve »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "844×390 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1920×1080",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.hero-contenu:nth-of-type(2) > div.hero-texte:nth-of-type(1) > p.surtitre.surtitre--clair:nth-of-type(1) « PAYSAGISTE · VALLIÈRES-SUR-FIER »",
+      "lieux": [
+        "1920×1080 normal",
+        "1366×768 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1920×1080",
+      "mode": "normal",
+      "selecteur": "div.conteneur.budget-grille > div:nth-of-type(1) > div.tete.tete--clair > p.surtitre « TRAVAIL SOIGNÉ, BUDGET ALLÉGÉ »",
+      "lieux": [
+        "1920×1080 normal",
+        "1366×768 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1920×1080",
+      "mode": "normal",
+      "selecteur": "div.conteneur.eco-bloc-contenu:nth-of-type(1) > div.eco-bloc-carte > div.tete > p.surtitre « ÉCO-PÂTURAGE »",
+      "lieux": [
+        "1920×1080 normal",
+        "1366×768 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1920×1080",
+      "mode": "normal",
+      "selecteur": "div.conteneur.matieres-grille > div.matieres-tete > div.tete > p.surtitre « CRÉATION PAYSAGÈRE »",
+      "lieux": [
+        "1920×1080 normal",
+        "1366×768 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1920×1080",
+      "mode": "normal",
+      "selecteur": "ul.echantillons.fx-fini > li.echantillon:nth-of-type(1) > figure.media.echantillon-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1920×1080 normal",
+        "1366×768 normal",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1920×1080",
+      "mode": "normal",
+      "selecteur": "ul.echantillons.fx-fini > li.echantillon:nth-of-type(2) > figure.media.echantillon-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1920×1080 normal",
+        "1366×768 normal",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1920×1080",
+      "mode": "normal",
+      "selecteur": "ul.echantillons.fx-fini > li.echantillon:nth-of-type(3) > figure.media.echantillon-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1920×1080 normal",
+        "1366×768 normal",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1920×1080",
+      "mode": "normal",
+      "selecteur": "ul.echantillons.fx-fini > li.echantillon:nth-of-type(4) > figure.media.echantillon-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1920×1080 normal",
+        "1366×768 normal",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1920×1080",
+      "mode": "normal",
+      "selecteur": "section#realisations > div.conteneur.realisations-tete:nth-of-type(1) > div.tete > p.surtitre « RÉALISATIONS »",
+      "lieux": [
+        "1920×1080 normal",
+        "1366×768 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1920×1080",
+      "mode": "normal",
+      "selecteur": "article#realisation-5 > p.carte-real-metier « ÉCO-PÂTURAGE »",
+      "lieux": [
+        "1920×1080 normal",
+        "1366×768 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1920×1080",
+      "mode": "normal",
+      "selecteur": "div.conteneur.zone-grille > div > div.tete > p.surtitre « ZONE D'INTERVENTION »",
+      "lieux": [
+        "1920×1080 normal",
+        "1366×768 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "typographie française",
+      "detail": "espace insécable manquante avant ou après « « » »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.conteneur.confiance-grille:nth-of-type(1) > div > blockquote.avis > p « « Entreprise sérieuse et à l'écoute, travail soign »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "sansJs",
+      "selecteur": "ul.echantillons > li.echantillon:nth-of-type(1) > figure.media.echantillon-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "sansJs",
+      "selecteur": "ul.echantillons > li.echantillon:nth-of-type(2) > figure.media.echantillon-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "sansJs",
+      "selecteur": "ul.echantillons > li.echantillon:nth-of-type(3) > figure.media.echantillon-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "sansJs",
+      "selecteur": "ul.echantillons > li.echantillon:nth-of-type(4) > figure.media.echantillon-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.ouverture-contact-grille > div.ouverture-texte > p.surtitre:nth-of-type(1) « CONTACT ET DEVIS »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#devis > div.conteneur > div.tete:nth-of-type(1) > p.surtitre « DEMANDE DE DEVIS »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "aside.recap > dl > div:nth-of-type(1) > dt « VOTRE BESOIN »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "aside.recap > dl > div:nth-of-type(3) > dt « COMMUNE DU TERRAIN »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.conteneur.zone-grille > div > div.tete > p.surtitre « ZONE D'INTERVENTION »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "typographie française",
+      "detail": "espace insécable manquante avant ou après « : »",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.conteneur > div.devis-grille:nth-of-type(2) > aside.recap > p.recap-tel:nth-of-type(2) « Appeler : 06 70 54 93 24 »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/creation",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#fin « Parlons de votre jardin. Entretien régulier, nouve »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/creation",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.ouverture-croquis-grille > div.ouverture-texte:nth-of-type(1) > p.surtitre:nth-of-type(1) « CRÉATION PAYSAGÈRE »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/creation",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.conteneur.prestations-grille > div.prestations-tete > div.tete > p.surtitre « NOS PRESTATIONS »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/creation",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.conteneur > div.tete-ligne > div.tete > p.surtitre « DÉMARCHE DURABLE »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/creation",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.echantillons.echantillons--ligne > li.echantillon:nth-of-type(1) > figure.media.echantillon-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/creation",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.echantillons.echantillons--ligne > li.echantillon:nth-of-type(2) > figure.media.echantillon-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/creation",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.echantillons.echantillons--ligne > li.echantillon:nth-of-type(3) > figure.media.echantillon-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/creation",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.echantillons.echantillons--ligne > li.echantillon:nth-of-type(4) > figure.media.echantillon-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/creation",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#realisations > div.conteneur > div.tete > p.surtitre « RÉALISATIONS »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/eco-paturage",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#fin « Parlons de votre jardin. Entretien régulier, nouve »",
+      "lieux": [
+        "320×568 normal",
+        "390×844 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/eco-paturage",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.ouverture-plein-contenu > div.ouverture-texte:nth-of-type(1) > p.surtitre.surtitre--clair:nth-of-type(1) « ÉCO-PÂTURAGE »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/eco-paturage",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#avantages > div.conteneur > div.tete.tete--clair > p.surtitre « QUATRE AVANTAGES »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/eco-paturage",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#cle-en-main > div.conteneur > div.tete > p.surtitre « UN SERVICE CLÉ EN MAIN »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/entretien",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#fin « Parlons de votre jardin. Entretien régulier, nouve »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/entretien",
+      "taille": "1920×1080",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.ouverture-scindee-grille > div.ouverture-texte:nth-of-type(1) > p.surtitre:nth-of-type(1) « ENTRETIEN DES ESPACES VERTS »",
+      "lieux": [
+        "1920×1080 normal",
+        "1366×768 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/entretien",
+      "taille": "1920×1080",
+      "mode": "normal",
+      "selecteur": "div.conteneur.ouverture-scindee-grille > div.ouverture-visuel:nth-of-type(2) > figure.media.ouverture-scindee-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1920×1080 normal",
+        "1366×768 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/entretien",
+      "taille": "1920×1080",
+      "mode": "normal",
+      "selecteur": "section#travaux > div.conteneur > div.tete > p.surtitre « L'ENTRETIEN RÉGULIER »",
+      "lieux": [
+        "1920×1080 normal",
+        "1366×768 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/entretien",
+      "taille": "1920×1080",
+      "mode": "normal",
+      "selecteur": "div.conteneur.budget-grille > div:nth-of-type(1) > div.tete.tete--clair > p.surtitre « SIMULEZ VOTRE CRÉDIT D'IMPÔT »",
+      "lieux": [
+        "1920×1080 normal",
+        "1366×768 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/entretien",
+      "taille": "1920×1080",
+      "mode": "normal",
+      "selecteur": "div.conteneur.elagage-grille > div:nth-of-type(2) > div.tete > p.surtitre « ÉLAGAGE ET ABATTAGE »",
+      "lieux": [
+        "1920×1080 normal",
+        "1366×768 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/entretien",
+      "taille": "1920×1080",
+      "mode": "normal",
+      "selecteur": "section#realisations > div.conteneur > div.tete > p.surtitre « RÉALISATIONS »",
+      "lieux": [
+        "1920×1080 normal",
+        "1366×768 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "retour arrière : changement brusque",
+      "detail": "à 89 ms (différence 58 %) (films/retour-arrière-1366.png)",
+      "etape": "films",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "retour arrière",
+      "lieux": [
+        "1366×768 retour arrière"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "retour avant : changement brusque",
+      "detail": "à 67 ms (différence 56 %) (films/retour-avant-1366.png)",
+      "etape": "films",
+      "page": "/entretien",
+      "taille": "1366×768",
+      "mode": "retour avant",
+      "lieux": [
+        "1366×768 retour avant"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "retour arrière : changement brusque",
+      "detail": "à 81 ms (différence 46 %) (films/retour-arrière-390.png)",
+      "etape": "films",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "retour arrière",
+      "lieux": [
+        "390×844 retour arrière"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "rechargement au milieu de la page",
+      "detail": "écran différent à la même position après rechargement (6.3 %), voir comparaisons/rechargement-entretien-*.png",
+      "etape": "parcours",
+      "page": "/entretien",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    }
+  ],
+  "nonLances": [
+    {
+      "controle": "Safari (WebKit)",
+      "raison": "WebKit ne peut pas s’installer ici : vérification à faire dans Safari sur le Mac (liste dans le rapport)",
+      "etape": "safari"
+    }
+  ],
+  "oks": {
+    "vercel.json": 1,
+    ".vercelignore": 1,
+    "robots.txt": 1,
+    "numéro de version": 1,
+    "langues": 1,
+    "grille wouahou": 2,
+    "mesures": 66,
+    "balayage": 5,
+    "films d’ouverture": 10,
+    "films de transition": 10,
+    "bords de l’écran": 6,
+    "intro accélérable et passable": 7,
+    "menu": 1,
+    "clavier": 6,
+    "liens et boutons": 6,
+    "liens profonds": 10,
+    "liens vers la page en cours": 5,
+    "changements de hauteur": 5,
+    "tient dans l’écran": 5,
+    "films des épinglages": 1,
+    "fluidité": 10,
+    "défilement selon l’appareil": 5,
+    "mouvement": 10,
+    "effets du plan": 5,
+    "souris immobile": 8,
+    "vitesse": 5,
+    "captures": 1
+  },
+  "infos": [
+    "Numéro de version des fichiers : ?v=1",
+    "Journal v1 : 2 étape(s) notée(s), 11 min de travail pour 30 min de budget, 13 min d’attente de l’utilisateur.",
+    "Audit standard : étapes lourdes sur /, /contact, /creation, /eco-paturage, /entretien.",
+    "Accessibilité : axe-core 4.12.1 en plus des contrôles intégrés.",
+    "Ouverture / (1366×768) : 2663 ms depuis le premier octet",
+    "Ouverture /contact (1366×768) : 2463 ms depuis le premier octet",
+    "Ouverture /creation (1366×768) : 2486 ms depuis le premier octet",
+    "Ouverture /eco-paturage (1366×768) : 2535 ms depuis le premier octet",
+    "Ouverture /entretien (1366×768) : 2527 ms depuis le premier octet",
+    "film de l'ouverture /entretien 1366×768 : réussi à la tentative 2 (avant : cdpSession.send: Protocol error (Page.startScreencast): Not attached to an active page)",
+    "Ouverture / (390×844) : 2624 ms depuis le premier octet",
+    "Ouverture /contact (390×844) : 2457 ms depuis le premier octet",
+    "Ouverture /creation (390×844) : 2503 ms depuis le premier octet",
+    "Ouverture /eco-paturage (390×844) : 2475 ms depuis le premier octet",
+    "Ouverture /entretien (390×844) : 2474 ms depuis le premier octet",
+    "Bords de l’écran : 336 images d’intro, 19 de voile et 134 de menu jugées (panneau immobile couvrant tout l’écran), barre de défilement classique de 15 px.",
+    "Aucun parcours propre au projet (_audit/parcours.mjs) : filtres, calculateurs, panier, réservation, fenêtres testés seulement par les contrôles généraux.",
+    "Tient dans l'écran /contact : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /creation : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /eco-paturage : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /entretien : aucune section épinglée ou plein écran.",
+    "Fluidité / 1366×768 (molette) : 2 % d'images lentes sur 460, tâche la plus longue 0 ms",
+    "Fluidité /contact 1366×768 (molette) : 0 % d'images lentes sur 179, tâche la plus longue 0 ms",
+    "Fluidité /creation 1366×768 (molette) : 0 % d'images lentes sur 277, tâche la plus longue 0 ms",
+    "Fluidité /eco-paturage 1366×768 (molette) : 0 % d'images lentes sur 232, tâche la plus longue 0 ms",
+    "Fluidité /entretien 1366×768 (molette) : 0 % d'images lentes sur 273, tâche la plus longue 0 ms",
+    "Fluidité / 390×844 (doigt) : 0 % d'images lentes sur 1366, tâche la plus longue 0 ms",
+    "Fluidité /contact 390×844 (doigt) : 0 % d'images lentes sur 1341, tâche la plus longue 0 ms",
+    "Fluidité /creation 390×844 (doigt) : 0 % d'images lentes sur 1340, tâche la plus longue 0 ms",
+    "Fluidité /eco-paturage 390×844 (doigt) : 0 % d'images lentes sur 1347, tâche la plus longue 0 ms",
+    "Fluidité /entretien 390×844 (doigt) : 0 % d'images lentes sur 1344, tâche la plus longue 0 ms",
+    "Vitesse / : 0.76 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /contact : 0.26 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /creation : 0.32 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /eco-paturage : 0.42 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /entretien : 0.32 s de calcul au chargement (téléphone ralenti)."
+  ],
+  "grille": [
+    {
+      "cle": "manipuler",
+      "nom": "1. L’effet signature se manipule",
+      "statut": "absent",
+      "detail": "aucun data-grille=\"manipuler\" sur l’accueil"
+    },
+    {
+      "cle": "intro",
+      "nom": "2. L’intro devient la page",
+      "statut": "présent",
+      "detail": "objet d’ouverture sur 5 page(s), versObjet dans l’intro"
+    },
+    {
+      "cle": "voile",
+      "nom": "3. La transition reprend le motif",
+      "statut": "présent",
+      "detail": "voile en vague"
+    },
+    {
+      "cle": "fil",
+      "nom": "4. Quelque chose relie les sections et les pages",
+      "statut": "absent",
+      "detail": "sur aucune page"
+    },
+    {
+      "cle": "typo",
+      "nom": "5. Un titre fait l’événement sur chaque page",
+      "statut": "absent",
+      "detail": "sur aucune page"
+    },
+    {
+      "cle": "scene",
+      "nom": "6. La scène est un geste du métier",
+      "statut": "à regarder",
+      "detail": "galerie générique sur /"
+    },
+    {
+      "cle": "retour",
+      "nom": "7. L’action principale a un retour physique",
+      "statut": "absent",
+      "detail": "sur aucune page"
+    }
+  ]
+}

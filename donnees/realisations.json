@@ -1,0 +1,38 @@
+[
+  {
+    "image": "real-escalier-traverses",
+    "metier": "Création",
+    "titre": "Escalier en traverses dans un talus",
+    "cadrage": "45% 60%"
+  },
+  {
+    "image": "creation-piscine",
+    "metier": "Création",
+    "titre": "Mur en bois et massif autour d'une piscine",
+    "cadrage": "51% 47%"
+  },
+  {
+    "image": "real-escalier-dalles",
+    "metier": "Création",
+    "titre": "Escalier en dalles et massif paillé",
+    "cadrage": "56% 52%"
+  },
+  {
+    "image": "entretien-copro",
+    "metier": "Entretien",
+    "titre": "Haies et arbustes taillés en résidence",
+    "cadrage": "45% 50%"
+  },
+  {
+    "image": "eco-arbre",
+    "metier": "Éco-pâturage",
+    "titre": "Le troupeau à l'ombre d'un arbre",
+    "cadrage": "40% 45%"
+  },
+  {
+    "image": "real-bacs",
+    "metier": "Création",
+    "titre": "Bacs plantés de graminées sur une terrasse",
+    "cadrage": "54% 48%"
+  }
+]

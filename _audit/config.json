@@ -1,0 +1,6 @@
+{
+  "siteActuel": "annecy-montagne-et-jardins.fr",
+  "pagesTypes": ["/", "/entretien", "/creation", "/eco-paturage", "/contact"],
+  "effets": ["calques", "secateur", "broutage", "lacs", "croquis"],
+  "grille": { "dispenses": {} }
+}

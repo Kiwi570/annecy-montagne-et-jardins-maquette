@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Annecy Montagne et Jardins : paysagiste dans l&#39;Albanais et autour d&#39;Annecy</title>
+<meta name="description" content="Entretien, création paysagère, élagage et éco-pâturage pour les particuliers, les copropriétés et les entreprises de l&#39;Albanais et des bassins annécien et aixois. Crédit d&#39;impôt de 50 % sur l&#39;entretien.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://annecy-montagne-et-jardins-maquette.vercel.app/">
+<style>:root{--fond:#f4f2ea;--texte:#1b2a20;--voile-fond:#1b2a20;--ouverture-fond:#1b2a20;--menu-fond:#1b2a20}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#f4f2ea">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Annecy Montagne et Jardins">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Annecy Montagne et Jardins : paysagiste dans l&#39;Albanais et autour d&#39;Annecy">
+<meta property="og:description" content="Entretien, création paysagère, élagage et éco-pâturage pour les particuliers, les copropriétés et les entreprises de l&#39;Albanais et des bassins annécien et aixois. Crédit d&#39;impôt de 50 % sur l&#39;entretien.">
+<meta property="og:url" content="https://annecy-montagne-et-jardins-maquette.vercel.app/">
+<meta property="og:image" content="https://annecy-montagne-et-jardins-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Annecy Montagne et Jardins : pelouse au pied de la montagne et du lac">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LandscapingBusiness","name":"Annecy Montagne et Jardins","alternateName":"AMJ","url":"https://annecy-montagne-et-jardins-maquette.vercel.app/","telephone":"+33670549324","email":"creations@a-m-j.fr","foundingDate":"2018","address":{"@type":"PostalAddress","streetAddress":"201 route du Robinson","postalCode":"74150","addressLocality":"Vallières-sur-Fier","addressCountry":"FR"},"areaServed":["Albanais","Bassin annécien","Bassin aixois"],"sameAs":["https://www.facebook.com/annecymontagneetjardins","https://www.instagram.com/annecymontagneetjardins/"],"description":"Entretien des espaces verts, création paysagère, élagage et abattage, éco-pâturage, pour les particuliers, les copropriétés, les entreprises et les collectivités."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="vague" aria-hidden="true"><svg class="voile-vague voile-vague--haut" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 120 V92 L120 80 L210 88 L330 54 L380 66 L470 22 L520 40 L560 30 L650 70 L720 62 L820 84 L900 76 L1000 96 L1080 70 L1170 46 L1230 58 L1320 82 L1440 74 V120 Z"/></svg><svg class="voile-vague voile-vague--bas" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 V28 L120 40 L210 32 L330 66 L380 54 L470 98 L520 80 L560 90 L650 50 L720 58 L820 36 L900 44 L1000 24 L1080 50 L1170 74 L1230 62 L1320 38 L1440 46 V0 Z"/></svg><div class="voile-contenu"><img src="/assets/images/logo-clair-240.webp" alt="" width="240" height="114"><span data-voile-libelle>Accueil</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <svg class="ouverture-crete" viewBox="0 0 400 90" aria-hidden="true"><path class="crete-ligne" pathLength="1" d="M4 80 L52 66 L84 72 L128 40 L146 50 L182 12 L204 30 L222 22 L262 58 L292 50 L336 74 L396 68" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path class="crete-hachures" d="M182 14 L172 36 M192 24 L183 44 M201 32 L193 50 M146 52 L138 66 M226 26 L218 44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+  <img class="ouverture-logo" src="/assets/images/logo-clair-240.webp" alt="" width="240" height="114" data-ouverture-objet>
+  <p class="ouverture-ligne">Paysagiste dans l&#39;Albanais</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="Annecy Montagne et Jardins : Accueil" data-libelle="Accueil" aria-current="page">
+      <img src="/assets/images/logo-240.webp" alt="Annecy Montagne et Jardins" width="240" height="114">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/entretien" data-libelle="Entretien">Entretien</a></li><li><a href="/creation" data-libelle="Création">Création</a></li><li><a href="/eco-paturage" data-libelle="Éco-pâturage">Éco-pâturage</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#devis" data-libelle="Contact">Demander un devis</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil" aria-current="page">Accueil</a></li><li style="--i:1"><a href="/entretien" class="menu-lien" data-libelle="Entretien">Entretien</a></li><li style="--i:2"><a href="/creation" class="menu-lien" data-libelle="Création">Création</a></li><li style="--i:3"><a href="/eco-paturage" class="menu-lien" data-libelle="Éco-pâturage">Éco-pâturage</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33670549324">Appeler 06 70 54 93 24</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="hero" id="debut" data-effet="calques">
+  <div class="hero-scene" data-hero-scene>
+    <figure class="media hero-fond" style="--cadrage:50% 50%;--apercu:url(data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAACwAwCdASoUAAsAPtFUo0uoJKMhsAgBABoJQBOgA9BVaO9pq/xaAAD2cnogHhDiyjX/BEXnRZjPOTaoCVe+cDjLRUMEWyB/z2H+KUj2CdlOgizfCoyBfYiAAAA=);--apercu-mobile:url(data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAAAQBgCdASoUACQAPs1UpkunpKOhsBqqqPAZiWMAy6QWZ9CNsybqNttpAZBIj4EYuzZ4pXu6nk2PtgAA/t56y5zcT4ds8S9VxVx0WXz5ZUP2TgrMLJfK2kGn2jnNY/wVfs5btSyALeDKnoaDGGomFaBRjEEBtsmLTesQEJaHvj1h8sTS02K0jXNLkbQL0NLO67aq9lv6AAAAAA==)">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/accueil-ouverture-mobile-640.webp 640w, /assets/images/accueil-ouverture-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/accueil-ouverture-1280.webp" srcset="/assets/images/accueil-ouverture-640.webp 640w, /assets/images/accueil-ouverture-1280.webp 1280w, /assets/images/accueil-ouverture-1920.webp 1920w" sizes="100vw" alt="Annecy Montagne et Jardins : pelouse au pied de la montagne et du lac" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+    <picture class="hero-pelouse" data-hero-pelouse aria-hidden="true">
+  <source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/accueil-pelouse-mobile-640.webp 640w, /assets/images/accueil-pelouse-mobile-1080.webp 1080w" sizes="100vw">
+  <img src="/assets/images/accueil-pelouse-1280.webp" srcset="/assets/images/accueil-pelouse-640.webp 640w, /assets/images/accueil-pelouse-1280.webp 1280w, /assets/images/accueil-pelouse-1920.webp 1920w" sizes="100vw" alt="" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+</picture>
+    <div class="hero-voile" aria-hidden="true"></div>
+  </div>
+  <div class="conteneur hero-contenu">
+    <div class="hero-texte" data-hero-texte>
+      <p class="surtitre surtitre--clair hero-surtitre" data-anime="gsap"><svg viewBox="0 0 40 14" aria-hidden="true"><path d="M1 12 L9 7 L13 9 L20 2 L26 8 L30 6 L39 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>Paysagiste · Vallières-sur-Fier</p>
+      <h1 class="hero-titre" data-anime="gsap"><span class="ligne"><span class="ligne-in">Vos jardins,</span></span> <span class="ligne"><span class="ligne-in"><em>au pied</em> des</span></span> <span class="ligne"><span class="ligne-in">montagnes.</span></span></h1>
+      <p class="hero-intro masque-ecran-tres-bas masque-petit" data-anime="gsap">Entretien, création, élagage et éco-pâturage : une équipe locale à taille humaine, pour les particuliers, les copropriétés et les entreprises.</p>
+      <p class="actions hero-actions" data-anime="gsap">
+        <a href="/contact#devis" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Demander un devis</a>
+        <a class="bouton bouton--clair masque-ecran-tres-bas" href="#metiers" data-sans-transition>Nos métiers</a>
+      </p>
+      <p class="hero-info" data-info-cle data-anime="gsap">Albanais · bassins annécien et aixois</p>
+    </div>
+    <div class="tampon" data-iris-centre="disque" data-superpose role="img" aria-label="Crédit d&#39;impôt de 50 % sur l&#39;entretien" data-tampon>
+  <svg class="tampon-texte" viewBox="0 0 200 200" aria-hidden="true">
+    <defs><path id="tampon-cercle" d="M100 100 m-78 0 a78 78 0 1 1 156 0 a78 78 0 1 1 -156 0"/></defs>
+    <text><textPath href="#tampon-cercle" textLength="486" lengthAdjust="spacingAndGlyphs">Crédit d&#39;impôt · service à la personne · </textPath></text>
+  </svg>
+  <span class="tampon-coeur" aria-hidden="true"><strong>50 %</strong></span>
+</div>
+  </div>
+</section>
+<section class="section metiers" id="metiers">
+  <div class="conteneur">
+    <div class="tete-ligne">
+      <div class="tete ">
+  <p class="surtitre"><svg viewBox="0 0 40 14" aria-hidden="true"><path d="M1 12 L9 7 L13 9 L20 2 L26 8 L30 6 L39 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>Nos métiers</p>
+  <h2 data-anime="lignes">Quatre métiers, <em>une</em> même équipe.</h2>
+</div>
+      <p class="tete-texte" data-anime>Du gazon semé au grand arbre à soigner, nous nous occupons de vos espaces verts de la manière la plus durable possible.</p>
+    </div>
+    <ul class="metiers-grille" data-anime="cascade">
+      <li class="carte-metier" data-fx="vitesse" data-fx-force="2">
+        <a href="/entretien" data-libelle="Entretien" data-survol="incline" data-survol-force="5">
+          <figure class="media carte-metier-media" style="--cadrage:42% 50%">
+  <picture>
+    <img src="/assets/images/metier-entretien-784.webp" srcset="/assets/images/metier-entretien-480.webp 480w, /assets/images/metier-entretien-640.webp 640w, /assets/images/metier-entretien-784.webp 784w" sizes="(max-width: 760px) 90vw, (max-width: 1100px) 45vw, 23vw" alt="" width="784" height="1176" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          <span class="carte-metier-texte"><strong>Entretien</strong><span>Tonte, taille, débroussaillage : vos parcs et jardins entretenus de manière durable.</span><span class="carte-metier-lien">L&#39;entretien <span aria-hidden="true">→</span></span></span>
+        </a>
+      </li><li class="carte-metier" data-fx="vitesse" data-fx-force="2">
+        <a href="/creation" data-libelle="Création" data-survol="incline" data-survol-force="5">
+          <figure class="media carte-metier-media" style="--cadrage:45% 55%">
+  <picture>
+    <img src="/assets/images/metier-creation-784.webp" srcset="/assets/images/metier-creation-480.webp 480w, /assets/images/metier-creation-640.webp 640w, /assets/images/metier-creation-784.webp 784w" sizes="(max-width: 760px) 90vw, (max-width: 1100px) 45vw, 23vw" alt="" width="784" height="1176" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          <span class="carte-metier-texte"><strong>Création</strong><span>Gazon, clôtures, massifs, arbres et terrasses, avec des matériaux d&#39;ici.</span><span class="carte-metier-lien">La création <span aria-hidden="true">→</span></span></span>
+        </a>
+      </li><li class="carte-metier" data-fx="vitesse" data-fx-force="2">
+        <a href="/entretien#elagage" data-libelle="Entretien" data-survol="incline" data-survol-force="5">
+          <figure class="media carte-metier-media" style="--cadrage:62% 42%">
+  <picture>
+    <img src="/assets/images/metier-elagage-784.webp" srcset="/assets/images/metier-elagage-480.webp 480w, /assets/images/metier-elagage-640.webp 640w, /assets/images/metier-elagage-784.webp 784w" sizes="(max-width: 760px) 90vw, (max-width: 1100px) 45vw, 23vw" alt="" width="784" height="1176" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          <span class="carte-metier-texte"><strong>Élagage et abattage</strong><span>Nous vous proposons de prendre soin de vos arbres.</span><span class="carte-metier-lien">Élagage <span aria-hidden="true">→</span></span></span>
+        </a>
+      </li><li class="carte-metier" data-fx="vitesse" data-fx-force="2">
+        <a href="/eco-paturage" data-libelle="Éco-pâturage" data-survol="incline" data-survol-force="5">
+          <figure class="media carte-metier-media" style="--cadrage:50% 55%">
+  <picture>
+    <img src="/assets/images/metier-eco-784.webp" srcset="/assets/images/metier-eco-480.webp 480w, /assets/images/metier-eco-640.webp 640w, /assets/images/metier-eco-784.webp 784w" sizes="(max-width: 760px) 90vw, (max-width: 1100px) 45vw, 23vw" alt="" width="784" height="1176" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          <span class="carte-metier-texte"><strong>Éco-pâturage</strong><span>Des moutons pour entretenir vos pelouses, sans bruit ni déchet de tonte.</span><span class="carte-metier-lien">L&#39;éco-pâturage <span aria-hidden="true">→</span></span></span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+<section class="section section--sapin budget" id="budget">
+  <div class="conteneur budget-grille">
+    <div>
+      <div class="tete tete--clair">
+  <p class="surtitre"><svg viewBox="0 0 40 14" aria-hidden="true"><path d="M1 12 L9 7 L13 9 L20 2 L26 8 L30 6 L39 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>Travail soigné, budget allégé</p>
+  <h2 data-anime="lignes">Votre entretien, <em>la moitié</em> en crédit d'impôt.</h2>
+</div>
+      <p data-anime>AMJ est déclarée service à la personne : vos travaux d&#39;entretien réguliers (tonte, taille, débroussaillage) ouvrent droit à un crédit d&#39;impôt de 50 %.</p>
+      <p data-anime><a href="/entretien" class="lien-fleche" data-libelle="Entretien">Tout sur l&#39;entretien</a></p>
+      <figure class="media budget-sap" data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/sap-800.webp" srcset="/assets/images/sap-480.webp 480w, /assets/images/sap-640.webp 640w, /assets/images/sap-800.webp 800w" sizes="160px" alt="Entretien : logo Services à la personne" width="800" height="600" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+    <div class="calcul" data-calcul data-effet="secateur" id="calcul-accueil-outil">
+  <div class="calcul-champ">
+    <label for="calcul-accueil-montant">Votre budget d&#39;entretien sur l&#39;année</label>
+    <output class="calcul-montant" for="calcul-accueil-montant" data-calcul-montant data-prix>1 200 €</output>
+    <input type="range" id="calcul-accueil-montant" min="300" max="8000" step="100" value="1200" data-calcul-curseur aria-describedby="calcul-accueil-note">
+  </div>
+  <div class="calcul-barre" data-visuel aria-hidden="true">
+    <div class="calcul-part calcul-part--reste" data-calcul-reste-barre><span>À payer</span></div>
+    <div class="calcul-part calcul-part--credit" data-calcul-credit-barre><span>Crédit</span></div>
+    <svg class="calcul-coupe" viewBox="0 0 20 100" preserveAspectRatio="none" data-calcul-coupe><line x1="10" y1="0" x2="10" y2="100" stroke="currentColor" stroke-width="3" stroke-dasharray="6 6" vector-effect="non-scaling-stroke"/></svg>
+    <svg class="calcul-lame" viewBox="0 0 48 48" data-calcul-lame><path d="M24 4 C30 14 30 22 24 30 C18 22 18 14 24 4 Z" fill="currentColor"/><circle cx="24" cy="36" r="7" fill="none" stroke="currentColor" stroke-width="3"/></svg>
+  </div>
+  <dl class="calcul-chiffres">
+    <div><dt>Facture</dt><dd data-calcul-facture data-prix>1 200 €</dd></div>
+    <div class="calcul-credit"><dt>Crédit d&#39;impôt</dt><dd data-calcul-credit data-prix>600 €</dd></div>
+    <div class="calcul-reste"><dt>Reste à votre charge</dt><dd data-calcul-reste data-prix>600 €</dd></div>
+  </dl>
+  <p class="calcul-plafond" data-calcul-plafond>Au-delà de 5 000 € de dépenses par an, le crédit d&#39;impôt est plafonné à 2 500 €.</p>
+  <p class="calcul-note" id="calcul-accueil-note">Exemple de calcul, sans valeur de devis. Pour les particuliers, dans leur résidence principale ou secondaire en France ; dépenses retenues jusqu&#39;à 5 000 € par an et par foyer pour les petits travaux de jardinage, selon la réglementation en vigueur.</p>
+  <p class="visuellement-cache" aria-live="polite" data-calcul-annonce></p>
+</div>
+  </div>
+</section>
+<section class="eco-bloc" id="eco">
+  <figure class="media eco-bloc-media" data-fx="parallaxe" data-fx-force="12" style="--cadrage:55% 45%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/eco-troupeau-mobile-640.webp 640w, /assets/images/eco-troupeau-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/eco-troupeau-1280.webp" srcset="/assets/images/eco-troupeau-640.webp 640w, /assets/images/eco-troupeau-1280.webp 1280w, /assets/images/eco-troupeau-1920.webp 1920w" sizes="100vw" alt="Troupeau de moutons blancs, bruns et noirs dans une prairie au soleil du matin" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <div class="conteneur eco-bloc-contenu">
+    <div class="eco-bloc-carte">
+      <div class="tete ">
+  <p class="surtitre"><svg viewBox="0 0 40 14" aria-hidden="true"><path d="M1 12 L9 7 L13 9 L20 2 L26 8 L30 6 L39 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>Éco-pâturage</p>
+  <h2 data-anime="lignes">Une autre façon d'entretenir <em>vos pelouses.</em></h2>
+</div>
+      <p data-anime>Toute l&#39;année, des moutons de races rustiques locales entretiennent les espaces verts des copropriétés, des collectivités et des entreprises. Une solution clé en main, adaptée à chaque projet.</p>
+      <ul class="avantages-mini" data-anime="cascade">
+        <li><strong>Patrimoine</strong> Des races rustiques locales préservées.</li><li><strong>Écologie</strong> Un meilleur bilan carbone et plus de biodiversité.</li><li><strong>Tranquillité</strong> Aucune nuisance sonore.</li><li><strong>Déchets</strong> Aucun déchet de tonte.</li>
+      </ul>
+      <p><a href="/eco-paturage" class="bouton" data-libelle="Éco-pâturage" data-survol="magnetique">Découvrir l&#39;éco-pâturage</a></p>
+    </div>
+  </div>
+  <div class="broutage" data-broutage data-effet="broutage" data-souris data-visuel aria-hidden="true">
+  <svg class="broutage-herbe" viewBox="0 0 1000 120" preserveAspectRatio="none" data-broutage-herbe></svg>
+  <div class="broutage-troupeau" data-broutage-troupeau>
+    <svg class="mouton mouton-0" viewBox="0 0 64 44"><g fill="currentColor"><ellipse cx="30" cy="22" rx="20" ry="13"/><circle cx="16" cy="16" r="8"/><circle cx="27" cy="11" r="8"/><circle cx="39" cy="12" r="8"/><circle cx="46" cy="20" r="7"/><circle cx="20" cy="28" r="7"/><circle cx="38" cy="30" r="7"/></g><ellipse class="mouton-tete" cx="54" cy="25" rx="7" ry="9"/><rect class="mouton-patte" x="18" y="32" width="3.5" height="11" rx="1.5"/><rect class="mouton-patte" x="38" y="32" width="3.5" height="11" rx="1.5"/></svg><svg class="mouton mouton-1" viewBox="0 0 64 44"><g fill="currentColor"><ellipse cx="30" cy="22" rx="20" ry="13"/><circle cx="16" cy="16" r="8"/><circle cx="27" cy="11" r="8"/><circle cx="39" cy="12" r="8"/><circle cx="46" cy="20" r="7"/><circle cx="20" cy="28" r="7"/><circle cx="38" cy="30" r="7"/></g><ellipse class="mouton-tete" cx="54" cy="25" rx="7" ry="9"/><rect class="mouton-patte" x="18" y="32" width="3.5" height="11" rx="1.5"/><rect class="mouton-patte" x="38" y="32" width="3.5" height="11" rx="1.5"/></svg><svg class="mouton mouton-2" viewBox="0 0 64 44"><g fill="currentColor"><ellipse cx="30" cy="22" rx="20" ry="13"/><circle cx="16" cy="16" r="8"/><circle cx="27" cy="11" r="8"/><circle cx="39" cy="12" r="8"/><circle cx="46" cy="20" r="7"/><circle cx="20" cy="28" r="7"/><circle cx="38" cy="30" r="7"/></g><ellipse class="mouton-tete" cx="54" cy="25" rx="7" ry="9"/><rect class="mouton-patte" x="18" y="32" width="3.5" height="11" rx="1.5"/><rect class="mouton-patte" x="38" y="32" width="3.5" height="11" rx="1.5"/></svg>
+  </div>
+</div>
+</section>
+<section class="section matieres" id="matieres">
+  <div class="conteneur matieres-grille">
+    <div class="matieres-tete">
+      <div class="tete ">
+  <p class="surtitre"><svg viewBox="0 0 40 14" aria-hidden="true"><path d="M1 12 L9 7 L13 9 L20 2 L26 8 L30 6 L39 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>Création paysagère</p>
+  <h2 data-anime="lignes">Des matières <em>d'ici,</em> des plantes qui tiennent l'été.</h2>
+</div>
+      <p data-anime>Pour vos aménagements, nous choisissons des plantes peu gourmandes en eau, adaptées aux étés plus secs, et nous travaillons avec de petits producteurs et fournisseurs locaux.</p>
+      <p data-anime><a href="/creation" class="lien-fleche" data-libelle="Création">La création paysagère</a></p>
+      <figure class="media matieres-photo" data-fx="zoom" style="--cadrage:45% 45%">
+  <picture>
+    <img src="/assets/images/real-graminees-960.webp" srcset="/assets/images/real-graminees-480.webp 480w, /assets/images/real-graminees-640.webp 640w, /assets/images/real-graminees-960.webp 960w" sizes="(max-width: 760px) 100vw, 40vw" alt="Massif de graminées et bordure en bois le long d’une allée" width="960" height="1279" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+    <ul class="echantillons" data-anime="cascade">
+      <li class="echantillon" data-fx="vitesse" data-fx-force="2">
+        <figure class="media echantillon-media" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/matiere-paillage-784.webp" srcset="/assets/images/grok/matiere-paillage-480.webp 480w, /assets/images/grok/matiere-paillage-640.webp 640w, /assets/images/grok/matiere-paillage-784.webp 784w" sizes="(max-width: 760px) 45vw, 22vw" alt="Paillages sans plastique" width="784" height="980" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+        <h3>Paillages sans plastique</h3>
+        <p>Chanvre, jute, coco ou poils : des toiles de paillage naturelles.</p>
+      </li><li class="echantillon" data-fx="vitesse" data-fx-force="2">
+        <figure class="media echantillon-media" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/matiere-bois-784.webp" srcset="/assets/images/grok/matiere-bois-480.webp 480w, /assets/images/grok/matiere-bois-640.webp 640w, /assets/images/grok/matiere-bois-784.webp 784w" sizes="(max-width: 760px) 45vw, 22vw" alt="Bois local" width="784" height="980" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+        <h3>Bois local</h3>
+        <p>Du bois issu de forêts locales gérées durablement.</p>
+      </li><li class="echantillon" data-fx="vitesse" data-fx-force="2">
+        <figure class="media echantillon-media" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/matiere-pierre-784.webp" srcset="/assets/images/grok/matiere-pierre-480.webp 480w, /assets/images/grok/matiere-pierre-640.webp 640w, /assets/images/grok/matiere-pierre-784.webp 784w" sizes="(max-width: 760px) 45vw, 22vw" alt="Pierre régionale" width="784" height="980" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+        <h3>Pierre régionale</h3>
+        <p>De la pierre de la région, chez de petits fournisseurs.</p>
+      </li><li class="echantillon" data-fx="vitesse" data-fx-force="2">
+        <figure class="media echantillon-media" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/matiere-vegetal-784.webp" srcset="/assets/images/grok/matiere-vegetal-480.webp 480w, /assets/images/grok/matiere-vegetal-640.webp 640w, /assets/images/grok/matiere-vegetal-784.webp 784w" sizes="(max-width: 760px) 45vw, 22vw" alt="Plantes sobres" width="784" height="980" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+        <h3>Plantes sobres</h3>
+        <p>Peu gourmandes en eau ou adaptées aux étés secs.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+<section class="section realisations ecran epingle" id="realisations" data-entete-cache data-fx="galerie" data-plein-ecran>
+  <div class="conteneur realisations-tete">
+    <div class="tete ">
+  <p class="surtitre"><svg viewBox="0 0 40 14" aria-hidden="true"><path d="M1 12 L9 7 L13 9 L20 2 L26 8 L30 6 L39 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>Réalisations</p>
+  <h2 data-anime="lignes">Quelques chantiers, <em>chez nos clients.</em></h2>
+</div>
+    <p class="masque-ecran-bas">Aménagements, entretien, élagage et éco-pâturage, autour d&#39;Annecy et dans l&#39;Albanais.</p>
+  </div>
+  <div class="piste galerie-piste" data-galerie tabindex="0" role="region" aria-label="Réalisations : faites défiler">
+    <article class="carte-real" id="realisation-1">
+      <figure class="media carte-real-media" style="--cadrage:45% 60%">
+  <picture>
+    <img src="/assets/images/real-escalier-traverses-960.webp" srcset="/assets/images/real-escalier-traverses-480.webp 480w, /assets/images/real-escalier-traverses-640.webp 640w, /assets/images/real-escalier-traverses-960.webp 960w" sizes="(max-width: 760px) 78vw, 30vw" alt="Escalier en traverses dans un talus" width="960" height="1280" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <p class="carte-real-metier">Création</p>
+      <h3>Escalier en traverses dans un talus</h3>
+    </article><article class="carte-real" id="realisation-2">
+      <figure class="media carte-real-media" style="--cadrage:51% 47%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/creation-piscine-mobile-640.webp 640w" sizes="(max-width: 760px) 78vw, 30vw">
+    <img src="/assets/images/creation-piscine-1280.webp" srcset="/assets/images/creation-piscine-640.webp 640w, /assets/images/creation-piscine-1280.webp 1280w, /assets/images/creation-piscine-1920.webp 1920w" sizes="(max-width: 760px) 78vw, 30vw" alt="Mur en bois et massif autour d&#39;une piscine" width="1280" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <p class="carte-real-metier">Création</p>
+      <h3>Mur en bois et massif autour d&#39;une piscine</h3>
+    </article><article class="carte-real" id="realisation-3">
+      <figure class="media carte-real-media" style="--cadrage:56% 52%">
+  <picture>
+    <img src="/assets/images/real-escalier-dalles-960.webp" srcset="/assets/images/real-escalier-dalles-480.webp 480w, /assets/images/real-escalier-dalles-640.webp 640w, /assets/images/real-escalier-dalles-960.webp 960w" sizes="(max-width: 760px) 78vw, 30vw" alt="Escalier en dalles et massif paillé" width="960" height="1280" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <p class="carte-real-metier">Création</p>
+      <h3>Escalier en dalles et massif paillé</h3>
+    </article><article class="carte-real" id="realisation-4">
+      <figure class="media carte-real-media" style="--cadrage:45% 50%">
+  <picture>
+    <img src="/assets/images/entretien-copro-960.webp" srcset="/assets/images/entretien-copro-480.webp 480w, /assets/images/entretien-copro-640.webp 640w, /assets/images/entretien-copro-960.webp 960w" sizes="(max-width: 760px) 78vw, 30vw" alt="Haies et arbustes taillés en résidence" width="960" height="1280" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <p class="carte-real-metier">Entretien</p>
+      <h3>Haies et arbustes taillés en résidence</h3>
+    </article><article class="carte-real" id="realisation-5">
+      <figure class="media carte-real-media" style="--cadrage:40% 45%">
+  <picture>
+    <img src="/assets/images/eco-arbre-960.webp" srcset="/assets/images/eco-arbre-480.webp 480w, /assets/images/eco-arbre-640.webp 640w, /assets/images/eco-arbre-960.webp 960w" sizes="(max-width: 760px) 78vw, 30vw" alt="Le troupeau à l&#39;ombre d&#39;un arbre" width="960" height="1280" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <p class="carte-real-metier">Éco-pâturage</p>
+      <h3>Le troupeau à l&#39;ombre d&#39;un arbre</h3>
+    </article><article class="carte-real" id="realisation-6">
+      <figure class="media carte-real-media" style="--cadrage:54% 48%">
+  <picture>
+    <img src="/assets/images/real-bacs-960.webp" srcset="/assets/images/real-bacs-480.webp 480w, /assets/images/real-bacs-640.webp 640w, /assets/images/real-bacs-960.webp 960w" sizes="(max-width: 760px) 78vw, 30vw" alt="Bacs plantés de graminées sur une terrasse" width="960" height="1280" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <p class="carte-real-metier">Création</p>
+      <h3>Bacs plantés de graminées sur une terrasse</h3>
+    </article>
+  </div>
+  <div class="galerie-progres" aria-hidden="true"><span></span></div>
+</section>
+<section class="section equipe" id="equipe">
+  <div class="conteneur equipe-grille">
+    <figure class="media equipe-portrait" data-anime="rideau" style="--cadrage:50% 35%">
+  <picture>
+    <img src="/assets/images/equipe-benoit-784.webp" srcset="/assets/images/equipe-benoit-480.webp 480w, /assets/images/equipe-benoit-640.webp 640w, /assets/images/equipe-benoit-784.webp 784w" sizes="(max-width: 760px) 70vw, 30vw" alt="Benoit, gérant d’Annecy Montagne et Jardins" width="784" height="980" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div>
+      <div class="tete ">
+  <p class="surtitre"><svg viewBox="0 0 40 14" aria-hidden="true"><path d="M1 12 L9 7 L13 9 L20 2 L26 8 L30 6 L39 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>L&#39;équipe</p>
+  <h2 data-anime="lignes">Depuis 2018, <em>une équipe</em> à taille humaine.</h2>
+</div>
+      <p data-anime>L&#39;aventure commence en 2018 : deux amis réunissent leurs compétences et créent une entreprise passionnée, audacieuse et chaleureuse. En 2023, après le départ de l&#39;un des fondateurs, AMJ prend une nouvelle orientation.</p>
+      <ul class="trio" data-anime="cascade">
+        <li><strong>Benoit</strong><span>Gérant</span></li>
+        <li><strong>Eddy</strong><span>Référent terrain</span></li>
+        <li><strong>William</strong><span>Apprenti</span></li>
+      </ul>
+      <div class="frise">
+        <svg class="frise-trait" viewBox="0 0 600 40" preserveAspectRatio="none" aria-hidden="true" data-fx="trace"><path d="M4 30 L120 22 L170 26 L250 10 L290 16 L340 6 L400 20 L470 14 L596 28" fill="none" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round"/></svg>
+        <ol data-anime="cascade">
+          <li><strong>2018</strong><span>Deux amis lancent le projet</span></li>
+          <li><strong>2023</strong><span>Une nouvelle orientation</span></li>
+          <li><strong>Aujourd&#39;hui</strong><span>Benoit, Eddy et William</span></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section confiance" id="references">
+  <div class="conteneur confiance-grille">
+    <div>
+      <div class="tete ">
+  <p class="surtitre"><svg viewBox="0 0 40 14" aria-hidden="true"><path d="M1 12 L9 7 L13 9 L20 2 L26 8 L30 6 L39 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>Références</p>
+  <h2 data-anime="lignes">Ils nous font <em>confiance.</em></h2>
+</div>
+      <blockquote class="avis">
+        <p data-anime="mots">« Entreprise sérieuse et à l&#39;écoute, travail soigneux et précis. »</p>
+        <footer data-anime>Laurent D., client</footer>
+      </blockquote>
+    </div>
+    <figure class="media confiance-photo" data-fx="parallaxe" style="--cadrage:40% 40%">
+  <picture>
+    <img src="/assets/images/equipe-terrain-960.webp" srcset="/assets/images/equipe-terrain-480.webp 480w, /assets/images/equipe-terrain-640.webp 640w, /assets/images/equipe-terrain-960.webp 960w" sizes="(max-width: 760px) 100vw, 40vw" alt="L’équipe et son camion-benne au travail dans une résidence" width="960" height="640" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+  <div class="ruban-section">
+    <div class="ruban" id="ruban-references" data-boucle-css data-ruban><p><span>Saint-Jean-de-Maurienne</span><span>Gerimalp</span><span>Peak Immobilier</span><span>SBM Immobilier</span><span>Fischer</span><span>Jean Lain Mobilités</span><span>Saint-Jean-de-Maurienne</span><span>Gerimalp</span><span>Peak Immobilier</span><span>SBM Immobilier</span><span>Fischer</span><span>Jean Lain Mobilités</span></p></div>
+    <button type="button" class="ruban-pause" data-pause-pour="ruban-references" data-libelle-pause="Pause" data-libelle-lecture="Lecture"><span data-libelle-bouton>Pause</span></button>
+  </div>
+</section>
+<section class="section zone" id="zone">
+  <div class="conteneur zone-grille">
+    <div>
+      <div class="tete ">
+  <p class="surtitre"><svg viewBox="0 0 40 14" aria-hidden="true"><path d="M1 12 L9 7 L13 9 L20 2 L26 8 L30 6 L39 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>Zone d&#39;intervention</p>
+  <h2 data-anime="lignes">Entre <em>deux lacs,</em> depuis Vallières-sur-Fier.</h2>
+</div>
+      <p data-anime>Nous intervenons dans l&#39;Albanais et dans les bassins annécien et aixois. Un doute sur votre commune ? Appelez-nous.</p>
+      <p class="actions" data-anime><a class="bouton bouton--contour" href="tel:+33670549324">Appeler 06 70 54 93 24</a></p>
+    </div>
+    <figure class="carte-zone" data-effet="lacs" data-visuel>
+  <svg viewBox="-30 0 460 420" role="img" aria-labelledby="carte-titre">
+    <title id="carte-titre">Carte de la zone d&#39;intervention : l&#39;Albanais autour de Rumilly, le bassin annécien autour du lac d&#39;Annecy et le bassin aixois autour du lac du Bourget, avec le siège à Vallières-sur-Fier.</title>
+    <defs>
+      <pattern id="hachure" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><line x1="0" y1="0" x2="0" y2="8" stroke="currentColor" stroke-width="1.4"/></pattern>
+      <linearGradient id="eau" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7fb6c4"/><stop offset="1" stop-color="#3f8394"/></linearGradient>
+      <clipPath id="clip-annecy"><rect class="eau-niveau" x="230" y="90" width="110" height="140"/></clipPath>
+      <clipPath id="clip-bourget"><rect class="eau-niveau" x="40" y="190" width="90" height="180"/></clipPath>
+    </defs>
+    <g class="relief" aria-hidden="true">
+      <path d="M300 30 L330 6 L352 24 L372 4 L398 30" /><path d="M350 250 L372 222 L388 240 L400 228" /><path d="M150 330 L176 296 L196 318 L214 300 L236 330" /><path d="M10 160 L30 136 L46 150 L60 132 L80 160" />
+    </g>
+    <g class="zones">
+      <path class="zone zone-albanais" d="M92 112 C120 70 205 76 222 118 C238 160 214 214 170 222 C128 230 92 200 86 168 C82 146 84 126 92 112 Z"/>
+      <path class="zone zone-annecien" d="M226 92 C250 60 312 66 338 110 C358 146 352 210 330 236 C304 260 262 236 246 206 C230 176 214 122 226 92 Z"/>
+      <path class="zone zone-aixois" d="M40 216 C52 184 112 180 132 214 C150 246 148 330 126 368 C104 398 56 392 44 352 C32 318 30 248 40 216 Z"/>
+    </g>
+    <g class="lacs">
+      <path class="lac-fond" d="M270 96 L282 100 L295 118 L308 135 L322 152 L326 164 L318 176 L322 190 L328 210 L324 222 L316 220 L312 205 L305 190 L310 176 L300 165 L285 150 L272 140 L264 124 L262 108 Z"/>
+      <path class="lac-eau" clip-path="url(#clip-annecy)" d="M270 96 L282 100 L295 118 L308 135 L322 152 L326 164 L318 176 L322 190 L328 210 L324 222 L316 220 L312 205 L305 190 L310 176 L300 165 L285 150 L272 140 L264 124 L262 108 Z"/>
+      <path class="lac-fond" d="M78 198 L86 205 L92 225 L98 250 L104 275 L110 298 L108 318 L100 340 L90 358 L80 362 L74 350 L70 330 L64 305 L60 280 L62 255 L66 230 L72 210 Z"/>
+      <path class="lac-eau" clip-path="url(#clip-bourget)" d="M78 198 L86 205 L92 225 L98 250 L104 275 L110 298 L108 318 L100 340 L90 358 L80 362 L74 350 L70 330 L64 305 L60 280 L62 255 L66 230 L72 210 Z"/>
+    </g>
+    <g class="villes">
+      <circle cx="264" cy="101" r="4"/><text x="252" y="88" text-anchor="end">Annecy</text>
+      <circle cx="115" cy="312" r="4"/><text x="122" y="330">Aix-les-Bains</text>
+      <circle cx="135" cy="138" r="4"/><text x="146" y="150">Rumilly</text>
+    </g>
+    <g class="etiquettes">
+      <text class="etiquette-zone" x="150" y="190" text-anchor="middle">Albanais</text>
+      <text class="etiquette-zone" x="300" y="276" text-anchor="middle">Bassin annécien</text>
+      <text class="etiquette-zone" x="138" y="392" text-anchor="middle">Bassin aixois</text>
+      <text class="etiquette-lac" x="300" y="244" text-anchor="middle">Lac d&#39;Annecy</text>
+      <text class="etiquette-lac" x="62" y="184" text-anchor="middle">Lac du Bourget</text>
+    </g>
+    <g class="siege">
+      <g class="siege-epingle"><path d="M131 95 c-9 0 -15 7 -15 15 c0 11 15 25 15 25 s15 -14 15 -25 c0 -8 -6 -15 -15 -15 z"/><circle cx="131" cy="110" r="5.5" class="siege-trou"/></g>
+      <text class="etiquette-siege" x="131" y="84" text-anchor="middle">Vallières-sur-Fier</text>
+    </g>
+  </svg>
+  <figcaption>Carte simplifiée de la zone d&#39;intervention</figcaption>
+</figure>
+  </div>
+</section>
+<section class="section section--sapin fin" id="fin">
+  <svg class="fin-crete" viewBox="0 0 1440 90" preserveAspectRatio="none" data-fx="trace" data-visuel aria-hidden="true"><path d="M0 70 L90 60 L160 66 L260 40 L300 48 L380 14 L420 30 L450 22 L540 56 L600 50 L700 70 L780 62 L880 76 L960 56 L1040 34 L1100 44 L1190 66 L1280 58 L1360 68 L1440 62" fill="none" stroke="currentColor" stroke-width="2.5" vector-effect="non-scaling-stroke" stroke-linejoin="round" stroke-linecap="round"/></svg>
+  <div class="conteneur fin-grille">
+    <h2 data-anime="lignes">Parlons de <em>votre jardin.</em></h2>
+    <div>
+      <p data-anime>Entretien régulier, nouveau projet, arbre à soigner ou prairie à faire pâturer : décrivez-nous votre besoin, nous revenons vers vous.</p>
+      <p class="actions" data-anime>
+        <a href="/contact#devis" class="bouton" data-libelle="Contact" data-survol="magnetique">Demander un devis</a>
+        <a class="bouton bouton--clair" href="tel:+33670549324" data-survol="magnetique">06 70 54 93 24</a>
+      </p>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <svg class="pied-crete" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true" data-fx="trace"><path d="M0 70 L90 60 L160 66 L260 40 L300 48 L380 14 L420 30 L450 22 L540 56 L600 50 L700 70 L780 62 L880 76 L960 56 L1040 34 L1100 44 L1190 66 L1280 58 L1360 68 L1440 62" fill="none" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round"/></svg>
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-clair-240.webp" alt="Annecy Montagne et Jardins" width="240" height="114" loading="lazy">
+      <p>Entretien, création, élagage et éco-pâturage dans l&#39;Albanais et les bassins annécien et aixois.</p>
+    </div>
+    <div>
+      <p class="pied-titre">Contact</p>
+      <p>201 route du Robinson, 74150 Vallières-sur-Fier<br><a href="tel:+33670549324">06 70 54 93 24</a><br><a href="mailto:creations@a-m-j.fr">creations@a-m-j.fr</a></p>
+    </div>
+    <nav aria-label="Plan du site">
+      <p class="pied-titre">Plan du site</p>
+      <ul><li><a href="/" data-libelle="Accueil" aria-current="page">Accueil</a></li><li><a href="/entretien" data-libelle="Entretien">Entretien</a></li><li><a href="/creation" data-libelle="Création">Création</a></li><li><a href="/eco-paturage" data-libelle="Éco-pâturage">Éco-pâturage</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Nous suivre</p>
+      <ul>
+        <li><a href="https://www.facebook.com/annecymontagneetjardins" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://www.instagram.com/annecymontagneetjardins/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales · Politique de confidentialité : à compléter</p><p>Maquette de démonstration : les formulaires sont simulés, rien n&#39;est envoyé.</p><p>© Annecy Montagne et Jardins</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33670549324">Appeler</a>
+  <a class="bouton" href="/contact#devis" data-libelle="Contact">Demander un devis</a>
+</div>
+</body>
+</html>

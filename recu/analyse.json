@@ -1,0 +1,2814 @@
+{
+  "dossier": "/Users/paul/Downloads/annecy-montagne-et-jardins-recu",
+  "date": "2026-11-20T17:51:33.221Z",
+  "detection": "Vision (macOS) + mesures sharp",
+  "planches": [
+    "planche.jpg",
+    "planche-2.jpg",
+    "planche-3.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "logo.jpg",
+      "nom": "logo",
+      "drapeau": "logo",
+      "largeur": 500,
+      "hauteur": 250,
+      "ratio": "2:1",
+      "ratio_valeur": 2,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 37518,
+      "transparence": false,
+      "sujet": {
+        "x": 6,
+        "y": 12.1,
+        "l": 87.5,
+        "h": 81.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        59,
+        56
+      ],
+      "cadrage_css": "59% 56%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.57
+        },
+        {
+          "cote": "droite",
+          "score": 0.37,
+          "ton": "clair",
+          "recouvre_sujet": 0.68
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.69
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.71
+        }
+      ],
+      "qualite": {
+        "nettete": 70,
+        "bruit": 0.21,
+        "compression": 0.88,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "logo",
+        "a_verifier": false,
+        "texte": "ANNECY · ET JARDINS",
+        "blocs": 2,
+        "surface": 5.6,
+        "details": [
+          {
+            "texte": "ANNECY",
+            "niveau": "marque"
+          },
+          {
+            "texte": "ET JARDINS",
+            "niveau": "marque"
+          }
+        ]
+      },
+      "empreinte": "1494342517756d29",
+      "drapeaux": [
+        "logo",
+        "texte du logo"
+      ]
+    },
+    {
+      "fichier": "foret.jpg",
+      "nom": "foret",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1335,
+      "ratio": "3:2",
+      "ratio_valeur": 1.498,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 985985,
+      "transparence": false,
+      "sujet": {
+        "x": 32.4,
+        "y": 27.9,
+        "l": 32.4,
+        "h": 42.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        50
+      ],
+      "cadrage_css": "48% 50%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.33,
+          "ton": "sombre",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "bas",
+          "score": 0.26,
+          "ton": "moyen",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "gauche",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "haut",
+          "score": 0.23,
+          "ton": "moyen",
+          "recouvre_sujet": 0.07
+        }
+      ],
+      "qualite": {
+        "nettete": 81.6,
+        "bruit": 2.08,
+        "compression": 1.15,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "c2c2c0c0808080f6",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "paysage-jardin-luxuriant.jpg",
+      "nom": "paysage-jardin-luxuriant",
+      "drapeau": "lieu",
+      "largeur": 1920,
+      "hauteur": 1280,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 325186,
+      "transparence": false,
+      "sujet": {
+        "x": 23.5,
+        "y": 29.4,
+        "l": 54.4,
+        "h": 41.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        48
+      ],
+      "cadrage_css": "51% 48%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.56,
+          "ton": "moyen",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "gauche",
+          "score": 0.38,
+          "ton": "sombre",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "haut",
+          "score": 0.34,
+          "ton": "sombre",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "droite",
+          "score": 0.31,
+          "ton": "moyen",
+          "recouvre_sujet": 0.18
+        }
+      ],
+      "qualite": {
+        "nettete": 34.3,
+        "bruit": 0.84,
+        "compression": 1.26,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "ce1b11e3e1f8d898",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "realisations.jpg",
+      "nom": "realisations",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 1274682,
+      "transparence": false,
+      "sujet": {
+        "x": 5.3,
+        "y": 0,
+        "l": 62.6,
+        "h": 30.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        23
+      ],
+      "cadrage_css": "41% 23%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.3,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "gauche",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "haut",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.54
+        }
+      ],
+      "qualite": {
+        "nettete": 129.2,
+        "bruit": 2.49,
+        "compression": 1.07,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "6d423634c6889096",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "realisations-annecy-montagne-jardins.png",
+      "nom": "realisations-annecy-montagne-jardins",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1317,
+      "ratio": "3:2",
+      "ratio_valeur": 1.519,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 7336341,
+      "transparence": true,
+      "sujet": {
+        "x": 25,
+        "y": 32.4,
+        "l": 33.8,
+        "h": 23.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        44
+      ],
+      "cadrage_css": "42% 44%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.33,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.25,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.22,
+          "ton": "sombre",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "gauche",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.09
+        }
+      ],
+      "qualite": {
+        "nettete": 72.4,
+        "bruit": 2.39,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "8d99683323188c80",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "realisations-2.png",
+      "nom": "realisations-2",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1129,
+      "ratio": "16:9",
+      "ratio_valeur": 1.771,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 5398087,
+      "transparence": true,
+      "sujet": {
+        "x": 23.5,
+        "y": 25,
+        "l": 55.9,
+        "h": 33.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        43
+      ],
+      "cadrage_css": "52% 43%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.47,
+          "ton": "moyen",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "bas",
+          "score": 0.26,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "droite",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.16
+        }
+      ],
+      "qualite": {
+        "nettete": 89.1,
+        "bruit": 1.49,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "1b16e276b6b464c8",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "realisations-3.png",
+      "nom": "realisations-3",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1180,
+      "ratio": "1.69",
+      "ratio_valeur": 1.695,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 5482695,
+      "transparence": true,
+      "sujet": {
+        "x": 27.5,
+        "y": 42.9,
+        "l": 67.3,
+        "h": 36.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        56,
+        52
+      ],
+      "cadrage_css": "56% 52%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.45,
+          "ton": "sombre",
+          "recouvre_sujet": 0.32
+        },
+        {
+          "cote": "bas",
+          "score": 0.35,
+          "ton": "sombre",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "haut",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.11
+        }
+      ],
+      "qualite": {
+        "nettete": 66.9,
+        "bruit": 1.16,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "724c1e139084a4e5",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "realisations-4.png",
+      "nom": "realisations-4",
+      "drapeau": "lieu",
+      "largeur": 1908,
+      "hauteur": 1420,
+      "ratio": "4:3",
+      "ratio_valeur": 1.344,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 3967414,
+      "transparence": true,
+      "sujet": {
+        "x": 38.2,
+        "y": 33.8,
+        "l": 32.4,
+        "h": 33.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        51
+      ],
+      "cadrage_css": "54% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.48,
+          "ton": "moyen",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "bas",
+          "score": 0.38,
+          "ton": "moyen",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "gauche",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "droite",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0.09
+        }
+      ],
+      "qualite": {
+        "nettete": 32.7,
+        "bruit": 0.42,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "86b6d0ccec237df3",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "realisations-5.jpg",
+      "nom": "realisations-5",
+      "drapeau": "lieu",
+      "largeur": 1200,
+      "hauteur": 675,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 164210,
+      "transparence": false,
+      "sujet": {
+        "x": 36.8,
+        "y": 25,
+        "l": 38.2,
+        "h": 35.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        56,
+        43
+      ],
+      "cadrage_css": "56% 43%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.31,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "bas",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.26,
+          "ton": "moyen",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "droite",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.13
+        }
+      ],
+      "qualite": {
+        "nettete": 46.9,
+        "bruit": 1.33,
+        "compression": 1.14,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "9a83aac08c496919",
+      "drapeaux": [
+        "lieu",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "realisations-6.jpg",
+      "nom": "realisations-6",
+      "drapeau": "lieu",
+      "largeur": 1200,
+      "hauteur": 675,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 267588,
+      "transparence": false,
+      "sujet": {
+        "x": 74.7,
+        "y": 3.5,
+        "l": 14.7,
+        "h": 55.4,
+        "source": "corps"
+      },
+      "visages": 0,
+      "cadrage": [
+        82,
+        20
+      ],
+      "cadrage_css": "82% 20%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.31,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.29,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "droite",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.2
+        }
+      ],
+      "qualite": {
+        "nettete": 65.5,
+        "bruit": 2.84,
+        "compression": 1.05,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "dc5d5973e3850d9b",
+      "drapeaux": [
+        "lieu",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "realisations-7.jpg",
+      "nom": "realisations-7",
+      "drapeau": "lieu",
+      "largeur": 1200,
+      "hauteur": 675,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 177638,
+      "transparence": false,
+      "sujet": {
+        "x": 19.8,
+        "y": 45.7,
+        "l": 30.1,
+        "h": 34.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        35,
+        58
+      ],
+      "cadrage_css": "35% 58%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.23,
+          "ton": "sombre",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "haut",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.17
+        }
+      ],
+      "qualite": {
+        "nettete": 34.2,
+        "bruit": 1.32,
+        "compression": 1.14,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "acaca8a8269abae6",
+      "drapeaux": [
+        "lieu",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "realisations-8.jpg",
+      "nom": "realisations-8",
+      "drapeau": "lieu",
+      "largeur": 699,
+      "hauteur": 699,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 113627,
+      "transparence": false,
+      "sujet": {
+        "x": 8.1,
+        "y": 27.7,
+        "l": 83,
+        "h": 44.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        45
+      ],
+      "cadrage_css": "47% 45%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.22,
+          "ton": "sombre",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "bas",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "droite",
+          "score": 0.18,
+          "ton": "sombre",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "gauche",
+          "score": 0.12,
+          "ton": "moyen",
+          "recouvre_sujet": 0.36
+        }
+      ],
+      "qualite": {
+        "nettete": 93.6,
+        "bruit": 2.27,
+        "compression": 1.24,
+        "faible": true,
+        "raisons": [
+          "699 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "9c19e0c0404c9819",
+      "drapeaux": [
+        "lieu",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "equipe.jpg",
+      "nom": "equipe",
+      "drapeau": "portrait",
+      "largeur": 1727,
+      "hauteur": 2000,
+      "ratio": "0.86",
+      "ratio_valeur": 0.864,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 435092,
+      "transparence": false,
+      "sujet": {
+        "x": 7.9,
+        "y": 5.4,
+        "l": 83.8,
+        "h": 77.3,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        50,
+        47
+      ],
+      "cadrage_css": "50% 47%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "haut",
+          "score": 0.48,
+          "ton": "clair",
+          "recouvre_sujet": 0.71
+        },
+        {
+          "cote": "gauche",
+          "score": 0.47,
+          "ton": "clair",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "bas",
+          "score": 0.46,
+          "ton": "clair",
+          "recouvre_sujet": 0.42
+        }
+      ],
+      "qualite": {
+        "nettete": 34.1,
+        "bruit": 0.89,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "ebcd971f1e1fd9ee",
+      "drapeaux": [
+        "portrait",
+        "visage"
+      ]
+    },
+    {
+      "fichier": "histoire.jpg",
+      "nom": "histoire",
+      "drapeau": "portrait",
+      "largeur": 1920,
+      "hauteur": 1080,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 805338,
+      "transparence": false,
+      "sujet": {
+        "x": 35.3,
+        "y": 27.9,
+        "l": 29.4,
+        "h": 32.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        44
+      ],
+      "cadrage_css": "50% 44%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.32,
+          "ton": "moyen",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "droite",
+          "score": 0.31,
+          "ton": "sombre",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "bas",
+          "score": 0.3,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.27,
+          "ton": "sombre",
+          "recouvre_sujet": 0.04
+        }
+      ],
+      "qualite": {
+        "nettete": 47.3,
+        "bruit": 2.5,
+        "compression": 1.08,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "072335338a4a7a3a",
+      "drapeaux": [
+        "portrait"
+      ]
+    },
+    {
+      "fichier": "st-jean-maurienne.jpg",
+      "nom": "st-jean-maurienne",
+      "drapeau": "portrait",
+      "largeur": 1831,
+      "hauteur": 976,
+      "ratio": "1.88",
+      "ratio_valeur": 1.876,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 68111,
+      "transparence": false,
+      "sujet": {
+        "x": 19.6,
+        "y": 21.9,
+        "l": 62.2,
+        "h": 55.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        47
+      ],
+      "cadrage_css": "49% 47%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.64,
+          "ton": "moyen",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "haut",
+          "score": 0.45,
+          "ton": "moyen",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "gauche",
+          "score": 0.37,
+          "ton": "moyen",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "droite",
+          "score": 0.33,
+          "ton": "moyen",
+          "recouvre_sujet": 0.3
+        }
+      ],
+      "qualite": {
+        "nettete": 36.4,
+        "bruit": 0.22,
+        "compression": 0.83,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "stlean d · Maurienne",
+        "blocs": 2,
+        "surface": 36.9,
+        "details": [
+          {
+            "texte": "stlean d",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Maurienne",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "23c4c8c4c4c8d401",
+      "drapeaux": [
+        "portrait",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "sbm-immobilier.png",
+      "nom": "sbm-immobilier",
+      "drapeau": "portrait",
+      "largeur": 1098,
+      "hauteur": 1098,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 48459,
+      "transparence": false,
+      "sujet": {
+        "x": 23.4,
+        "y": 37.9,
+        "l": 26.6,
+        "h": 19.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        46
+      ],
+      "cadrage_css": "43% 46%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 1,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.95,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.59,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.08
+        }
+      ],
+      "qualite": {
+        "nettete": 35.7,
+        "bruit": 0.03,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1098 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "immobilier",
+        "blocs": 1,
+        "surface": 2.7,
+        "details": [
+          {
+            "texte": "immobilier",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "4229526725620440",
+      "drapeaux": [
+        "portrait",
+        "petite",
+        "texte décoratif",
+        "calme haut/bas"
+      ]
+    },
+    {
+      "fichier": "clients.jpg",
+      "nom": "clients",
+      "drapeau": "portrait",
+      "largeur": 658,
+      "hauteur": 465,
+      "ratio": "1.42",
+      "ratio_valeur": 1.415,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 12627,
+      "transparence": false,
+      "sujet": {
+        "x": 8,
+        "y": 17,
+        "l": 79.7,
+        "h": 48.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        44
+      ],
+      "cadrage_css": "44% 44%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 1,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.86,
+          "ton": "clair",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "droite",
+          "score": 0.51,
+          "ton": "clair",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "gauche",
+          "score": 0.48,
+          "ton": "clair",
+          "recouvre_sujet": 0.39
+        }
+      ],
+      "qualite": {
+        "nettete": 47.9,
+        "bruit": 0.2,
+        "compression": 1.08,
+        "faible": true,
+        "raisons": [
+          "658 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "S Jean Lain · MOBILITÉS",
+        "blocs": 2,
+        "surface": 14.8,
+        "details": [
+          {
+            "texte": "S Jean Lain",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "MOBILITÉS",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "000960494b441900",
+      "drapeaux": [
+        "portrait",
+        "petite",
+        "texte décoratif",
+        "calme bas/haut"
+      ]
+    },
+    {
+      "fichier": "service-cle-main.jpg",
+      "nom": "service-cle-main",
+      "drapeau": "autre",
+      "largeur": 1500,
+      "hauteur": 2000,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 984781,
+      "transparence": false,
+      "sujet": {
+        "x": 14,
+        "y": 21.6,
+        "l": 74.7,
+        "h": 49.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        51
+      ],
+      "cadrage_css": "46% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.3,
+          "ton": "moyen",
+          "recouvre_sujet": 0.29
+        },
+        {
+          "cote": "bas",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "gauche",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.32
+        },
+        {
+          "cote": "droite",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.35
+        }
+      ],
+      "qualite": {
+        "nettete": 137.2,
+        "bruit": 1.75,
+        "compression": 0.96,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "c062cc98b1858869",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "service-cle-main-2.png",
+      "nom": "service-cle-main-2",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1495,
+      "ratio": "4:3",
+      "ratio_valeur": 1.338,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 8467697,
+      "transparence": true,
+      "sujet": {
+        "x": 32.4,
+        "y": 27.9,
+        "l": 22.1,
+        "h": 22.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        39
+      ],
+      "cadrage_css": "43% 39%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.36,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.34,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "haut",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0.04
+        }
+      ],
+      "qualite": {
+        "nettete": 100.2,
+        "bruit": 2.93,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "8d8ece4f294c9a39",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "service-cle-main-3.png",
+      "nom": "service-cle-main-3",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1482,
+      "ratio": "4:3",
+      "ratio_valeur": 1.35,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 9174541,
+      "transparence": true,
+      "sujet": {
+        "x": 27.9,
+        "y": 11.8,
+        "l": 44.1,
+        "h": 48.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        36
+      ],
+      "cadrage_css": "52% 36%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.36,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "gauche",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "haut",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.29
+        }
+      ],
+      "qualite": {
+        "nettete": 87.4,
+        "bruit": 2.23,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "e1c91de00c6c8c3f",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "eco-paturage.jpg",
+      "nom": "eco-paturage",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 1004236,
+      "transparence": false,
+      "sujet": {
+        "x": 14.3,
+        "y": 31.8,
+        "l": 85.6,
+        "h": 40.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        44
+      ],
+      "cadrage_css": "41% 44%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.38,
+          "ton": "moyen",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "bas",
+          "score": 0.28,
+          "ton": "sombre",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "gauche",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "droite",
+          "score": 0.12,
+          "ton": "moyen",
+          "recouvre_sujet": 0.4
+        }
+      ],
+      "qualite": {
+        "nettete": 100.6,
+        "bruit": 2.1,
+        "compression": 1.05,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "09c6a8eeeead709f",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "service-cle-main-4.jpg",
+      "nom": "service-cle-main-4",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 1040751,
+      "transparence": false,
+      "sujet": {
+        "x": 25,
+        "y": 33.8,
+        "l": 50,
+        "h": 20.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        44
+      ],
+      "cadrage_css": "51% 44%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.74,
+          "ton": "clair",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "bas",
+          "score": 0.36,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.08
+        }
+      ],
+      "qualite": {
+        "nettete": 124.9,
+        "bruit": 1.99,
+        "compression": 1.04,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "0604633cbc438c84",
+      "drapeaux": [
+        "autre",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "eco-paturage-annecy-montagne.jpg",
+      "nom": "eco-paturage-annecy-montagne",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 562,
+      "ratio": "3.56",
+      "ratio_valeur": 3.559,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 479694,
+      "transparence": false,
+      "sujet": {
+        "x": 32.4,
+        "y": 30.9,
+        "l": 39.7,
+        "h": 22.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        42
+      ],
+      "cadrage_css": "54% 42%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.35,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.29,
+          "ton": "clair",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "droite",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.07
+        }
+      ],
+      "qualite": {
+        "nettete": 129.4,
+        "bruit": 2.41,
+        "compression": 1.04,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "67771b8cbcbce28a",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "service-cle-main-5.jpg",
+      "nom": "service-cle-main-5",
+      "drapeau": "autre",
+      "largeur": 960,
+      "hauteur": 720,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 338817,
+      "transparence": false,
+      "sujet": {
+        "x": 41.2,
+        "y": 32.4,
+        "l": 17.6,
+        "h": 19.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        42
+      ],
+      "cadrage_css": "50% 42%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.33,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0.01
+        }
+      ],
+      "qualite": {
+        "nettete": 104.4,
+        "bruit": 3.4,
+        "compression": 1.07,
+        "faible": true,
+        "raisons": [
+          "960 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "a4a40580480eb213",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "quelques-amenagements-realises-chez.png",
+      "nom": "quelques-amenagements-realises-chez",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1099,
+      "ratio": "16:9",
+      "ratio_valeur": 1.82,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 5475923,
+      "transparence": true,
+      "sujet": {
+        "x": 26.5,
+        "y": 29.4,
+        "l": 38.2,
+        "h": 23.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        41
+      ],
+      "cadrage_css": "45% 41%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.53,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.33,
+          "ton": "moyen",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "gauche",
+          "score": 0.23,
+          "ton": "moyen",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "haut",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.06
+        }
+      ],
+      "qualite": {
+        "nettete": 60.8,
+        "bruit": 1.29,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "e47861c11870c201",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "creation-annecy-montagne-jardins.png",
+      "nom": "creation-annecy-montagne-jardins",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1126,
+      "ratio": "16:9",
+      "ratio_valeur": 1.776,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 5706010,
+      "transparence": true,
+      "sujet": {
+        "x": 30.9,
+        "y": 35.3,
+        "l": 45.6,
+        "h": 22.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        47
+      ],
+      "cadrage_css": "51% 47%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.42,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "haut",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.22,
+          "ton": "sombre",
+          "recouvre_sujet": 0.09
+        }
+      ],
+      "qualite": {
+        "nettete": 61.6,
+        "bruit": 1.18,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "ccc870601a03380e",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "quelques-amenagements-realises-chez-2.png",
+      "nom": "quelques-amenagements-realises-chez-2",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1422,
+      "ratio": "1.41",
+      "ratio_valeur": 1.406,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 8363330,
+      "transparence": true,
+      "sujet": {
+        "x": 29.4,
+        "y": 30.9,
+        "l": 30.9,
+        "h": 25,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        43
+      ],
+      "cadrage_css": "45% 43%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.31,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "haut",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0.04
+        }
+      ],
+      "qualite": {
+        "nettete": 70.2,
+        "bruit": 1.71,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "7c9c68446e0e3e73",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "quelques-amenagements-realises-chez-3.jpg",
+      "nom": "quelques-amenagements-realises-chez-3",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1402,
+      "ratio": "1.43",
+      "ratio_valeur": 1.427,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 439714,
+      "transparence": false,
+      "sujet": {
+        "x": 29.4,
+        "y": 23.5,
+        "l": 50,
+        "h": 27.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        37
+      ],
+      "cadrage_css": "54% 37%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.47,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.28,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "gauche",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "droite",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        }
+      ],
+      "qualite": {
+        "nettete": 46.9,
+        "bruit": 1.17,
+        "compression": 1.13,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "c8e9317a3b236040",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "creation.png",
+      "nom": "creation",
+      "drapeau": "autre",
+      "largeur": 1394,
+      "hauteur": 1396,
+      "ratio": "1:1",
+      "ratio_valeur": 0.999,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 3177443,
+      "transparence": true,
+      "sujet": {
+        "x": 32.2,
+        "y": 28.8,
+        "l": 46.6,
+        "h": 40.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        48
+      ],
+      "cadrage_css": "54% 48%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "bas",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "clair",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "droite",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.19
+        }
+      ],
+      "qualite": {
+        "nettete": 21.4,
+        "bruit": 0.5,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "b8b06ca49b1b1606",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "quelques-realisations-entretien.jpg",
+      "nom": "quelques-realisations-entretien",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 873598,
+      "transparence": false,
+      "sujet": {
+        "x": 45.6,
+        "y": 38.2,
+        "l": 17.6,
+        "h": 20.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        48
+      ],
+      "cadrage_css": "54% 48%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "haut",
+          "score": 0.26,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.26,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.23,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 108.3,
+        "bruit": 1.73,
+        "compression": 1.07,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "3b37d276677c646f",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "quelques-realisations-entretien-2.jpg",
+      "nom": "quelques-realisations-entretien-2",
+      "drapeau": "lieu",
+      "largeur": 1125,
+      "hauteur": 2000,
+      "ratio": "9:16",
+      "ratio_valeur": 0.563,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 475678,
+      "transparence": false,
+      "sujet": {
+        "x": 47.6,
+        "y": 36.2,
+        "l": 11.4,
+        "h": 8.4,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        53,
+        40
+      ],
+      "cadrage_css": "53% 40%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.49,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.3,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 94,
+        "bruit": 1.12,
+        "compression": 0.96,
+        "faible": true,
+        "raisons": [
+          "1125 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "6f2461656edeb090",
+      "drapeaux": [
+        "lieu",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "quelques-realisations-entretien-3.jpg",
+      "nom": "quelques-realisations-entretien-3",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1325,
+      "ratio": "3:2",
+      "ratio_valeur": 1.509,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 453624,
+      "transparence": false,
+      "sujet": {
+        "x": 36.8,
+        "y": 29.4,
+        "l": 41.2,
+        "h": 23.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        57,
+        41
+      ],
+      "cadrage_css": "57% 41%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.6,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.44,
+          "ton": "sombre",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "droite",
+          "score": 0.33,
+          "ton": "moyen",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "haut",
+          "score": 0.28,
+          "ton": "sombre",
+          "recouvre_sujet": 0.07
+        }
+      ],
+      "qualite": {
+        "nettete": 28.2,
+        "bruit": 0.73,
+        "compression": 1.29,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "b89347b5b0b4e0a0",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "quelques-realisations-entretien-4.jpg",
+      "nom": "quelques-realisations-entretien-4",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1325,
+      "ratio": "3:2",
+      "ratio_valeur": 1.509,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 360589,
+      "transparence": false,
+      "sujet": {
+        "x": 33.8,
+        "y": 29.4,
+        "l": 30.9,
+        "h": 27.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        43
+      ],
+      "cadrage_css": "49% 43%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.68,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.53,
+          "ton": "moyen",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "droite",
+          "score": 0.47,
+          "ton": "moyen",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "gauche",
+          "score": 0.46,
+          "ton": "moyen",
+          "recouvre_sujet": 0.04
+        }
+      ],
+      "qualite": {
+        "nettete": 21.5,
+        "bruit": 0.7,
+        "compression": 1.3,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "f233693290e0f0fc",
+      "drapeaux": [
+        "lieu",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "entretien-annecy-montagne-jardins.png",
+      "nom": "entretien-annecy-montagne-jardins",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 5142659,
+      "transparence": true,
+      "sujet": {
+        "x": 13.2,
+        "y": 29.4,
+        "l": 52.9,
+        "h": 23.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        39,
+        41
+      ],
+      "cadrage_css": "39% 41%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.6,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "droite",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.08
+        }
+      ],
+      "qualite": {
+        "nettete": 72.6,
+        "bruit": 1.99,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "3469e6160783a98e",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "quelques-realisations-entretien-5.jpg",
+      "nom": "quelques-realisations-entretien-5",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1062,
+      "ratio": "1.88",
+      "ratio_valeur": 1.883,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 328119,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 15.7,
+        "l": 100,
+        "h": 70.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        49
+      ],
+      "cadrage_css": "48% 49%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "haut",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 0.55
+        },
+        {
+          "cote": "droite",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.71
+        },
+        {
+          "cote": "gauche",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.71
+        }
+      ],
+      "qualite": {
+        "nettete": 31.8,
+        "bruit": 0.72,
+        "compression": 1.33,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "Alarm · ® Husqvarna · Chavand · Alarm · ® Husqvarna · auto · Chavand · CODE · Alarm · © Husqvarna · Clavanel",
+        "blocs": 11,
+        "surface": 1.4,
+        "details": [
+          {
+            "texte": "Alarm",
+            "niveau": "marque"
+          },
+          {
+            "texte": "® Husqvarna",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Chavand",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Alarm",
+            "niveau": "marque"
+          },
+          {
+            "texte": "® Husqvarna",
+            "niveau": "marque"
+          },
+          {
+            "texte": "auto",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Chavand",
+            "niveau": "marque"
+          },
+          {
+            "texte": "CODE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Alarm",
+            "niveau": "marque"
+          },
+          {
+            "texte": "© Husqvarna",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Clavanel",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "16494db3a3694949",
+      "drapeaux": [
+        "lieu",
+        "filigrane ou marque"
+      ]
+    },
+    {
+      "fichier": "quelques-realisations-entretien-6.jpg",
+      "nom": "quelques-realisations-entretien-6",
+      "drapeau": "lieu",
+      "largeur": 1564,
+      "hauteur": 1564,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 1980504,
+      "transparence": false,
+      "sujet": {
+        "x": 5.9,
+        "y": 13.2,
+        "l": 69.1,
+        "h": 57.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        43
+      ],
+      "cadrage_css": "41% 43%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "droite",
+          "score": 0.17,
+          "ton": "sombre",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "haut",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.43
+        },
+        {
+          "cote": "gauche",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.49
+        }
+      ],
+      "qualite": {
+        "nettete": 41.6,
+        "bruit": 1.55,
+        "compression": 1.02,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "909083d8c8e4c4f0",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "quelques-realisations-entretien-7.jpg",
+      "nom": "quelques-realisations-entretien-7",
+      "drapeau": "lieu",
+      "largeur": 1564,
+      "hauteur": 1564,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 2205357,
+      "transparence": false,
+      "sujet": {
+        "x": 29.4,
+        "y": 11.8,
+        "l": 63.2,
+        "h": 60.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        61,
+        43
+      ],
+      "cadrage_css": "61% 43%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "gauche",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "haut",
+          "score": 0.12,
+          "ton": "moyen",
+          "recouvre_sujet": 0.42
+        },
+        {
+          "cote": "droite",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.49
+        }
+      ],
+      "qualite": {
+        "nettete": 45.3,
+        "bruit": 1.9,
+        "compression": 1.01,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "f0db0f3778421e18",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "entretien.jpg",
+      "nom": "entretien",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 800,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 313928,
+      "transparence": false,
+      "sujet": {
+        "x": 14.7,
+        "y": 25,
+        "l": 45.6,
+        "h": 22.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        36
+      ],
+      "cadrage_css": "41% 36%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.43,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.19,
+          "ton": "sombre",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "gauche",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.14
+        }
+      ],
+      "qualite": {
+        "nettete": 88.4,
+        "bruit": 2.57,
+        "compression": 1.04,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "bc6ecc6666900103",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "entretien-2.jpg",
+      "nom": "entretien-2",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 795,
+      "ratio": "3:2",
+      "ratio_valeur": 1.509,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 155632,
+      "transparence": false,
+      "sujet": {
+        "x": 38.6,
+        "y": 13,
+        "l": 58.5,
+        "h": 34,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        59,
+        35
+      ],
+      "cadrage_css": "59% 35%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.61,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.39,
+          "ton": "moyen",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "haut",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "droite",
+          "score": 0.22,
+          "ton": "sombre",
+          "recouvre_sujet": 0.32
+        }
+      ],
+      "qualite": {
+        "nettete": 28.8,
+        "bruit": 0.92,
+        "compression": 1.18,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "00906070f0c08080",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "credit-impot.png",
+      "nom": "credit-impot",
+      "drapeau": "autre",
+      "largeur": 1058,
+      "hauteur": 779,
+      "ratio": "4:3",
+      "ratio_valeur": 1.358,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 205285,
+      "transparence": true,
+      "sujet": {
+        "x": 4.4,
+        "y": 1.2,
+        "l": 87.4,
+        "h": 87.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        44
+      ],
+      "cadrage_css": "45% 44%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "bas",
+          "score": 0.11,
+          "ton": "clair",
+          "recouvre_sujet": 0.59
+        },
+        {
+          "cote": "droite",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 0.69
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.78
+        }
+      ],
+      "qualite": {
+        "nettete": 43.7,
+        "bruit": 1.6,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1058 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "seRvices a · La peRsonne",
+        "blocs": 2,
+        "surface": 24.5,
+        "details": [
+          {
+            "texte": "seRvices a",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "La peRsonne",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "99112555416b0302",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "entretien-3.jpg",
+      "nom": "entretien-3",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 675,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 210892,
+      "transparence": false,
+      "sujet": {
+        "x": 49.1,
+        "y": 46.5,
+        "l": 28.3,
+        "h": 33.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        62,
+        57
+      ],
+      "cadrage_css": "62% 57%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.31,
+          "ton": "moyen",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "haut",
+          "score": 0.29,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.14
+        }
+      ],
+      "qualite": {
+        "nettete": 57.1,
+        "bruit": 1.85,
+        "compression": 1.11,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "82a830b5d9db06b4",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    }
+  ]
+}

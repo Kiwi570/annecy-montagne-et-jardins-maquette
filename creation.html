@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Création paysagère : Annecy Montagne et Jardins</title>
+<meta name="description" content="Gazon, clôtures, massifs de vivaces, arbres, arbustes et terrasses, avec des plantes sobres en eau et des matériaux locaux, autour d&#39;Annecy et dans l&#39;Albanais.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://annecy-montagne-et-jardins-maquette.vercel.app/creation">
+<style>:root{--fond:#f4f2ea;--texte:#1b2a20;--voile-fond:#1b2a20;--ouverture-fond:#1b2a20;--menu-fond:#1b2a20}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#f4f2ea">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Annecy Montagne et Jardins">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Création paysagère : Annecy Montagne et Jardins">
+<meta property="og:description" content="Gazon, clôtures, massifs de vivaces, arbres, arbustes et terrasses, avec des plantes sobres en eau et des matériaux locaux, autour d&#39;Annecy et dans l&#39;Albanais.">
+<meta property="og:url" content="https://annecy-montagne-et-jardins-maquette.vercel.app/creation">
+<meta property="og:image" content="https://annecy-montagne-et-jardins-maquette.vercel.app/assets/partage/creation-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Piscine bordée d&#39;un mur en bois et d&#39;un massif planté">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LandscapingBusiness","name":"Annecy Montagne et Jardins","alternateName":"AMJ","url":"https://annecy-montagne-et-jardins-maquette.vercel.app/","telephone":"+33670549324","email":"creations@a-m-j.fr","foundingDate":"2018","address":{"@type":"PostalAddress","streetAddress":"201 route du Robinson","postalCode":"74150","addressLocality":"Vallières-sur-Fier","addressCountry":"FR"},"areaServed":["Albanais","Bassin annécien","Bassin aixois"],"sameAs":["https://www.facebook.com/annecymontagneetjardins","https://www.instagram.com/annecymontagneetjardins/"],"description":"Entretien des espaces verts, création paysagère, élagage et abattage, éco-pâturage, pour les particuliers, les copropriétés, les entreprises et les collectivités."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="vague" aria-hidden="true"><svg class="voile-vague voile-vague--haut" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 120 V92 L120 80 L210 88 L330 54 L380 66 L470 22 L520 40 L560 30 L650 70 L720 62 L820 84 L900 76 L1000 96 L1080 70 L1170 46 L1230 58 L1320 82 L1440 74 V120 Z"/></svg><svg class="voile-vague voile-vague--bas" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 V28 L120 40 L210 32 L330 66 L380 54 L470 98 L520 80 L560 90 L650 50 L720 58 L820 36 L900 44 L1000 24 L1080 50 L1170 74 L1230 62 L1320 38 L1440 46 V0 Z"/></svg><div class="voile-contenu"><img src="/assets/images/logo-clair-240.webp" alt="" width="240" height="114"><span data-voile-libelle>Création</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <svg class="ouverture-crete" viewBox="0 0 400 90" aria-hidden="true"><path class="crete-ligne" pathLength="1" d="M4 80 L52 66 L84 72 L128 40 L146 50 L182 12 L204 30 L222 22 L262 58 L292 50 L336 74 L396 68" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path class="crete-hachures" d="M182 14 L172 36 M192 24 L183 44 M201 32 L193 50 M146 52 L138 66 M226 26 L218 44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+  <img class="ouverture-logo" src="/assets/images/logo-clair-240.webp" alt="" width="240" height="114" data-ouverture-objet>
+  <p class="ouverture-ligne">Paysagiste dans l&#39;Albanais</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="Annecy Montagne et Jardins : Accueil" data-libelle="Accueil">
+      <img src="/assets/images/logo-240.webp" alt="Annecy Montagne et Jardins" width="240" height="114">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/entretien" data-libelle="Entretien">Entretien</a></li><li><a href="/creation" data-libelle="Création" aria-current="page">Création</a></li><li><a href="/eco-paturage" data-libelle="Éco-pâturage">Éco-pâturage</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#devis" data-libelle="Contact">Demander un devis</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/entretien" class="menu-lien" data-libelle="Entretien">Entretien</a></li><li style="--i:2"><a href="/creation" class="menu-lien" data-libelle="Création" aria-current="page">Création</a></li><li style="--i:3"><a href="/eco-paturage" class="menu-lien" data-libelle="Éco-pâturage">Éco-pâturage</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33670549324">Appeler 06 70 54 93 24</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouverture-croquis" id="debut">
+  <div class="conteneur ouverture-croquis-grille">
+    <div class="ouverture-texte">
+      <p class="surtitre"><svg viewBox="0 0 40 14" aria-hidden="true"><path d="M1 12 L9 7 L13 9 L20 2 L26 8 L30 6 L39 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>Création paysagère</p>
+      <h1 data-anime="lignes">Du croquis <em>au jardin.</em></h1>
+      <p class="masque-ecran-tres-bas masque-petit" data-anime>Votre partenaire local de confiance pour l&#39;aménagement de votre lieu de vie : particuliers, entreprises et collectivités, autour d&#39;Annecy et dans l&#39;Albanais, dans le respect de l&#39;existant.</p>
+      <p class="actions" data-anime><a href="/contact?sujet=creation#devis" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Parler de votre projet</a></p>
+      <p class="info-cle" data-info-cle>Matériaux locaux, paillages sans plastique</p>
+    </div>
+    <div class="croquis-scene" data-effet="croquis" data-superpose>
+      <figure class="media croquis-photo" style="--cadrage:51% 47%;--apercu:url(data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAQBACdASoUAAsAPtFUo0uoJKMhsAgBABoJbACdL1yBhABWiW5taXq0AAD7pMHWJVzzQdfFKbY9M7Zaj858Ee30LwqP/m3KykmfxFywb5lzzGHQWx6Q+zTT2NnscOBscKp2Zde9lVV+rKWVWe8SJTw3R0A8A8UPtNEAAA==);--apercu-mobile:url(data:image/webp;base64,UklGRv4AAABXRUJQVlA4IPIAAADQBgCdASoUACQAPtFYo0yoJSMiKqwBABoJaAC/aoR4Lf/gJYX+0nIzYTAkWgzCZVf07Qis0p8BmYeaFQVPCwAAyfcy6ryhGJrRHyiZHGqojMy+F6Qfm7ZZnSucbnKs4MWlV7ojpJMmGNCslSWeDmU4nstOvHTjr8F0te3LvD9GWPHcjfGTX9TWhme4xJjK5e7CS6by2vZkye707UskOIH1w2SsASm0MdkaKS/zSC/8G6RNIFl/bGsN8sXlXDcYUlcfj0+inCDGayjlYsyb0o2JIppsFi3bpJOQBEZ/EqmWfU/JJ8spmBiL5s/1PMwxHAAAAA==)">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/creation-piscine-mobile-640.webp 640w" sizes="(max-width: 760px) 100vw, 55vw">
+    <img src="/assets/images/creation-piscine-1280.webp" srcset="/assets/images/creation-piscine-640.webp 640w, /assets/images/creation-piscine-1280.webp 1280w, /assets/images/creation-piscine-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 55vw" alt="Piscine bordée d’un mur en bois et d’un massif de palmiers et de graminées" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+      <div class="croquis-feuille" data-croquis-feuille data-iris-centre>
+        <figure class="media croquis-media" style="--cadrage:54% 37%;--apercu:url(data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwAwCdASoUAA0APtFUo0uoJKMhsAgBABoJaQAAW/Gpe0m7fB0UAAD+6DzkXC+mlYjNx5UbJs+HLYxnVRnhAjmMWCzlaPbvEaHl3wykShVGCG9T7bmDpiHxUkKAAA==)">
+  <picture>
+    <img src="/assets/images/creation-croquis-960.webp" srcset="/assets/images/creation-croquis-480.webp 480w, /assets/images/creation-croquis-640.webp 640w, /assets/images/creation-croquis-960.webp 960w" sizes="(max-width: 760px) 70vw, 30vw" alt="Croquis à l&#39;encre d&#39;un projet : terrasse, piscine et alignement de cyprès" width="960" height="640" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section prestations" id="prestations">
+  <div class="conteneur prestations-grille">
+    <div class="prestations-tete">
+      <div class="tete ">
+  <p class="surtitre"><svg viewBox="0 0 40 14" aria-hidden="true"><path d="M1 12 L9 7 L13 9 L20 2 L26 8 L30 6 L39 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>Nos prestations</p>
+  <h2 data-anime="lignes">Cinq savoir-faire pour <em>votre extérieur.</em></h2>
+</div>
+    </div>
+    <ol class="prestations-liste" data-anime="cascade">
+      <li class="prestation" data-fx="vitesse" data-fx-force="1.5">
+        <span class="prestation-num">01</span>
+        <h3>Semis de gazon</h3>
+        <figure class="media prestation-media" style="--cadrage:45% 60%">
+  <picture>
+    <img src="/assets/images/real-escalier-traverses-960.webp" srcset="/assets/images/real-escalier-traverses-480.webp 480w, /assets/images/real-escalier-traverses-640.webp 640w, /assets/images/real-escalier-traverses-960.webp 960w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="960" height="1280" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      </li><li class="prestation" data-fx="vitesse" data-fx-force="1.5">
+        <span class="prestation-num">02</span>
+        <h3>Clôtures</h3>
+        <figure class="media prestation-media" style="--cadrage:45% 40%">
+  <picture>
+    <img src="/assets/images/metier-creation-784.webp" srcset="/assets/images/metier-creation-480.webp 480w, /assets/images/metier-creation-640.webp 640w, /assets/images/metier-creation-784.webp 784w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="784" height="1176" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      </li><li class="prestation" data-fx="vitesse" data-fx-force="1.5">
+        <span class="prestation-num">03</span>
+        <h3>Massifs de vivaces</h3>
+        <figure class="media prestation-media" style="--cadrage:45% 45%">
+  <picture>
+    <img src="/assets/images/real-massif-960.webp" srcset="/assets/images/real-massif-480.webp 480w, /assets/images/real-massif-640.webp 640w, /assets/images/real-massif-960.webp 960w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="960" height="1280" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      </li><li class="prestation" data-fx="vitesse" data-fx-force="1.5">
+        <span class="prestation-num">04</span>
+        <h3>Plantation d&#39;arbres et d&#39;arbustes</h3>
+        <figure class="media prestation-media" style="--cadrage:42% 50%">
+  <picture>
+    <img src="/assets/images/metier-entretien-784.webp" srcset="/assets/images/metier-entretien-480.webp 480w, /assets/images/metier-entretien-640.webp 640w, /assets/images/metier-entretien-784.webp 784w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="784" height="1176" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      </li><li class="prestation" data-fx="vitesse" data-fx-force="1.5">
+        <span class="prestation-num">05</span>
+        <h3>Terrasses</h3>
+        <figure class="media prestation-media" style="--cadrage:54% 48%">
+  <picture>
+    <img src="/assets/images/real-bacs-960.webp" srcset="/assets/images/real-bacs-480.webp 480w, /assets/images/real-bacs-640.webp 640w, /assets/images/real-bacs-960.webp 960w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="960" height="1280" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      </li>
+    </ol>
+  </div>
+</section>
+<section class="section matieres matieres--page" id="matieres">
+  <div class="conteneur">
+    <div class="tete-ligne">
+      <div class="tete ">
+  <p class="surtitre"><svg viewBox="0 0 40 14" aria-hidden="true"><path d="M1 12 L9 7 L13 9 L20 2 L26 8 L30 6 L39 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>Démarche durable</p>
+  <h2 data-anime="lignes">Des matières <em>d'ici.</em></h2>
+</div>
+      <p class="tete-texte" data-anime>Nous choisissons des plantes peu gourmandes en eau ou adaptées aux étés secs que connaît désormais la région, des toiles de paillage sans plastique, du bois de forêts locales gérées durablement et de la pierre régionale, en privilégiant les petits producteurs et fournisseurs locaux.</p>
+    </div>
+    <ul class="echantillons echantillons--ligne" data-anime="cascade">
+      <li class="echantillon" data-fx="vitesse" data-fx-force="2">
+        <figure class="media echantillon-media" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/matiere-paillage-784.webp" srcset="/assets/images/grok/matiere-paillage-480.webp 480w, /assets/images/grok/matiere-paillage-640.webp 640w, /assets/images/grok/matiere-paillage-784.webp 784w" sizes="(max-width: 760px) 45vw, 22vw" alt="Paillages sans plastique" width="784" height="980" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+        <h3>Paillages sans plastique</h3>
+        <p>Chanvre, jute, coco ou poils : des toiles de paillage naturelles.</p>
+      </li><li class="echantillon" data-fx="vitesse" data-fx-force="2">
+        <figure class="media echantillon-media" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/matiere-bois-784.webp" srcset="/assets/images/grok/matiere-bois-480.webp 480w, /assets/images/grok/matiere-bois-640.webp 640w, /assets/images/grok/matiere-bois-784.webp 784w" sizes="(max-width: 760px) 45vw, 22vw" alt="Bois local" width="784" height="980" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+        <h3>Bois local</h3>
+        <p>Du bois issu de forêts locales gérées durablement.</p>
+      </li><li class="echantillon" data-fx="vitesse" data-fx-force="2">
+        <figure class="media echantillon-media" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/matiere-pierre-784.webp" srcset="/assets/images/grok/matiere-pierre-480.webp 480w, /assets/images/grok/matiere-pierre-640.webp 640w, /assets/images/grok/matiere-pierre-784.webp 784w" sizes="(max-width: 760px) 45vw, 22vw" alt="Pierre régionale" width="784" height="980" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+        <h3>Pierre régionale</h3>
+        <p>De la pierre de la région, chez de petits fournisseurs.</p>
+      </li><li class="echantillon" data-fx="vitesse" data-fx-force="2">
+        <figure class="media echantillon-media" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/matiere-vegetal-784.webp" srcset="/assets/images/grok/matiere-vegetal-480.webp 480w, /assets/images/grok/matiere-vegetal-640.webp 640w, /assets/images/grok/matiere-vegetal-784.webp 784w" sizes="(max-width: 760px) 45vw, 22vw" alt="Plantes sobres" width="784" height="980" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+        <h3>Plantes sobres</h3>
+        <p>Peu gourmandes en eau ou adaptées aux étés secs.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+<section class="section mosaique-section" id="realisations">
+  <div class="conteneur">
+    <div class="tete ">
+  <p class="surtitre"><svg viewBox="0 0 40 14" aria-hidden="true"><path d="M1 12 L9 7 L13 9 L20 2 L26 8 L30 6 L39 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>Réalisations</p>
+  <h2 data-anime="lignes">Quelques aménagements <em>chez nos clients.</em></h2>
+</div>
+    <ul class="mosaique" data-anime="cascade">
+      <li><figure class="media mosaique-media" data-fx="parallaxe" data-fx-force="6" style="--cadrage:56% 52%">
+  <picture>
+    <img src="/assets/images/real-escalier-dalles-960.webp" srcset="/assets/images/real-escalier-dalles-480.webp 480w, /assets/images/real-escalier-dalles-640.webp 640w, /assets/images/real-escalier-dalles-960.webp 960w" sizes="(max-width: 760px) 90vw, 30vw" alt="Escalier en dalles de pierre et massif paillé en arc de cercle" width="960" height="1280" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li><figure class="media mosaique-media" data-fx="parallaxe" data-fx-force="6" style="--cadrage:56% 43%">
+  <picture>
+    <img src="/assets/images/real-terrasse-800.webp" srcset="/assets/images/real-terrasse-480.webp 480w, /assets/images/real-terrasse-640.webp 640w, /assets/images/real-terrasse-800.webp 800w" sizes="(max-width: 760px) 90vw, 30vw" alt="Terrasse en toit avec bacs en bois plantés de graminées et de lavande" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li><figure class="media mosaique-media" data-fx="parallaxe" data-fx-force="6" style="--cadrage:47% 45%">
+  <picture>
+    <img src="/assets/images/real-bassin-800.webp" srcset="/assets/images/real-bassin-480.webp 480w, /assets/images/real-bassin-640.webp 640w, /assets/images/real-bassin-800.webp 800w" sizes="(max-width: 760px) 90vw, 30vw" alt="Bassin carré en acier corten entouré de graminées" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li><figure class="media mosaique-media" data-fx="parallaxe" data-fx-force="6" style="--cadrage:45% 45%">
+  <picture>
+    <img src="/assets/images/real-graminees-960.webp" srcset="/assets/images/real-graminees-480.webp 480w, /assets/images/real-graminees-640.webp 640w, /assets/images/real-graminees-960.webp 960w" sizes="(max-width: 760px) 90vw, 30vw" alt="Massif de graminées et bordure en bois le long d’une allée" width="960" height="1279" loading="lazy" decoding="async">
+  </picture>
+</figure></li>
+    </ul>
+  </div>
+</section>
+<section class="section pourqui-creation" id="pour-qui">
+  <div class="conteneur pourqui-creation-grille">
+    <figure class="media pourqui-photo" data-anime="rideau" style="--cadrage:60% 70%">
+  <picture>
+    <img src="/assets/images/real-equipement-960.webp" srcset="/assets/images/real-equipement-480.webp 480w, /assets/images/real-equipement-640.webp 640w, /assets/images/real-equipement-960.webp 960w" sizes="(max-width: 760px) 100vw, 45vw" alt="Plantation d’arbres protégée par une ganivelle devant un bâtiment rose et bois" width="960" height="1280" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div>
+      <div class="tete ">
+  <p class="surtitre"><svg viewBox="0 0 40 14" aria-hidden="true"><path d="M1 12 L9 7 L13 9 L20 2 L26 8 L30 6 L39 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>Pour qui</p>
+  <h2 data-anime="lignes">Pour les particuliers, les entreprises <em>et les collectivités.</em></h2>
+</div>
+      <p data-anime>Jardin privé, abords d&#39;entreprise ou espace public : chaque aménagement est conçu sur mesure, en respectant l&#39;environnement existant.</p>
+      <ul class="profils" data-anime="cascade"><li>Particuliers</li><li>Entreprises</li><li>Collectivités</li></ul>
+    </div>
+  </div>
+</section>
+<section class="section section--sapin fin" id="fin">
+  <svg class="fin-crete" viewBox="0 0 1440 90" preserveAspectRatio="none" data-fx="trace" data-visuel aria-hidden="true"><path d="M0 70 L90 60 L160 66 L260 40 L300 48 L380 14 L420 30 L450 22 L540 56 L600 50 L700 70 L780 62 L880 76 L960 56 L1040 34 L1100 44 L1190 66 L1280 58 L1360 68 L1440 62" fill="none" stroke="currentColor" stroke-width="2.5" vector-effect="non-scaling-stroke" stroke-linejoin="round" stroke-linecap="round"/></svg>
+  <div class="conteneur fin-grille">
+    <h2 data-anime="lignes">Parlons de <em>votre jardin.</em></h2>
+    <div>
+      <p data-anime>Entretien régulier, nouveau projet, arbre à soigner ou prairie à faire pâturer : décrivez-nous votre besoin, nous revenons vers vous.</p>
+      <p class="actions" data-anime>
+        <a href="/contact?sujet=creation#devis" class="bouton" data-libelle="Contact" data-survol="magnetique">Demander un devis</a>
+        <a class="bouton bouton--clair" href="tel:+33670549324" data-survol="magnetique">06 70 54 93 24</a>
+      </p>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <svg class="pied-crete" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true" data-fx="trace"><path d="M0 70 L90 60 L160 66 L260 40 L300 48 L380 14 L420 30 L450 22 L540 56 L600 50 L700 70 L780 62 L880 76 L960 56 L1040 34 L1100 44 L1190 66 L1280 58 L1360 68 L1440 62" fill="none" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round"/></svg>
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-clair-240.webp" alt="Annecy Montagne et Jardins" width="240" height="114" loading="lazy">
+      <p>Entretien, création, élagage et éco-pâturage dans l&#39;Albanais et les bassins annécien et aixois.</p>
+    </div>
+    <div>
+      <p class="pied-titre">Contact</p>
+      <p>201 route du Robinson, 74150 Vallières-sur-Fier<br><a href="tel:+33670549324">06 70 54 93 24</a><br><a href="mailto:creations@a-m-j.fr">creations@a-m-j.fr</a></p>
+    </div>
+    <nav aria-label="Plan du site">
+      <p class="pied-titre">Plan du site</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/entretien" data-libelle="Entretien">Entretien</a></li><li><a href="/creation" data-libelle="Création" aria-current="page">Création</a></li><li><a href="/eco-paturage" data-libelle="Éco-pâturage">Éco-pâturage</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Nous suivre</p>
+      <ul>
+        <li><a href="https://www.facebook.com/annecymontagneetjardins" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://www.instagram.com/annecymontagneetjardins/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales · Politique de confidentialité : à compléter</p><p>Maquette de démonstration : les formulaires sont simulés, rien n&#39;est envoyé.</p><p>© Annecy Montagne et Jardins</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33670549324">Appeler</a>
+  <a class="bouton" href="/contact#devis" data-libelle="Contact">Demander un devis</a>
+</div>
+</body>
+</html>

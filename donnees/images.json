@@ -1,0 +1,2711 @@
+{
+  "logo": {
+    "nom": "logo",
+    "source": "recu/logo-detoure.png",
+    "role": "logo",
+    "alt": "Annecy Montagne et Jardins",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "dc7a295a509a136c",
+    "ratio": null,
+    "largeurs": [
+      240
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-240.webp"
+    ],
+    "poids": {
+      "logo-240.webp": 9322
+    },
+    "media": "c.media({ nom: 'logo', alt: \"Annecy Montagne et Jardins\", sizes: '240px' })"
+  },
+  "logo-clair": {
+    "nom": "logo-clair",
+    "source": "recu/logo-clair.png",
+    "role": "logo",
+    "alt": "Annecy Montagne et Jardins",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "a711b96444134873",
+    "ratio": null,
+    "largeurs": [
+      240
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-clair-240.webp"
+    ],
+    "poids": {
+      "logo-clair-240.webp": 9282
+    },
+    "media": "c.media({ nom: 'logo-clair', alt: \"Annecy Montagne et Jardins\", sizes: '240px' })"
+  },
+  "accueil-ouverture": {
+    "nom": "accueil-ouverture",
+    "source": "recu/quelques-realisations-entretien-4.jpg",
+    "role": "ouverture",
+    "alt": "Pelouse tondue au pied de la montagne, le lac en contrebas",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "e8cca6ceedceee83",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 43%"
+    },
+    "cadrage": "49% 36%",
+    "sujet": {
+      "x": 33.8,
+      "y": 20,
+      "l": 30.9,
+      "h": 32.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.68,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.53,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.47,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.46,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "bas",
+    "recadrage": {
+      "left": 0,
+      "top": 165,
+      "width": 2000,
+      "height": 1125,
+      "source": [
+        2000,
+        1325
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "accueil-ouverture-640.webp",
+      "accueil-ouverture-1280.webp",
+      "accueil-ouverture-1920.webp",
+      "accueil-ouverture-mobile-640.webp",
+      "accueil-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "accueil-ouverture-640.webp": 30458,
+      "accueil-ouverture-1280.webp": 87940,
+      "accueil-ouverture-1920.webp": 151250,
+      "accueil-ouverture-mobile-640.webp": 51952,
+      "accueil-ouverture-mobile-1080.webp": 98514
+    },
+    "media": "c.media({ nom: 'accueil-ouverture', alt: \"Pelouse tondue au pied de la montagne, le lac en contrebas\", cadrage: '49% 36%', cadrageMobile: '50% 43%', sizes: '100vw', priorite: true })"
+  },
+  "metier-entretien": {
+    "nom": "metier-entretien",
+    "source": "recu/realisations-annecy-montagne-jardins.png",
+    "role": "carte-service",
+    "alt": "Pelouse entretenue, arbustes en fleurs et allée bordée, montagnes au fond",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "ac974ae120bcfe5a",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "50% 44%",
+    "sujet": {
+      "x": 11.3,
+      "y": 32.4,
+      "l": 77,
+      "h": 23.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.33,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.25,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.22,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.17,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 401,
+      "top": 0,
+      "width": 878,
+      "height": 1317,
+      "source": [
+        2000,
+        1317
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "recadrage fort : 44 % de l'image gardée"
+    ],
+    "fichiers": [
+      "metier-entretien-480.webp",
+      "metier-entretien-640.webp",
+      "metier-entretien-784.webp"
+    ],
+    "poids": {
+      "metier-entretien-480.webp": 107582,
+      "metier-entretien-640.webp": 179494,
+      "metier-entretien-784.webp": 245328
+    },
+    "media": "c.media({ nom: 'metier-entretien', alt: \"Pelouse entretenue, arbustes en fleurs et allée bordée, montagnes au fond\", cadrage: '50% 44%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "metier-creation": {
+    "nom": "metier-creation",
+    "source": "recu/realisations-4.png",
+    "role": "carte-service",
+    "alt": "Mur de soutènement en bois, canisse et palmiers autour d'une piscine",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "d5d3f3881e2647d9",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "50% 51%",
+    "sujet": {
+      "x": 18.1,
+      "y": 33.8,
+      "l": 65.3,
+      "h": 33.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.48,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.38,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.27,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.27,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 557,
+      "top": 0,
+      "width": 947,
+      "height": 1420,
+      "source": [
+        1908,
+        1420
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "metier-creation-480.webp",
+      "metier-creation-640.webp",
+      "metier-creation-784.webp"
+    ],
+    "poids": {
+      "metier-creation-480.webp": 44648,
+      "metier-creation-640.webp": 61660,
+      "metier-creation-784.webp": 78184
+    },
+    "media": "c.media({ nom: 'metier-creation', alt: \"Mur de soutènement en bois, canisse et palmiers autour d'une piscine\", cadrage: '50% 51%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "metier-elagage": {
+    "nom": "metier-elagage",
+    "source": "recu/quelques-realisations-entretien.jpg",
+    "role": "carte-service",
+    "alt": "Élagueur encordé dans la couronne d'un chêne, ciel bleu",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "23cbf99e2796aed7",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "50% 42%",
+    "sujet": {
+      "x": 17.2,
+      "y": 38.2,
+      "l": 35.2,
+      "h": 20.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.28,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.26,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.26,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.23,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 740,
+      "top": 0,
+      "width": 1000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "metier-elagage-480.webp",
+      "metier-elagage-640.webp",
+      "metier-elagage-784.webp"
+    ],
+    "poids": {
+      "metier-elagage-480.webp": 94274,
+      "metier-elagage-640.webp": 147074,
+      "metier-elagage-784.webp": 198834
+    },
+    "media": "c.media({ nom: 'metier-elagage', alt: \"Élagueur encordé dans la couronne d'un chêne, ciel bleu\", cadrage: '50% 42%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "metier-eco": {
+    "nom": "metier-eco",
+    "source": "recu/service-cle-main.jpg",
+    "role": "carte-service",
+    "alt": "Deux agneaux à laine longue qui broutent l'herbe",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "3dce94dd38f66c1e",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "50% 51%",
+    "sujet": {
+      "x": 14,
+      "y": 21.6,
+      "l": 84.1,
+      "h": 49.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.3,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.14,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 24,
+      "top": 0,
+      "width": 1333,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "metier-eco-480.webp",
+      "metier-eco-640.webp",
+      "metier-eco-784.webp"
+    ],
+    "poids": {
+      "metier-eco-480.webp": 101266,
+      "metier-eco-640.webp": 174992,
+      "metier-eco-784.webp": 253648
+    },
+    "media": "c.media({ nom: 'metier-eco', alt: \"Deux agneaux à laine longue qui broutent l'herbe\", cadrage: '50% 51%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "eco-troupeau": {
+    "nom": "eco-troupeau",
+    "source": "recu/service-cle-main-4.jpg",
+    "role": "section-fond",
+    "alt": "Troupeau de moutons blancs, bruns et noirs dans une prairie au soleil du matin",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "dbb2c2e0b9f1f1d4",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 44%"
+    },
+    "cadrage": "51% 50%",
+    "sujet": {
+      "x": 25,
+      "y": 38,
+      "l": 50,
+      "h": 23.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.74,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.36,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "haut",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "eco-troupeau-640.webp",
+      "eco-troupeau-1280.webp",
+      "eco-troupeau-1920.webp",
+      "eco-troupeau-mobile-640.webp",
+      "eco-troupeau-mobile-1080.webp"
+    ],
+    "poids": {
+      "eco-troupeau-640.webp": 68212,
+      "eco-troupeau-1280.webp": 286900,
+      "eco-troupeau-1920.webp": 442004,
+      "eco-troupeau-mobile-640.webp": 145300,
+      "eco-troupeau-mobile-1080.webp": 296094
+    },
+    "media": "c.media({ nom: 'eco-troupeau', alt: \"Troupeau de moutons blancs, bruns et noirs dans une prairie au soleil du matin\", cadrage: '51% 50%', cadrageMobile: '50% 44%', sizes: '100vw' })"
+  },
+  "eco-ouverture": {
+    "nom": "eco-ouverture",
+    "source": "recu/eco-paturage.jpg",
+    "role": "ouverture",
+    "alt": "Deux moutons à laine longue dans l'herbe haute, la montagne derrière",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "3223b5276ba92438",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "43% 51%"
+    },
+    "cadrage": "41% 36%",
+    "sujet": {
+      "x": 14.3,
+      "y": 19.7,
+      "l": 85.6,
+      "h": 53.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.38,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.28,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.12,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "bas",
+    "recadrage": {
+      "left": 0,
+      "top": 255,
+      "width": 2000,
+      "height": 1125,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "eco-ouverture-640.webp",
+      "eco-ouverture-1280.webp",
+      "eco-ouverture-1920.webp",
+      "eco-ouverture-mobile-640.webp",
+      "eco-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "eco-ouverture-640.webp": 78218,
+      "eco-ouverture-1280.webp": 289880,
+      "eco-ouverture-1920.webp": 374782,
+      "eco-ouverture-mobile-640.webp": 195924,
+      "eco-ouverture-mobile-1080.webp": 325480
+    },
+    "media": "c.media({ nom: 'eco-ouverture', alt: \"Deux moutons à laine longue dans l'herbe haute, la montagne derrière\", cadrage: '41% 36%', cadrageMobile: '43% 51%', sizes: '100vw', priorite: true })"
+  },
+  "eco-arbre": {
+    "nom": "eco-arbre",
+    "source": "recu/service-cle-main-2.png",
+    "role": "galerie",
+    "alt": "Moutons à l'ombre d'un arbre dans une prairie fleurie de pissenlits",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "5d71959f3431fec7",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 39%",
+    "sujet": {
+      "x": 31,
+      "y": 27.9,
+      "l": 39.4,
+      "h": 22.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.36,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.34,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.24,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 300,
+      "top": 0,
+      "width": 1121,
+      "height": 1495,
+      "source": [
+        2000,
+        1495
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "eco-arbre-480.webp",
+      "eco-arbre-640.webp",
+      "eco-arbre-960.webp"
+    ],
+    "poids": {
+      "eco-arbre-480.webp": 121920,
+      "eco-arbre-640.webp": 217168,
+      "eco-arbre-960.webp": 320862
+    },
+    "media": "c.media({ nom: 'eco-arbre', alt: \"Moutons à l'ombre d'un arbre dans une prairie fleurie de pissenlits\", cadrage: '50% 39%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "eco-residence": {
+    "nom": "eco-residence",
+    "source": "recu/service-cle-main-3.png",
+    "role": "galerie",
+    "alt": "Prairie pâturée au bord d'une résidence",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "d7d904af4ec41f93",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 36%",
+    "sujet": {
+      "x": 6.7,
+      "y": 11.8,
+      "l": 79.3,
+      "h": 48.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.36,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.28,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.16,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 484,
+      "top": 0,
+      "width": 1112,
+      "height": 1482,
+      "source": [
+        2000,
+        1482
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "eco-residence-480.webp",
+      "eco-residence-640.webp",
+      "eco-residence-960.webp"
+    ],
+    "poids": {
+      "eco-residence-480.webp": 105956,
+      "eco-residence-640.webp": 177636,
+      "eco-residence-960.webp": 285890
+    },
+    "media": "c.media({ nom: 'eco-residence', alt: \"Prairie pâturée au bord d'une résidence\", cadrage: '50% 36%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "eco-panorama": {
+    "nom": "eco-panorama",
+    "source": "recu/eco-paturage-annecy-montagne.jpg",
+    "role": "galerie",
+    "alt": "Troupeau qui pâture une grande prairie, arbres en fleurs au fond",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "f9fa80a14d5bdb61",
+    "ratio": "21:9",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 42%",
+    "sujet": {
+      "x": 17,
+      "y": 30.9,
+      "l": 60.6,
+      "h": 22.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.35,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.29,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 425,
+      "top": 0,
+      "width": 1311,
+      "height": 562,
+      "source": [
+        2000,
+        562
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "eco-panorama-480.webp",
+      "eco-panorama-640.webp",
+      "eco-panorama-960.webp"
+    ],
+    "poids": {
+      "eco-panorama-480.webp": 33270,
+      "eco-panorama-640.webp": 62030,
+      "eco-panorama-960.webp": 142398
+    },
+    "media": "c.media({ nom: 'eco-panorama', alt: \"Troupeau qui pâture une grande prairie, arbres en fleurs au fond\", cadrage: '50% 42%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '21 / 9' })"
+  },
+  "eco-pre": {
+    "nom": "eco-pre",
+    "source": "recu/service-cle-main-5.jpg",
+    "role": "galerie",
+    "alt": "Moutons dans un pré fleuri au pied d'un bâtiment",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "1dd8fca3dd37ec21",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 42%",
+    "sujet": {
+      "x": 34.4,
+      "y": 32.4,
+      "l": 31.3,
+      "h": 19.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.33,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.28,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.24,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 210,
+      "top": 0,
+      "width": 540,
+      "height": 720,
+      "source": [
+        960,
+        720
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 960",
+      "960 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,19 fois (source de 540 px après recadrage)"
+    ],
+    "fichiers": [
+      "eco-pre-480.webp",
+      "eco-pre-640.webp"
+    ],
+    "poids": {
+      "eco-pre-480.webp": 133840,
+      "eco-pre-640.webp": 198298
+    },
+    "media": "c.media({ nom: 'eco-pre', alt: \"Moutons dans un pré fleuri au pied d'un bâtiment\", cadrage: '50% 42%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "real-escalier-traverses": {
+    "nom": "real-escalier-traverses",
+    "source": "recu/realisations-2.png",
+    "role": "galerie",
+    "alt": "Escalier en traverses de bois dans un talus, vue sur la vallée",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "2882d5efa18f27fa",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 43%",
+    "sujet": {
+      "x": 0,
+      "y": 25,
+      "l": 100,
+      "h": 33.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.47,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.26,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.22,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.18,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 617,
+      "top": 0,
+      "width": 847,
+      "height": 1129,
+      "source": [
+        2000,
+        1129
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,13 fois (source de 847 px après recadrage)",
+      "recadrage fort : 42 % de l'image gardée"
+    ],
+    "fichiers": [
+      "real-escalier-traverses-480.webp",
+      "real-escalier-traverses-640.webp",
+      "real-escalier-traverses-960.webp"
+    ],
+    "poids": {
+      "real-escalier-traverses-480.webp": 74542,
+      "real-escalier-traverses-640.webp": 118946,
+      "real-escalier-traverses-960.webp": 191604
+    },
+    "media": "c.media({ nom: 'real-escalier-traverses', alt: \"Escalier en traverses de bois dans un talus, vue sur la vallée\", cadrage: '50% 43%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "real-escalier-dalles": {
+    "nom": "real-escalier-dalles",
+    "source": "recu/realisations-3.png",
+    "role": "galerie",
+    "alt": "Escalier en dalles de pierre et massif paillé en arc de cercle",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "f7fa0fb829d428dd",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 42.9,
+      "l": 100,
+      "h": 36.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.45,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.35,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.27,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.22,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 678,
+      "top": 0,
+      "width": 885,
+      "height": 1180,
+      "source": [
+        2000,
+        1180
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,08 fois (source de 885 px après recadrage)",
+      "recadrage fort : 44 % de l'image gardée"
+    ],
+    "fichiers": [
+      "real-escalier-dalles-480.webp",
+      "real-escalier-dalles-640.webp",
+      "real-escalier-dalles-960.webp"
+    ],
+    "poids": {
+      "real-escalier-dalles-480.webp": 61892,
+      "real-escalier-dalles-640.webp": 97958,
+      "real-escalier-dalles-960.webp": 152568
+    },
+    "media": "c.media({ nom: 'real-escalier-dalles', alt: \"Escalier en dalles de pierre et massif paillé en arc de cercle\", cadrage: '50% 52%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "creation-piscine": {
+    "nom": "creation-piscine",
+    "source": "recu/creation-annecy-montagne-jardins.png",
+    "role": "ouverture",
+    "alt": "Piscine bordée d'un mur en bois et d'un massif de palmiers et de graminées",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "2c1778ab7484d7d5",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 47%"
+    },
+    "cadrage": "51% 47%",
+    "sujet": {
+      "x": 30.9,
+      "y": 35.3,
+      "l": 45.6,
+      "h": 22.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.42,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.22,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1125,
+      "source": [
+        2000,
+        1126
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)"
+    ],
+    "fichiers": [
+      "creation-piscine-640.webp",
+      "creation-piscine-1280.webp",
+      "creation-piscine-1920.webp",
+      "creation-piscine-mobile-640.webp"
+    ],
+    "poids": {
+      "creation-piscine-640.webp": 57448,
+      "creation-piscine-1280.webp": 186312,
+      "creation-piscine-1920.webp": 259920,
+      "creation-piscine-mobile-640.webp": 105056
+    },
+    "media": "c.media({ nom: 'creation-piscine', alt: \"Piscine bordée d'un mur en bois et d'un massif de palmiers et de graminées\", cadrage: '51% 47%', cadrageMobile: '50% 47%', sizes: '100vw', priorite: true })"
+  },
+  "creation-croquis": {
+    "nom": "creation-croquis",
+    "source": "recu/quelques-amenagements-realises-chez-3.jpg",
+    "role": "galerie",
+    "alt": "Croquis à l'encre d'un projet : terrasse, piscine et alignement de cyprès",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "3c61785581056db5",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "54% 39%",
+    "sujet": {
+      "x": 29.4,
+      "y": 24.7,
+      "l": 50,
+      "h": 29.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.47,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.28,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.21,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1402
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "creation-croquis-480.webp",
+      "creation-croquis-640.webp",
+      "creation-croquis-960.webp"
+    ],
+    "poids": {
+      "creation-croquis-480.webp": 23814,
+      "creation-croquis-640.webp": 40536,
+      "creation-croquis-960.webp": 82432
+    },
+    "media": "c.media({ nom: 'creation-croquis', alt: \"Croquis à l'encre d'un projet : terrasse, piscine et alignement de cyprès\", cadrage: '54% 39%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "real-graminees": {
+    "nom": "real-graminees",
+    "source": "recu/quelques-amenagements-realises-chez-2.png",
+    "role": "galerie",
+    "alt": "Massif de graminées et bordure en bois le long d'une allée",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "7eeef4e3166d5c92",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 43%",
+    "sujet": {
+      "x": 20.7,
+      "y": 30.9,
+      "l": 57.9,
+      "h": 25
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.31,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.27,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.24,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 367,
+      "top": 0,
+      "width": 1067,
+      "height": 1422,
+      "source": [
+        2000,
+        1422
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "real-graminees-480.webp",
+      "real-graminees-640.webp",
+      "real-graminees-960.webp"
+    ],
+    "poids": {
+      "real-graminees-480.webp": 115644,
+      "real-graminees-640.webp": 189500,
+      "real-graminees-960.webp": 272892
+    },
+    "media": "c.media({ nom: 'real-graminees', alt: \"Massif de graminées et bordure en bois le long d'une allée\", cadrage: '50% 43%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "real-massif": {
+    "nom": "real-massif",
+    "source": "recu/quelques-amenagements-realises-chez.png",
+    "role": "galerie",
+    "alt": "Nouveau massif planté et paillé devant une haie",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "63b723cb03050a26",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 41%",
+    "sujet": {
+      "x": 5.1,
+      "y": 29.4,
+      "l": 92.7,
+      "h": 23.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.53,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.33,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.23,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.18,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 488,
+      "top": 0,
+      "width": 824,
+      "height": 1099,
+      "source": [
+        2000,
+        1099
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,17 fois (source de 824 px après recadrage)",
+      "recadrage fort : 41 % de l'image gardée"
+    ],
+    "fichiers": [
+      "real-massif-480.webp",
+      "real-massif-640.webp",
+      "real-massif-960.webp"
+    ],
+    "poids": {
+      "real-massif-480.webp": 67268,
+      "real-massif-640.webp": 104126,
+      "real-massif-960.webp": 160894
+    },
+    "media": "c.media({ nom: 'real-massif', alt: \"Nouveau massif planté et paillé devant une haie\", cadrage: '50% 41%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "real-equipement": {
+    "nom": "real-equipement",
+    "source": "recu/realisations.jpg",
+    "role": "galerie",
+    "alt": "Plantation d'arbres protégée par une ganivelle devant un bâtiment rose et bois",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "5ad4a25391985000",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 70%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 64,
+      "h": 30.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.3,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.06,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 638,
+      "top": 0,
+      "width": 1125,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "real-equipement-480.webp",
+      "real-equipement-640.webp",
+      "real-equipement-960.webp"
+    ],
+    "poids": {
+      "real-equipement-480.webp": 105700,
+      "real-equipement-640.webp": 193326,
+      "real-equipement-960.webp": 321718
+    },
+    "media": "c.media({ nom: 'real-equipement', alt: \"Plantation d'arbres protégée par une ganivelle devant un bâtiment rose et bois\", cadrage: '50% 70%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "real-bacs": {
+    "nom": "real-bacs",
+    "source": "recu/creation.png",
+    "role": "galerie",
+    "alt": "Bacs en acier et graminées sur une terrasse en dalles",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "0d66a0f12eefe0f6",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 48%",
+    "sujet": {
+      "x": 21,
+      "y": 28.8,
+      "l": 62,
+      "h": 40.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.17,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.15,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 229,
+      "top": 0,
+      "width": 1047,
+      "height": 1396,
+      "source": [
+        1394,
+        1396
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "real-bacs-480.webp",
+      "real-bacs-640.webp",
+      "real-bacs-960.webp"
+    ],
+    "poids": {
+      "real-bacs-480.webp": 60532,
+      "real-bacs-640.webp": 86576,
+      "real-bacs-960.webp": 133606
+    },
+    "media": "c.media({ nom: 'real-bacs', alt: \"Bacs en acier et graminées sur une terrasse en dalles\", cadrage: '50% 48%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "real-bassin": {
+    "nom": "real-bassin",
+    "source": "recu/realisations-8.jpg",
+    "role": "vignette",
+    "alt": "Bassin carré en acier corten entouré de graminées",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "fa482efab027502a",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "47% 45%",
+    "sujet": {
+      "x": 8.1,
+      "y": 27.7,
+      "l": 83,
+      "h": 44.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.22,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.18,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.12,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 699,
+      "height": 699,
+      "source": [
+        699,
+        699
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "699 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,14 fois (source de 699 px après recadrage)"
+    ],
+    "fichiers": [
+      "real-bassin-480.webp",
+      "real-bassin-640.webp",
+      "real-bassin-800.webp"
+    ],
+    "poids": {
+      "real-bassin-480.webp": 76678,
+      "real-bassin-640.webp": 125592,
+      "real-bassin-800.webp": 161490
+    },
+    "media": "c.media({ nom: 'real-bassin', alt: \"Bassin carré en acier corten entouré de graminées\", cadrage: '47% 45%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "real-terrasse": {
+    "nom": "real-terrasse",
+    "source": "recu/realisations-5.jpg",
+    "role": "vignette",
+    "alt": "Terrasse en toit avec bacs en bois plantés de graminées et de lavande",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "325e25df7d756516",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 43%",
+    "sujet": {
+      "x": 27.2,
+      "y": 25,
+      "l": 45.3,
+      "h": 35.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.31,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.27,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.26,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 166,
+      "top": 0,
+      "width": 1013,
+      "height": 675,
+      "source": [
+        1200,
+        675
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1200 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "real-terrasse-480.webp",
+      "real-terrasse-640.webp",
+      "real-terrasse-800.webp"
+    ],
+    "poids": {
+      "real-terrasse-480.webp": 26764,
+      "real-terrasse-640.webp": 42870,
+      "real-terrasse-800.webp": 60816
+    },
+    "media": "c.media({ nom: 'real-terrasse', alt: \"Terrasse en toit avec bacs en bois plantés de graminées et de lavande\", cadrage: '50% 43%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "real-bambous": {
+    "nom": "real-bambous",
+    "source": "recu/realisations-6.jpg",
+    "role": "vignette",
+    "alt": "Jardinier qui prépare une plate-bande le long d'une haie de bambous",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "a3ab03fb723c38bc",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "76% 30%",
+    "sujet": {
+      "x": 70,
+      "y": 3.5,
+      "l": 17.4,
+      "h": 55.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.31,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.29,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.15,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 187,
+      "top": 0,
+      "width": 1013,
+      "height": 675,
+      "source": [
+        1200,
+        675
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1200 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "real-bambous-480.webp",
+      "real-bambous-640.webp",
+      "real-bambous-800.webp"
+    ],
+    "poids": {
+      "real-bambous-480.webp": 50266,
+      "real-bambous-640.webp": 87382,
+      "real-bambous-800.webp": 129450
+    },
+    "media": "c.media({ nom: 'real-bambous', alt: \"Jardinier qui prépare une plate-bande le long d'une haie de bambous\", cadrage: '76% 30%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "elagueur-tronc": {
+    "nom": "elagueur-tronc",
+    "source": "recu/quelques-realisations-entretien-2.jpg",
+    "role": "galerie",
+    "alt": "Élagueur encordé le long d'un tronc",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "1436e8a66dbbe9a2",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "55% 50%",
+    "sujet": {
+      "x": 47.6,
+      "y": 44.9,
+      "l": 11.4,
+      "h": 11.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.5,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.49,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.3,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.25,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 50,
+      "width": 1125,
+      "height": 1500,
+      "source": [
+        1125,
+        2000
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1125 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "elagueur-tronc-480.webp",
+      "elagueur-tronc-640.webp",
+      "elagueur-tronc-960.webp"
+    ],
+    "poids": {
+      "elagueur-tronc-480.webp": 40810,
+      "elagueur-tronc-640.webp": 68874,
+      "elagueur-tronc-960.webp": 136824
+    },
+    "media": "c.media({ nom: 'elagueur-tronc', alt: \"Élagueur encordé le long d'un tronc\", cadrage: '55% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "entretien-pin": {
+    "nom": "entretien-pin",
+    "source": "recu/quelques-realisations-entretien-3.jpg",
+    "role": "galerie",
+    "alt": "Pelouse tondue, pin et haie taillée devant une maison",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "5ef9722137f9bef6",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 41%",
+    "sujet": {
+      "x": 9.4,
+      "y": 29.4,
+      "l": 82.9,
+      "h": 23.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.6,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.44,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.33,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.28,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 643,
+      "top": 0,
+      "width": 994,
+      "height": 1325,
+      "source": [
+        2000,
+        1325
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "entretien-pin-480.webp",
+      "entretien-pin-640.webp",
+      "entretien-pin-960.webp"
+    ],
+    "poids": {
+      "entretien-pin-480.webp": 45744,
+      "entretien-pin-640.webp": 70050,
+      "entretien-pin-960.webp": 122688
+    },
+    "media": "c.media({ nom: 'entretien-pin', alt: \"Pelouse tondue, pin et haie taillée devant une maison\", cadrage: '50% 41%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "entretien-copro": {
+    "nom": "entretien-copro",
+    "source": "recu/entretien-annecy-montagne-jardins.png",
+    "role": "galerie",
+    "alt": "Haies et arbustes taillés au pied d'une résidence",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "d566eb4dbf485065",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 41%",
+    "sujet": {
+      "x": 0,
+      "y": 29.4,
+      "l": 100,
+      "h": 23.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.6,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.19,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.17,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 280,
+      "top": 0,
+      "width": 1000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "entretien-copro-480.webp",
+      "entretien-copro-640.webp",
+      "entretien-copro-960.webp"
+    ],
+    "poids": {
+      "entretien-copro-480.webp": 69282,
+      "entretien-copro-640.webp": 117778,
+      "entretien-copro-960.webp": 219760
+    },
+    "media": "c.media({ nom: 'entretien-copro', alt: \"Haies et arbustes taillés au pied d'une résidence\", cadrage: '50% 41%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "entretien-allee": {
+    "nom": "entretien-allee",
+    "source": "recu/quelques-realisations-entretien-6.jpg",
+    "role": "galerie",
+    "alt": "Massif entretenu le long d'une allée de résidence",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "d4fac57ce6991e32",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 43%",
+    "sujet": {
+      "x": 3.2,
+      "y": 13.2,
+      "l": 92.1,
+      "h": 57.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.17,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.06,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 55,
+      "top": 0,
+      "width": 1173,
+      "height": 1564,
+      "source": [
+        1564,
+        1564
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "entretien-allee-480.webp",
+      "entretien-allee-640.webp",
+      "entretien-allee-960.webp"
+    ],
+    "poids": {
+      "entretien-allee-480.webp": 76698,
+      "entretien-allee-640.webp": 124228,
+      "entretien-allee-960.webp": 223542
+    },
+    "media": "c.media({ nom: 'entretien-allee', alt: \"Massif entretenu le long d'une allée de résidence\", cadrage: '50% 43%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "entretien-talus": {
+    "nom": "entretien-talus",
+    "source": "recu/quelques-realisations-entretien-7.jpg",
+    "role": "galerie",
+    "alt": "Talus planté et entretenu au bord d'un chemin",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "5ee7e0c8903cdf2f",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 43%",
+    "sujet": {
+      "x": 7.8,
+      "y": 11.8,
+      "l": 84.3,
+      "h": 60.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 368,
+      "top": 0,
+      "width": 1173,
+      "height": 1564,
+      "source": [
+        1564,
+        1564
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "entretien-talus-480.webp",
+      "entretien-talus-640.webp",
+      "entretien-talus-960.webp"
+    ],
+    "poids": {
+      "entretien-talus-480.webp": 101774,
+      "entretien-talus-640.webp": 165148,
+      "entretien-talus-960.webp": 298398
+    },
+    "media": "c.media({ nom: 'entretien-talus', alt: \"Talus planté et entretenu au bord d'un chemin\", cadrage: '50% 43%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "equipe-terrain": {
+    "nom": "equipe-terrain",
+    "source": "recu/entretien.jpg",
+    "role": "galerie",
+    "alt": "L'équipe et son camion-benne au travail dans une résidence",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "843871b9f2ca8bc3",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "41% 36%",
+    "sujet": {
+      "x": 14.7,
+      "y": 25,
+      "l": 45.6,
+      "h": 22.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.43,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.22,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.19,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.15,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1200,
+      "height": 800,
+      "source": [
+        1200,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1200 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "equipe-terrain-480.webp",
+      "equipe-terrain-640.webp",
+      "equipe-terrain-960.webp"
+    ],
+    "poids": {
+      "equipe-terrain-480.webp": 44812,
+      "equipe-terrain-640.webp": 79118,
+      "equipe-terrain-960.webp": 174084
+    },
+    "media": "c.media({ nom: 'equipe-terrain', alt: \"L'équipe et son camion-benne au travail dans une résidence\", cadrage: '41% 36%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "entretien-broyeur": {
+    "nom": "entretien-broyeur",
+    "source": "recu/realisations-7.jpg",
+    "role": "vignette",
+    "alt": "Broyeur de végétaux dans un jardin en pente",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "c4ee3dcc37a30efe",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "41% 58%",
+    "sujet": {
+      "x": 23.5,
+      "y": 45.7,
+      "l": 35.7,
+      "h": 34.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.23,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.14,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1013,
+      "height": 675,
+      "source": [
+        1200,
+        675
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1200 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "entretien-broyeur-480.webp",
+      "entretien-broyeur-640.webp",
+      "entretien-broyeur-800.webp"
+    ],
+    "poids": {
+      "entretien-broyeur-480.webp": 40836,
+      "entretien-broyeur-640.webp": 63528,
+      "entretien-broyeur-800.webp": 84476
+    },
+    "media": "c.media({ nom: 'entretien-broyeur', alt: \"Broyeur de végétaux dans un jardin en pente\", cadrage: '41% 58%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "equipe-benoit": {
+    "nom": "equipe-benoit",
+    "source": "recu/equipe.jpg",
+    "role": "portrait",
+    "alt": "Benoit, gérant d'Annecy Montagne et Jardins",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "29770cc17ca2b1c5",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "50% 47%",
+    "sujet": {
+      "x": 4.5,
+      "y": 5.4,
+      "l": 90.5,
+      "h": 77.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.5,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.48,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.47,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.46,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 64,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        1727,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "equipe-benoit-480.webp",
+      "equipe-benoit-640.webp",
+      "equipe-benoit-784.webp"
+    ],
+    "poids": {
+      "equipe-benoit-480.webp": 26852,
+      "equipe-benoit-640.webp": 47048,
+      "equipe-benoit-784.webp": 71750
+    },
+    "media": "c.media({ nom: 'equipe-benoit', alt: \"Benoit, gérant d'Annecy Montagne et Jardins\", cadrage: '50% 47%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "sap": {
+    "nom": "sap",
+    "source": "recu/credit-impot.png",
+    "role": "vignette",
+    "alt": "Logo Services à la personne",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "7ae9c99370f5fe44",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "46% 44%",
+    "sujet": {
+      "x": 4.5,
+      "y": 1.2,
+      "l": 89,
+      "h": 87.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.14,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.11,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1039,
+      "height": 779,
+      "source": [
+        1058,
+        779
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1058 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "sap-480.webp",
+      "sap-640.webp",
+      "sap-800.webp"
+    ],
+    "poids": {
+      "sap-480.webp": 22078,
+      "sap-640.webp": 29732,
+      "sap-800.webp": 37890
+    },
+    "media": "c.media({ nom: 'sap', alt: \"Logo Services à la personne\", cadrage: '46% 44%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "grok/entretien-ouverture": {
+    "nom": "grok/entretien-ouverture",
+    "source": "recu/grok/entretien-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Pelouse fraîchement tondue en bandes, haie taillée et montagnes au loin",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "a863f8c2b0b9dcbc",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 43%"
+    },
+    "cadrage": "53% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.02,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/entretien-ouverture-640.webp",
+      "grok/entretien-ouverture-1280.webp",
+      "grok/entretien-ouverture-1920.webp",
+      "grok/entretien-ouverture-mobile-640.webp",
+      "grok/entretien-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/entretien-ouverture-640.webp": 55876,
+      "grok/entretien-ouverture-1280.webp": 170772,
+      "grok/entretien-ouverture-1920.webp": 262240,
+      "grok/entretien-ouverture-mobile-640.webp": 152132,
+      "grok/entretien-ouverture-mobile-1080.webp": 277064
+    },
+    "media": "c.media({ nom: 'grok/entretien-ouverture', alt: \"Pelouse fraîchement tondue en bandes, haie taillée et montagnes au loin\", cadrage: '53% 49%', cadrageMobile: '50% 43%', sizes: '100vw', priorite: true })"
+  },
+  "grok/matiere-paillage": {
+    "nom": "grok/matiere-paillage",
+    "source": "recu/grok/matiere-paillage.jpg",
+    "role": "carte-service",
+    "alt": "Toiles de paillage en chanvre, jute et fibre de coco",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "63050859dee1dc78",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "48% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 65,
+      "width": 1074,
+      "height": 1343,
+      "source": [
+        1074,
+        1600
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1074 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/matiere-paillage-480.webp",
+      "grok/matiere-paillage-640.webp",
+      "grok/matiere-paillage-784.webp"
+    ],
+    "poids": {
+      "grok/matiere-paillage-480.webp": 86486,
+      "grok/matiere-paillage-640.webp": 132820,
+      "grok/matiere-paillage-784.webp": 174452
+    },
+    "media": "c.media({ nom: 'grok/matiere-paillage', alt: \"Toiles de paillage en chanvre, jute et fibre de coco\", cadrage: '48% 50%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  },
+  "grok/matiere-bois": {
+    "nom": "grok/matiere-bois",
+    "source": "recu/grok/matiere-bois.jpg",
+    "role": "carte-service",
+    "alt": "Planches de mélèze brut empilées",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "253f906baac77a13",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "43% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 177,
+      "width": 1074,
+      "height": 1343,
+      "source": [
+        1074,
+        1600
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1074 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/matiere-bois-480.webp",
+      "grok/matiere-bois-640.webp",
+      "grok/matiere-bois-784.webp"
+    ],
+    "poids": {
+      "grok/matiere-bois-480.webp": 89676,
+      "grok/matiere-bois-640.webp": 134696,
+      "grok/matiere-bois-784.webp": 177280
+    },
+    "media": "c.media({ nom: 'grok/matiere-bois', alt: \"Planches de mélèze brut empilées\", cadrage: '43% 50%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  },
+  "grok/matiere-pierre": {
+    "nom": "grok/matiere-pierre",
+    "source": "recu/grok/matiere-pierre.jpg",
+    "role": "carte-service",
+    "alt": "Muret en pierres calcaires sèches, mousse et thym",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "5e0bc17638d7ee2f",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "48% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 49,
+      "width": 1074,
+      "height": 1343,
+      "source": [
+        1074,
+        1600
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1074 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/matiere-pierre-480.webp",
+      "grok/matiere-pierre-640.webp",
+      "grok/matiere-pierre-784.webp"
+    ],
+    "poids": {
+      "grok/matiere-pierre-480.webp": 67408,
+      "grok/matiere-pierre-640.webp": 103926,
+      "grok/matiere-pierre-784.webp": 135562
+    },
+    "media": "c.media({ nom: 'grok/matiere-pierre', alt: \"Muret en pierres calcaires sèches, mousse et thym\", cadrage: '48% 50%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  },
+  "grok/matiere-vegetal": {
+    "nom": "grok/matiere-vegetal",
+    "source": "recu/grok/matiere-vegetal.jpg",
+    "role": "carte-service",
+    "alt": "Massif de vivaces sobres en eau : sauges, graminées et achillées",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "0b22ed587c1f4460",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "48% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 113,
+      "width": 1074,
+      "height": 1343,
+      "source": [
+        1074,
+        1600
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1074 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/matiere-vegetal-480.webp",
+      "grok/matiere-vegetal-640.webp",
+      "grok/matiere-vegetal-784.webp"
+    ],
+    "poids": {
+      "grok/matiere-vegetal-480.webp": 85424,
+      "grok/matiere-vegetal-640.webp": 137384,
+      "grok/matiere-vegetal-784.webp": 180810
+    },
+    "media": "c.media({ nom: 'grok/matiere-vegetal', alt: \"Massif de vivaces sobres en eau : sauges, graminées et achillées\", cadrage: '48% 50%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  }
+}

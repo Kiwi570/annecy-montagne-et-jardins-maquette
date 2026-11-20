@@ -1,0 +1,382 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "English version",
+    "actionEntete": "Demander un devis",
+    "appeler": "Appeler",
+    "sommaire": "Plan du site",
+    "confort": "Nous suivre",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette de démonstration : les formulaires sont simulés, rien n'est envoyé.",
+    "mentions": "Mentions légales · Politique de confidentialité : à compléter",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "Paysagiste dans l'Albanais",
+    "slogan": "Entretien, création, élagage et éco-pâturage dans l'Albanais et les bassins annécien et aixois.",
+    "nouvelOnglet": "(nouvel onglet)",
+    "tampon": "Crédit d'impôt · service à la personne · ",
+    "tamponChiffre": "50 %",
+    "tamponLegende": "Crédit d'impôt de 50 % sur l'entretien"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "Annecy Montagne et Jardins : paysagiste dans l'Albanais et autour d'Annecy",
+      "description": "Entretien, création paysagère, élagage et éco-pâturage pour les particuliers, les copropriétés et les entreprises de l'Albanais et des bassins annécien et aixois. Crédit d'impôt de 50 % sur l'entretien.",
+      "nav": "Accueil",
+      "partageAlt": "Annecy Montagne et Jardins : pelouse au pied de la montagne et du lac",
+      "accroche": "Vos jardins, au pied des montagnes."
+    },
+    "entretien": {
+      "titre": "Entretien des espaces verts : Annecy Montagne et Jardins",
+      "description": "Tonte, taille et débroussaillage pour les particuliers, les copropriétés et les entreprises. Crédit d'impôt de 50 % pour les particuliers : AMJ est déclarée service à la personne.",
+      "nav": "Entretien",
+      "partageAlt": "Entretien des espaces verts par Annecy Montagne et Jardins",
+      "accroche": "Travail soigné, budget allégé."
+    },
+    "creation": {
+      "titre": "Création paysagère : Annecy Montagne et Jardins",
+      "description": "Gazon, clôtures, massifs de vivaces, arbres, arbustes et terrasses, avec des plantes sobres en eau et des matériaux locaux, autour d'Annecy et dans l'Albanais.",
+      "nav": "Création",
+      "partageAlt": "Piscine bordée d'un mur en bois et d'un massif planté",
+      "accroche": "Du croquis au jardin."
+    },
+    "eco-paturage": {
+      "titre": "Éco-pâturage : Annecy Montagne et Jardins",
+      "description": "Des moutons de races rustiques locales pour entretenir les pelouses des copropriétés, des collectivités et des entreprises : sans bruit, sans déchet de tonte, toute l'année.",
+      "nav": "Éco-pâturage",
+      "partageAlt": "Deux moutons à laine longue dans l'herbe haute",
+      "accroche": "Des moutons pour vos pelouses."
+    },
+    "contact": {
+      "titre": "Contact et devis : Annecy Montagne et Jardins",
+      "description": "Demandez un devis d'entretien, de création, d'élagage ou d'éco-pâturage. 06 70 54 93 24, Vallières-sur-Fier.",
+      "nav": "Contact",
+      "partageAlt": "Escalier en traverses dans un talus, vue sur la vallée",
+      "accroche": "Parlons de votre jardin."
+    },
+    "404": {
+      "titre": "Page introuvable : Annecy Montagne et Jardins",
+      "description": "Cette page n'existe pas.",
+      "nav": "Page introuvable",
+      "partageAlt": "Agneaux qui broutent",
+      "accroche": "Page introuvable"
+    }
+  },
+  "accueil": {
+    "hero": {
+      "surtitre": "Paysagiste · Vallières-sur-Fier",
+      "l1": "Vos jardins,",
+      "l2": "<em>au pied</em> des",
+      "l3": "montagnes.",
+      "texte": "Entretien, création, élagage et éco-pâturage : une équipe locale à taille humaine, pour les particuliers, les copropriétés et les entreprises.",
+      "action": "Demander un devis",
+      "secondaire": "Nos métiers",
+      "info": "Albanais · bassins annécien et aixois"
+    },
+    "metiers": {
+      "surtitre": "Nos métiers",
+      "titre": "Quatre métiers, <em>une</em> même équipe.",
+      "texte": "Du gazon semé au grand arbre à soigner, nous nous occupons de vos espaces verts de la manière la plus durable possible.",
+      "entretien": {
+        "titre": "Entretien",
+        "texte": "Tonte, taille, débroussaillage : vos parcs et jardins entretenus de manière durable.",
+        "lien": "L'entretien"
+      },
+      "creation": {
+        "titre": "Création",
+        "texte": "Gazon, clôtures, massifs, arbres et terrasses, avec des matériaux d'ici.",
+        "lien": "La création"
+      },
+      "elagage": {
+        "titre": "Élagage et abattage",
+        "texte": "Nous vous proposons de prendre soin de vos arbres.",
+        "lien": "Élagage"
+      },
+      "eco": {
+        "titre": "Éco-pâturage",
+        "texte": "Des moutons pour entretenir vos pelouses, sans bruit ni déchet de tonte.",
+        "lien": "L'éco-pâturage"
+      }
+    },
+    "budget": {
+      "surtitre": "Travail soigné, budget allégé",
+      "titre": "Votre entretien, <em>la moitié</em> en crédit d'impôt.",
+      "texte": "AMJ est déclarée service à la personne : vos travaux d'entretien réguliers (tonte, taille, débroussaillage) ouvrent droit à un crédit d'impôt de 50 %.",
+      "lien": "Tout sur l'entretien"
+    },
+    "eco": {
+      "surtitre": "Éco-pâturage",
+      "titre": "Une autre façon d'entretenir <em>vos pelouses.</em>",
+      "texte": "Toute l'année, des moutons de races rustiques locales entretiennent les espaces verts des copropriétés, des collectivités et des entreprises. Une solution clé en main, adaptée à chaque projet.",
+      "lien": "Découvrir l'éco-pâturage"
+    },
+    "matieres": {
+      "surtitre": "Création paysagère",
+      "titre": "Des matières <em>d'ici,</em> des plantes qui tiennent l'été.",
+      "texte": "Pour vos aménagements, nous choisissons des plantes peu gourmandes en eau, adaptées aux étés plus secs, et nous travaillons avec de petits producteurs et fournisseurs locaux.",
+      "lien": "La création paysagère"
+    },
+    "realisations": {
+      "surtitre": "Réalisations",
+      "titre": "Quelques chantiers, <em>chez nos clients.</em>",
+      "texte": "Aménagements, entretien, élagage et éco-pâturage, autour d'Annecy et dans l'Albanais.",
+      "region": "Réalisations : faites défiler"
+    },
+    "equipe": {
+      "surtitre": "L'équipe",
+      "titre": "Depuis 2018, <em>une équipe</em> à taille humaine.",
+      "texte": "L'aventure commence en 2018 : deux amis réunissent leurs compétences et créent une entreprise passionnée, audacieuse et chaleureuse. En 2023, après le départ de l'un des fondateurs, AMJ prend une nouvelle orientation.",
+      "benoit": "Gérant",
+      "eddy": "Référent terrain",
+      "william": "Apprenti",
+      "f2018": "Deux amis lancent le projet",
+      "f2023": "Une nouvelle orientation",
+      "fAujourdhui": "Benoit, Eddy et William",
+      "aujourdhui": "Aujourd'hui"
+    },
+    "confiance": {
+      "surtitre": "Références",
+      "titre": "Ils nous font <em>confiance.</em>",
+      "avis": "Entreprise sérieuse et à l'écoute, travail soigneux et précis.",
+      "auteur": "Laurent D., client"
+    },
+    "zone": {
+      "surtitre": "Zone d'intervention",
+      "titre": "Entre <em>deux lacs,</em> depuis Vallières-sur-Fier.",
+      "texte": "Nous intervenons dans l'Albanais et dans les bassins annécien et aixois. Un doute sur votre commune ? Appelez-nous.",
+      "albanais": "Albanais",
+      "annecien": "Bassin annécien",
+      "aixois": "Bassin aixois",
+      "lacAnnecy": "Lac d'Annecy",
+      "lacBourget": "Lac du Bourget",
+      "siege": "Vallières-sur-Fier",
+      "legende": "Carte simplifiée de la zone d'intervention",
+      "titreCarte": "Carte de la zone d'intervention : l'Albanais autour de Rumilly, le bassin annécien autour du lac d'Annecy et le bassin aixois autour du lac du Bourget, avec le siège à Vallières-sur-Fier."
+    },
+    "fin": {
+      "titre": "Parlons de <em>votre jardin.</em>",
+      "texte": "Entretien régulier, nouveau projet, arbre à soigner ou prairie à faire pâturer : décrivez-nous votre besoin, nous revenons vers vous.",
+      "action": "Demander un devis"
+    }
+  },
+  "calcul": {
+    "label": "Votre budget d'entretien sur l'année",
+    "facture": "Facture",
+    "credit": "Crédit d'impôt",
+    "reste": "Reste à votre charge",
+    "coupe": "La moitié revient en crédit d'impôt",
+    "plafond": "Au-delà de 5 000 € de dépenses par an, le crédit d'impôt est plafonné à 2 500 €.",
+    "note": "Exemple de calcul, sans valeur de devis. Pour les particuliers, dans leur résidence principale ou secondaire en France ; dépenses retenues jusqu'à 5 000 € par an et par foyer pour les petits travaux de jardinage, selon la réglementation en vigueur.",
+    "resteCourt": "À payer",
+    "creditCourt": "Crédit"
+  },
+  "avantages": {
+    "patrimoine": {
+      "titre": "Patrimoine",
+      "texte": "Des races rustiques locales préservées."
+    },
+    "ecologie": {
+      "titre": "Écologie",
+      "texte": "Un meilleur bilan carbone et plus de biodiversité."
+    },
+    "tranquillite": {
+      "titre": "Tranquillité",
+      "texte": "Aucune nuisance sonore."
+    },
+    "dechets": {
+      "titre": "Déchets",
+      "texte": "Aucun déchet de tonte."
+    }
+  },
+  "matieres": {
+    "paillage": {
+      "titre": "Paillages sans plastique",
+      "texte": "Chanvre, jute, coco ou poils : des toiles de paillage naturelles."
+    },
+    "bois": {
+      "titre": "Bois local",
+      "texte": "Du bois issu de forêts locales gérées durablement."
+    },
+    "pierre": {
+      "titre": "Pierre régionale",
+      "texte": "De la pierre de la région, chez de petits fournisseurs."
+    },
+    "vegetal": {
+      "titre": "Plantes sobres",
+      "texte": "Peu gourmandes en eau ou adaptées aux étés secs."
+    }
+  },
+  "entretien": {
+    "ouverture": {
+      "surtitre": "Entretien des espaces verts",
+      "titre": "Travail soigné, <em>budget allégé.</em>",
+      "texte": "Nous entretenons vos parcs et jardins de la manière la plus durable possible, pour les particuliers, les copropriétés et les entreprises de l'Albanais et des bassins annécien et aixois.",
+      "action": "Demander un devis",
+      "info": "Crédit d'impôt de 50 % pour les particuliers"
+    },
+    "travaux": {
+      "surtitre": "L'entretien régulier",
+      "titre": "Ce que nous <em>entretenons.</em>",
+      "tonte": {
+        "titre": "Tonte",
+        "texte": "Pelouses et grands espaces enherbés."
+      },
+      "taille": {
+        "titre": "Taille",
+        "texte": "Haies, arbustes et massifs."
+      },
+      "debroussaillage": {
+        "titre": "Débroussaillage",
+        "texte": "Talus, abords et terrains."
+      }
+    },
+    "pourqui": {
+      "surtitre": "Pour qui",
+      "titre": "Particuliers, copropriétés, <em>entreprises.</em>",
+      "particuliers": {
+        "titre": "Particuliers",
+        "texte": "AMJ est déclarée service à la personne : l'entretien régulier de votre jardin ouvre droit à un crédit d'impôt de 50 %."
+      },
+      "coproprietes": {
+        "titre": "Copropriétés",
+        "texte": "Les espaces verts de votre résidence entretenus par une équipe locale."
+      },
+      "entreprises": {
+        "titre": "Entreprises",
+        "texte": "Les abords de vos locaux entretenus de manière durable."
+      }
+    },
+    "calcul": {
+      "surtitre": "Simulez votre crédit d'impôt",
+      "titre": "Combien vous coûte <em>vraiment</em> l'entretien ?",
+      "texte": "Faites glisser le montant de votre budget annuel : la moitié revient en crédit d'impôt, dans la limite du plafond."
+    },
+    "elagage": {
+      "surtitre": "Élagage et abattage",
+      "titre": "Prendre soin <em>de vos arbres.</em>",
+      "texte": "Nous vous proposons de prendre soin de vos arbres, de l'élagage à l'abattage. Décrivez-nous l'arbre et son emplacement dans votre demande de devis.",
+      "action": "Demander un devis d'élagage"
+    },
+    "galerie": {
+      "surtitre": "Réalisations",
+      "titre": "Quelques chantiers <em>d'entretien.</em>"
+    }
+  },
+  "creation": {
+    "ouverture": {
+      "surtitre": "Création paysagère",
+      "titre": "Du croquis <em>au jardin.</em>",
+      "texte": "Votre partenaire local de confiance pour l'aménagement de votre lieu de vie : particuliers, entreprises et collectivités, autour d'Annecy et dans l'Albanais, dans le respect de l'existant.",
+      "action": "Parler de votre projet",
+      "info": "Matériaux locaux, paillages sans plastique",
+      "croquis": "Croquis à l'encre d'un projet : terrasse, piscine et alignement de cyprès"
+    },
+    "prestations": {
+      "surtitre": "Nos prestations",
+      "titre": "Cinq savoir-faire pour <em>votre extérieur.</em>",
+      "gazon": "Semis de gazon",
+      "clotures": "Clôtures",
+      "vivaces": "Massifs de vivaces",
+      "arbres": "Plantation d'arbres et d'arbustes",
+      "terrasses": "Terrasses"
+    },
+    "matieres": {
+      "surtitre": "Démarche durable",
+      "titre": "Des matières <em>d'ici.</em>",
+      "texte": "Nous choisissons des plantes peu gourmandes en eau ou adaptées aux étés secs que connaît désormais la région, des toiles de paillage sans plastique, du bois de forêts locales gérées durablement et de la pierre régionale, en privilégiant les petits producteurs et fournisseurs locaux."
+    },
+    "galerie": {
+      "surtitre": "Réalisations",
+      "titre": "Quelques aménagements <em>chez nos clients.</em>"
+    },
+    "pourqui": {
+      "surtitre": "Pour qui",
+      "titre": "Pour les particuliers, les entreprises <em>et les collectivités.</em>",
+      "texte": "Jardin privé, abords d'entreprise ou espace public : chaque aménagement est conçu sur mesure, en respectant l'environnement existant."
+    }
+  },
+  "eco": {
+    "ouverture": {
+      "surtitre": "Éco-pâturage",
+      "titre": "Des moutons pour <em>vos pelouses.</em>",
+      "texte": "Une nouvelle façon d'entretenir vos pelouses, de manière durable : un entretien régulier toute l'année, qui augmente la biodiversité.",
+      "action": "Demander un devis",
+      "info": "Copropriétés, collectivités et entreprises",
+      "badge": "Toute l'année · sans bruit · sans déchet · "
+    },
+    "principe": {
+      "surtitre": "Le principe",
+      "titre": "La pelouse entretenue <em>au pas du troupeau.</em>",
+      "texte": "Les moutons entretiennent l'herbe en pâturant : la pelouse reste entretenue toute l'année, la biodiversité se développe et il n'y a aucun déchet de tonte à évacuer."
+    },
+    "avantages": {
+      "surtitre": "Quatre avantages",
+      "titre": "Ce que <em>change</em> le troupeau."
+    },
+    "pourqui": {
+      "surtitre": "Pour qui",
+      "titre": "Copropriétés, collectivités, <em>entreprises.</em>",
+      "texte": "L'éco-pâturage convient aux grands espaces verts. Pour les entreprises engagées dans une certification comme BREEAM, ISO 14000, HQE ou AB, c'est aussi une démarche à valoriser."
+    },
+    "cle": {
+      "surtitre": "Un service clé en main",
+      "titre": "Une solution <em>clé en main,</em> adaptée à chaque projet."
+    }
+  },
+  "contact": {
+    "ouverture": {
+      "surtitre": "Contact et devis",
+      "titre": "Parlons de <em>votre jardin.</em>",
+      "texte": "Une question, un projet, un arbre à soigner : écrivez-nous ou appelez-nous, nous traitons votre demande dans les plus brefs délais.",
+      "action": "Demander un devis",
+      "info": "Albanais · bassins annécien et aixois",
+      "tel": "Téléphone",
+      "email": "E-mail",
+      "adresse": "Adresse"
+    },
+    "devis": {
+      "surtitre": "Demande de devis",
+      "titre": "Votre demande <em>en quatre étapes.</em>",
+      "etapes": "Quatre étapes : votre besoin, vous, votre terrain, vos coordonnées.",
+      "e1": "Votre besoin",
+      "e2": "Vous êtes",
+      "e3": "Votre terrain",
+      "e4": "Vos coordonnées",
+      "besoin": "Quel est votre besoin ?",
+      "profil": "Vous êtes…",
+      "particulier": "Un particulier",
+      "copropriete": "Une copropriété",
+      "entreprise": "Une entreprise",
+      "collectivite": "Une collectivité",
+      "commune": "Commune du terrain",
+      "surface": "Surface approximative (facultatif)",
+      "surfacePetit": "Moins de 500 m²",
+      "surfaceMoyen": "De 500 à 2 000 m²",
+      "surfaceGrand": "Plus de 2 000 m²",
+      "surfaceInconnu": "Je ne sais pas",
+      "message": "Votre projet en quelques mots",
+      "nom": "Nom",
+      "email": "E-mail",
+      "tel": "Téléphone",
+      "suivant": "Suivant",
+      "retour": "Retour",
+      "envoyer": "Envoyer la demande",
+      "recap": "Votre demande",
+      "recapVide": "—",
+      "donnees": "Vos coordonnées servent uniquement à répondre à votre demande. Politique de confidentialité : à compléter.",
+      "envoye": "Merci pour votre message (demande simulée : rien n'a été envoyé). Sur le site final, AMJ traite votre demande dans les plus brefs délais.",
+      "requis": "Ce champ est à remplir.",
+      "choix": "Choisissez une réponse."
+    }
+  },
+  "introuvable": {
+    "titre": "Nos moutons cherchent encore <em>cette page.</em>",
+    "texte": "Elle a peut-être été broutée. Revenez à l'accueil, ou demandez-nous directement ce que vous cherchiez.",
+    "retour": "Revenir à l'accueil",
+    "contact": "Nous contacter"
+  }
+}

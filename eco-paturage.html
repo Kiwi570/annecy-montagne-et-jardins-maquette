@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Éco-pâturage : Annecy Montagne et Jardins</title>
+<meta name="description" content="Des moutons de races rustiques locales pour entretenir les pelouses des copropriétés, des collectivités et des entreprises : sans bruit, sans déchet de tonte, toute l&#39;année.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://annecy-montagne-et-jardins-maquette.vercel.app/eco-paturage">
+<style>:root{--fond:#f4f2ea;--texte:#1b2a20;--voile-fond:#1b2a20;--ouverture-fond:#1b2a20;--menu-fond:#1b2a20}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#f4f2ea">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Annecy Montagne et Jardins">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Éco-pâturage : Annecy Montagne et Jardins">
+<meta property="og:description" content="Des moutons de races rustiques locales pour entretenir les pelouses des copropriétés, des collectivités et des entreprises : sans bruit, sans déchet de tonte, toute l&#39;année.">
+<meta property="og:url" content="https://annecy-montagne-et-jardins-maquette.vercel.app/eco-paturage">
+<meta property="og:image" content="https://annecy-montagne-et-jardins-maquette.vercel.app/assets/partage/eco-paturage-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Deux moutons à laine longue dans l&#39;herbe haute">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LandscapingBusiness","name":"Annecy Montagne et Jardins","alternateName":"AMJ","url":"https://annecy-montagne-et-jardins-maquette.vercel.app/","telephone":"+33670549324","email":"creations@a-m-j.fr","foundingDate":"2018","address":{"@type":"PostalAddress","streetAddress":"201 route du Robinson","postalCode":"74150","addressLocality":"Vallières-sur-Fier","addressCountry":"FR"},"areaServed":["Albanais","Bassin annécien","Bassin aixois"],"sameAs":["https://www.facebook.com/annecymontagneetjardins","https://www.instagram.com/annecymontagneetjardins/"],"description":"Entretien des espaces verts, création paysagère, élagage et abattage, éco-pâturage, pour les particuliers, les copropriétés, les entreprises et les collectivités."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="vague" aria-hidden="true"><svg class="voile-vague voile-vague--haut" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 120 V92 L120 80 L210 88 L330 54 L380 66 L470 22 L520 40 L560 30 L650 70 L720 62 L820 84 L900 76 L1000 96 L1080 70 L1170 46 L1230 58 L1320 82 L1440 74 V120 Z"/></svg><svg class="voile-vague voile-vague--bas" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 V28 L120 40 L210 32 L330 66 L380 54 L470 98 L520 80 L560 90 L650 50 L720 58 L820 36 L900 44 L1000 24 L1080 50 L1170 74 L1230 62 L1320 38 L1440 46 V0 Z"/></svg><div class="voile-contenu"><img src="/assets/images/logo-clair-240.webp" alt="" width="240" height="114"><span data-voile-libelle>Éco-pâturage</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <svg class="ouverture-crete" viewBox="0 0 400 90" aria-hidden="true"><path class="crete-ligne" pathLength="1" d="M4 80 L52 66 L84 72 L128 40 L146 50 L182 12 L204 30 L222 22 L262 58 L292 50 L336 74 L396 68" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path class="crete-hachures" d="M182 14 L172 36 M192 24 L183 44 M201 32 L193 50 M146 52 L138 66 M226 26 L218 44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+  <img class="ouverture-logo" src="/assets/images/logo-clair-240.webp" alt="" width="240" height="114" data-ouverture-objet>
+  <p class="ouverture-ligne">Paysagiste dans l&#39;Albanais</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="Annecy Montagne et Jardins : Accueil" data-libelle="Accueil">
+      <img src="/assets/images/logo-240.webp" alt="Annecy Montagne et Jardins" width="240" height="114">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/entretien" data-libelle="Entretien">Entretien</a></li><li><a href="/creation" data-libelle="Création">Création</a></li><li><a href="/eco-paturage" data-libelle="Éco-pâturage" aria-current="page">Éco-pâturage</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#devis" data-libelle="Contact">Demander un devis</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/entretien" class="menu-lien" data-libelle="Entretien">Entretien</a></li><li style="--i:2"><a href="/creation" class="menu-lien" data-libelle="Création">Création</a></li><li style="--i:3"><a href="/eco-paturage" class="menu-lien" data-libelle="Éco-pâturage" aria-current="page">Éco-pâturage</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33670549324">Appeler 06 70 54 93 24</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouverture-plein" id="debut">
+  <figure class="media ouverture-plein-media" data-fx="zoom" data-fx-force="10" style="--cadrage:41% 44%;--cadrage-mobile:46% 51%;--apercu:url(data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAADwAwCdASoUAAsAPtFWo0uoJKMhsAgBABoJYgCdABuuBQg128TEuzDiAPjDvVjqOiJUsAGvELgC1wnGp7a1jkSB4FaVjYQEXOJZRSUAotexSU4cSpFIybcsJdE+oLAUaQwSAb6c6jwAAAAA);--apercu-mobile:url(data:image/webp;base64,UklGRugAAABXRUJQVlA4INwAAADQBgCdASoUACQAPtFco04oJSMiKrgMAQAaCWMAv2vGPshLG9MdELnEybzlnOY/59/idn7Od+Hg2VDIq0R4ZmAA/uc00MerFgWCNWwvASbYlmzvehrp9ERPNPcqW1ukRYaTOzJ0NVUvgRtWX1oNZvZgXLWJodJgWRCtEQrucsIrioTLvaRqR6fc7kqZpo2VrIoWbz/u9QxRJ2VPUlYxv4oSH68lP7lliVTzBAnlOomzvh5MfJTMF4E/7DxShH0zKyRkIfYGJuXAxBGPc5aFwbyAB/o4RbWZAMPK2gAA)">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/eco-ouverture-mobile-640.webp 640w, /assets/images/eco-ouverture-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/eco-ouverture-1280.webp" srcset="/assets/images/eco-ouverture-640.webp 640w, /assets/images/eco-ouverture-1280.webp 1280w, /assets/images/eco-ouverture-1920.webp 1920w" sizes="100vw" alt="Deux moutons à laine longue dans l’herbe haute, la montagne derrière" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+  <div class="conteneur ouverture-plein-contenu">
+    <div class="ouverture-texte">
+      <p class="surtitre surtitre--clair"><svg viewBox="0 0 40 14" aria-hidden="true"><path d="M1 12 L9 7 L13 9 L20 2 L26 8 L30 6 L39 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>Éco-pâturage</p>
+      <h1 data-anime="lignes">Des moutons pour <em>vos pelouses.</em></h1>
+      <p class="masque-ecran-bas masque-petit" data-anime>Une nouvelle façon d&#39;entretenir vos pelouses, de manière durable : un entretien régulier toute l&#39;année, qui augmente la biodiversité.</p>
+      <p class="actions" data-anime><a href="/contact?sujet=eco-paturage#devis" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Demander un devis</a></p>
+      <p class="info-cle" data-info-cle>Copropriétés, collectivités et entreprises</p>
+    </div>
+    <div class="tampon" data-iris-centre="disque" data-superpose role="img" aria-label="Toute l&#39;année · sans bruit · sans déchet" data-tampon>
+  <svg class="tampon-texte" viewBox="0 0 200 200" aria-hidden="true">
+    <defs><path id="tampon-cercle" d="M100 100 m-78 0 a78 78 0 1 1 156 0 a78 78 0 1 1 -156 0"/></defs>
+    <text><textPath href="#tampon-cercle" textLength="486" lengthAdjust="spacingAndGlyphs">Toute l&#39;année · sans bruit · sans déchet · </textPath></text>
+  </svg>
+  <span class="tampon-coeur" aria-hidden="true"><svg class="tampon-mouton" viewBox="0 0 64 44" aria-hidden="true"><g fill="currentColor"><ellipse cx="30" cy="22" rx="20" ry="13"/><circle cx="16" cy="16" r="8"/><circle cx="27" cy="11" r="8"/><circle cx="39" cy="12" r="8"/><circle cx="46" cy="20" r="7"/><circle cx="20" cy="28" r="7"/><circle cx="38" cy="30" r="7"/></g><ellipse cx="54" cy="25" rx="7" ry="9" fill="#1b2a20"/></svg></span>
+</div>
+  </div>
+</section>
+<section class="section principe" id="principe">
+  <div class="conteneur principe-grille">
+    <div>
+      <div class="tete ">
+  <p class="surtitre"><svg viewBox="0 0 40 14" aria-hidden="true"><path d="M1 12 L9 7 L13 9 L20 2 L26 8 L30 6 L39 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>Le principe</p>
+  <h2 data-anime="lignes">La pelouse entretenue <em>au pas du troupeau.</em></h2>
+</div>
+      <p data-anime>Les moutons entretiennent l&#39;herbe en pâturant : la pelouse reste entretenue toute l&#39;année, la biodiversité se développe et il n&#39;y a aucun déchet de tonte à évacuer.</p>
+    </div>
+    <figure class="media principe-photo" data-anime="rideau" style="--cadrage:55% 45%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/eco-troupeau-mobile-640.webp 640w, /assets/images/eco-troupeau-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 50vw">
+    <img src="/assets/images/eco-troupeau-1280.webp" srcset="/assets/images/eco-troupeau-640.webp 640w, /assets/images/eco-troupeau-1280.webp 1280w, /assets/images/eco-troupeau-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 50vw" alt="Troupeau de moutons blancs, bruns et noirs dans une prairie au soleil du matin" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+  <div class="broutage" data-broutage data-effet="broutage" data-souris data-visuel aria-hidden="true">
+  <svg class="broutage-herbe" viewBox="0 0 1000 120" preserveAspectRatio="none" data-broutage-herbe></svg>
+  <div class="broutage-troupeau" data-broutage-troupeau>
+    <svg class="mouton mouton-0" viewBox="0 0 64 44"><g fill="currentColor"><ellipse cx="30" cy="22" rx="20" ry="13"/><circle cx="16" cy="16" r="8"/><circle cx="27" cy="11" r="8"/><circle cx="39" cy="12" r="8"/><circle cx="46" cy="20" r="7"/><circle cx="20" cy="28" r="7"/><circle cx="38" cy="30" r="7"/></g><ellipse class="mouton-tete" cx="54" cy="25" rx="7" ry="9"/><rect class="mouton-patte" x="18" y="32" width="3.5" height="11" rx="1.5"/><rect class="mouton-patte" x="38" y="32" width="3.5" height="11" rx="1.5"/></svg><svg class="mouton mouton-1" viewBox="0 0 64 44"><g fill="currentColor"><ellipse cx="30" cy="22" rx="20" ry="13"/><circle cx="16" cy="16" r="8"/><circle cx="27" cy="11" r="8"/><circle cx="39" cy="12" r="8"/><circle cx="46" cy="20" r="7"/><circle cx="20" cy="28" r="7"/><circle cx="38" cy="30" r="7"/></g><ellipse class="mouton-tete" cx="54" cy="25" rx="7" ry="9"/><rect class="mouton-patte" x="18" y="32" width="3.5" height="11" rx="1.5"/><rect class="mouton-patte" x="38" y="32" width="3.5" height="11" rx="1.5"/></svg><svg class="mouton mouton-2" viewBox="0 0 64 44"><g fill="currentColor"><ellipse cx="30" cy="22" rx="20" ry="13"/><circle cx="16" cy="16" r="8"/><circle cx="27" cy="11" r="8"/><circle cx="39" cy="12" r="8"/><circle cx="46" cy="20" r="7"/><circle cx="20" cy="28" r="7"/><circle cx="38" cy="30" r="7"/></g><ellipse class="mouton-tete" cx="54" cy="25" rx="7" ry="9"/><rect class="mouton-patte" x="18" y="32" width="3.5" height="11" rx="1.5"/><rect class="mouton-patte" x="38" y="32" width="3.5" height="11" rx="1.5"/></svg>
+  </div>
+</div>
+</section>
+<section class="section section--sapin avantages" id="avantages">
+  <div class="conteneur">
+    <div class="tete tete--clair">
+  <p class="surtitre"><svg viewBox="0 0 40 14" aria-hidden="true"><path d="M1 12 L9 7 L13 9 L20 2 L26 8 L30 6 L39 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>Quatre avantages</p>
+  <h2 data-anime="lignes">Ce que <em>change</em> le troupeau.</h2>
+</div>
+    <ul class="avantages-grille" data-anime="cascade">
+      <li class="avantage" data-fx="vitesse" data-fx-force="2">
+        <svg class="avantage-icone" viewBox="0 0 64 64" aria-hidden="true" data-visuel><g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 40 C10 24 22 16 32 16 C42 16 54 24 54 40 Z"/><circle cx="20" cy="22" r="6"/><circle cx="31" cy="15" r="6"/><circle cx="43" cy="21" r="6"/><path d="M14 40 V50 M50 40 V50"/></g></svg>
+        <h3>Patrimoine</h3>
+        <p>Des races rustiques locales préservées.</p>
+      </li><li class="avantage" data-fx="vitesse" data-fx-force="2">
+        <svg class="avantage-icone" viewBox="0 0 64 64" aria-hidden="true" data-visuel><g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M32 54 V26"/><path d="M32 30 C18 30 12 20 12 10 C26 10 32 18 32 30 Z"/><path d="M32 38 C44 38 52 30 52 20 C40 20 32 28 32 38 Z"/></g></svg>
+        <h3>Écologie</h3>
+        <p>Un meilleur bilan carbone et plus de biodiversité.</p>
+      </li><li class="avantage" data-fx="vitesse" data-fx-force="2">
+        <svg class="avantage-icone" viewBox="0 0 64 64" aria-hidden="true" data-visuel><g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 26 H24 L36 14 V50 L24 38 H14 Z"/><path d="M44 24 L54 40 M54 24 L44 40"/></g></svg>
+        <h3>Tranquillité</h3>
+        <p>Aucune nuisance sonore.</p>
+      </li><li class="avantage" data-fx="vitesse" data-fx-force="2">
+        <svg class="avantage-icone" viewBox="0 0 64 64" aria-hidden="true" data-visuel><g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 20 H48 L44 54 H20 Z"/><path d="M12 20 H52 M26 20 V12 H38 V20"/><path d="M8 58 L56 8"/></g></svg>
+        <h3>Déchets</h3>
+        <p>Aucun déchet de tonte.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+<section class="section pourqui" id="pour-qui">
+  <div class="conteneur pourqui-grille">
+    <div>
+      <div class="tete ">
+  <p class="surtitre"><svg viewBox="0 0 40 14" aria-hidden="true"><path d="M1 12 L9 7 L13 9 L20 2 L26 8 L30 6 L39 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>Pour qui</p>
+  <h2 data-anime="lignes">Copropriétés, collectivités, <em>entreprises.</em></h2>
+</div>
+      <p data-anime>L&#39;éco-pâturage convient aux grands espaces verts. Pour les entreprises engagées dans une certification comme BREEAM, ISO 14000, HQE ou AB, c&#39;est aussi une démarche à valoriser.</p>
+      <ul class="profils" data-anime="cascade"><li>Copropriétés</li><li>Collectivités</li><li>Entreprises</li></ul>
+    </div>
+    <figure class="media pourqui-photo" data-fx="parallaxe" style="--cadrage:40% 45%">
+  <picture>
+    <img src="/assets/images/eco-arbre-960.webp" srcset="/assets/images/eco-arbre-480.webp 480w, /assets/images/eco-arbre-640.webp 640w, /assets/images/eco-arbre-960.webp 960w" sizes="(max-width: 760px) 100vw, 45vw" alt="Moutons à l’ombre d’un arbre dans une prairie fleurie de pissenlits" width="960" height="1280" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+<section class="section mosaique-section" id="cle-en-main">
+  <div class="conteneur">
+    <div class="tete ">
+  <p class="surtitre"><svg viewBox="0 0 40 14" aria-hidden="true"><path d="M1 12 L9 7 L13 9 L20 2 L26 8 L30 6 L39 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>Un service clé en main</p>
+  <h2 data-anime="lignes">Une solution <em>clé en main,</em> adaptée à chaque projet.</h2>
+</div>
+    <ul class="mosaique mosaique--eco" data-anime="cascade">
+      <li class="mosaique-large"><figure class="media mosaique-media" data-fx="parallaxe" data-fx-force="6" style="--cadrage:54% 42%">
+  <picture>
+    <img src="/assets/images/eco-panorama-960.webp" srcset="/assets/images/eco-panorama-480.webp 480w, /assets/images/eco-panorama-640.webp 640w, /assets/images/eco-panorama-960.webp 960w" sizes="(max-width: 760px) 90vw, 40vw" alt="Troupeau qui pâture une grande prairie, arbres en fleurs au fond" width="960" height="412" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li class=""><figure class="media mosaique-media" data-fx="parallaxe" data-fx-force="6" style="--cadrage:52% 60%">
+  <picture>
+    <img src="/assets/images/eco-residence-960.webp" srcset="/assets/images/eco-residence-480.webp 480w, /assets/images/eco-residence-640.webp 640w, /assets/images/eco-residence-960.webp 960w" sizes="(max-width: 760px) 90vw, 40vw" alt="Prairie pâturée au bord d’une résidence" width="960" height="1279" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li class=""><figure class="media mosaique-media" data-fx="parallaxe" data-fx-force="6" style="--cadrage:50% 55%">
+  <picture>
+    <img src="/assets/images/metier-eco-784.webp" srcset="/assets/images/metier-eco-480.webp 480w, /assets/images/metier-eco-640.webp 640w, /assets/images/metier-eco-784.webp 784w" sizes="(max-width: 760px) 90vw, 40vw" alt="Deux agneaux à laine longue qui broutent l’herbe" width="784" height="1176" loading="lazy" decoding="async">
+  </picture>
+</figure></li>
+    </ul>
+  </div>
+</section>
+<section class="section section--sapin fin" id="fin">
+  <svg class="fin-crete" viewBox="0 0 1440 90" preserveAspectRatio="none" data-fx="trace" data-visuel aria-hidden="true"><path d="M0 70 L90 60 L160 66 L260 40 L300 48 L380 14 L420 30 L450 22 L540 56 L600 50 L700 70 L780 62 L880 76 L960 56 L1040 34 L1100 44 L1190 66 L1280 58 L1360 68 L1440 62" fill="none" stroke="currentColor" stroke-width="2.5" vector-effect="non-scaling-stroke" stroke-linejoin="round" stroke-linecap="round"/></svg>
+  <div class="conteneur fin-grille">
+    <h2 data-anime="lignes">Parlons de <em>votre jardin.</em></h2>
+    <div>
+      <p data-anime>Entretien régulier, nouveau projet, arbre à soigner ou prairie à faire pâturer : décrivez-nous votre besoin, nous revenons vers vous.</p>
+      <p class="actions" data-anime>
+        <a href="/contact?sujet=eco-paturage#devis" class="bouton" data-libelle="Contact" data-survol="magnetique">Demander un devis</a>
+        <a class="bouton bouton--clair" href="tel:+33670549324" data-survol="magnetique">06 70 54 93 24</a>
+      </p>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <svg class="pied-crete" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true" data-fx="trace"><path d="M0 70 L90 60 L160 66 L260 40 L300 48 L380 14 L420 30 L450 22 L540 56 L600 50 L700 70 L780 62 L880 76 L960 56 L1040 34 L1100 44 L1190 66 L1280 58 L1360 68 L1440 62" fill="none" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round"/></svg>
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-clair-240.webp" alt="Annecy Montagne et Jardins" width="240" height="114" loading="lazy">
+      <p>Entretien, création, élagage et éco-pâturage dans l&#39;Albanais et les bassins annécien et aixois.</p>
+    </div>
+    <div>
+      <p class="pied-titre">Contact</p>
+      <p>201 route du Robinson, 74150 Vallières-sur-Fier<br><a href="tel:+33670549324">06 70 54 93 24</a><br><a href="mailto:creations@a-m-j.fr">creations@a-m-j.fr</a></p>
+    </div>
+    <nav aria-label="Plan du site">
+      <p class="pied-titre">Plan du site</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/entretien" data-libelle="Entretien">Entretien</a></li><li><a href="/creation" data-libelle="Création">Création</a></li><li><a href="/eco-paturage" data-libelle="Éco-pâturage" aria-current="page">Éco-pâturage</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Nous suivre</p>
+      <ul>
+        <li><a href="https://www.facebook.com/annecymontagneetjardins" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://www.instagram.com/annecymontagneetjardins/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales · Politique de confidentialité : à compléter</p><p>Maquette de démonstration : les formulaires sont simulés, rien n&#39;est envoyé.</p><p>© Annecy Montagne et Jardins</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33670549324">Appeler</a>
+  <a class="bouton" href="/contact#devis" data-libelle="Contact">Demander un devis</a>
+</div>
+</body>
+</html>

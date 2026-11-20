@@ -1,0 +1,90 @@
+{
+  "client": "Annecy Montagne et Jardins",
+  "activite": "bâtiment",
+  "direction": "Lac et crêtes",
+  "date": "2026-11-20T17:59:37.451Z",
+  "images": [
+    {
+      "nom": "entretien-ouverture",
+      "fichier": "entretien-ouverture.png",
+      "page": "entretien",
+      "emplacement": "Ouverture de la page Entretien (texte à gauche) (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "paysage qui dérive"
+      ],
+      "consigne": "Wide view of a private garden lawn freshly mown in neat light and dark stripes, a clipped hornbeam hedge and two mature fruit trees on the right, a wooden garden bench, forested pre-Alps mountains softly in the distance, morning dew catching the low sun; the left third of the frame is calm open lawn and sky for text, nobody, no machine, no house facade in focus. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Editorial architectural photography, realistic and natural, fresh, bright and calm alpine garden mood, palette of fresh grass greens, pale linen, deep fir green, soft lake blue, a touch of lime, soft early morning mountain light, low sun from the side, clear air, tactile natural fibres, untreated local wood, pale limestone, living plants, set in a rural garden of the Albanais plateau in Haute-Savoie, between Annecy and Aix-les-Bains, with forested pre-Alps mountains in the distance on late spring, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. A rural garden of the Albanais plateau in Haute-Savoie, between Annecy and Aix-les-Bains, with forested pre-Alps mountains in the distance landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "entretien-ouverture",
+      "fichier": "entretien-ouverture-mobile.png",
+      "page": "entretien",
+      "emplacement": "Ouverture de la page Entretien (texte à gauche) (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "paysage qui dérive"
+      ],
+      "consigne": "Wide view of a private garden lawn freshly mown in neat light and dark stripes, a clipped hornbeam hedge and two mature fruit trees on the right, a wooden garden bench, forested pre-Alps mountains softly in the distance, morning dew catching the low sun; the left third of the frame is calm open lawn and sky for text, nobody, no machine, no house facade in focus. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, fresh, bright and calm alpine garden mood, palette of fresh grass greens, pale linen, deep fir green, soft lake blue, a touch of lime, soft early morning mountain light, low sun from the side, clear air, tactile natural fibres, untreated local wood, pale limestone, living plants, set in a rural garden of the Albanais plateau in Haute-Savoie, between Annecy and Aix-les-Bains, with forested pre-Alps mountains in the distance on late spring, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. A rural garden of the Albanais plateau in Haute-Savoie, between Annecy and Aix-les-Bains, with forested pre-Alps mountains in the distance landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "matiere-paillage",
+      "fichier": "matiere-paillage.png",
+      "page": "creation",
+      "emplacement": "Carte matière : toiles de paillage naturelles",
+      "role": "carte-service",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "conseillee",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "Close-up still life of natural biodegradable mulch mats laid side by side on dark garden soil: a pale hemp felt, a coarse woven jute mesh and a brown coconut fibre mat, a few young perennial plants growing through slits, soft raking morning light, no plastic, no label, no hands. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped. Editorial architectural photography, realistic and natural, fresh, bright and calm alpine garden mood, palette of fresh grass greens, pale linen, deep fir green, soft lake blue, a touch of lime, soft early morning mountain light, low sun from the side, clear air, tactile natural fibres, untreated local wood, pale limestone, living plants, set in a rural garden of the Albanais plateau in Haute-Savoie, between Annecy and Aix-les-Bains, with forested pre-Alps mountains in the distance on late spring, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "matiere-bois",
+      "fichier": "matiere-bois.png",
+      "page": "creation",
+      "emplacement": "Carte matière : bois de forêts locales",
+      "role": "carte-service",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "conseillee",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "Close-up still life of a neat stack of untreated larch boards and rough-sawn sleepers with visible growth rings and resin knots, a few wood shavings, lying on gravel at the edge of a garden, soft side light, no tools, no brand, no stamp. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped. Editorial architectural photography, realistic and natural, fresh, bright and calm alpine garden mood, palette of fresh grass greens, pale linen, deep fir green, soft lake blue, a touch of lime, soft early morning mountain light, low sun from the side, clear air, tactile natural fibres, untreated local wood, pale limestone, living plants, set in a rural garden of the Albanais plateau in Haute-Savoie, between Annecy and Aix-les-Bains, with forested pre-Alps mountains in the distance on late spring, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "matiere-pierre",
+      "fichier": "matiere-pierre.png",
+      "page": "creation",
+      "emplacement": "Carte matière : pierre régionale",
+      "role": "carte-service",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "conseillee",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "Close-up of a dry stone garden wall made of pale grey and ochre local limestone, irregular stones fitted without mortar, small cushions of moss and creeping thyme in the joints, soft morning light, shallow depth of field. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped. Editorial architectural photography, realistic and natural, fresh, bright and calm alpine garden mood, palette of fresh grass greens, pale linen, deep fir green, soft lake blue, a touch of lime, soft early morning mountain light, low sun from the side, clear air, tactile natural fibres, untreated local wood, pale limestone, living plants, set in a rural garden of the Albanais plateau in Haute-Savoie, between Annecy and Aix-les-Bains, with forested pre-Alps mountains in the distance on late spring, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "matiere-vegetal",
+      "fichier": "matiere-vegetal.png",
+      "page": "creation",
+      "emplacement": "Carte matière : plantes sobres en eau",
+      "role": "carte-service",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "conseillee",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "Close-up of a drought-tolerant perennial border in early summer: purple salvia, airy ornamental grasses, yellow achillea and silver-leaved lavender cotton, growing in a gravel mulch, warm low light, bees optional, no watering hose, no label. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped. Editorial architectural photography, realistic and natural, fresh, bright and calm alpine garden mood, palette of fresh grass greens, pale linen, deep fir green, soft lake blue, a touch of lime, soft early morning mountain light, low sun from the side, clear air, tactile natural fibres, untreated local wood, pale limestone, living plants, set in a rural garden of the Albanais plateau in Haute-Savoie, between Annecy and Aix-les-Bains, with forested pre-Alps mountains in the distance on late spring, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    }
+  ]
+}
