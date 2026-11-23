@@ -92,7 +92,6 @@ function entete(c) {
 function pied(c) {
   const r = c.site.reseaux || {};
   return html`<footer class="pied" id="pied">
-  <svg class="pied-crete" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true" data-fx="trace"><path d="${CRETE_LONGUE}" fill="none" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round"/></svg>
   <div class="conteneur pied-grille">
     <div class="pied-marque">
       <img src="/assets/images/logo-clair-240.webp" alt="${c.site.nom}" width="240" height="114" loading="lazy">

@@ -66,7 +66,13 @@ export default (c) => html`
     <div>
       ${tete(c, 'entretien.calcul', { classe: 'tete--clair' })}
       <p data-anime>${c.t('entretien.calcul.texte')}</p>
-      ${c.media({ nom: 'sap', alt: 'Logo Services à la personne', cadrage: '50% 50%', classe: 'budget-sap', sizes: '160px', attrs: 'data-anime="rideau"' })}
+      <ol class="etapes-credit" data-anime="cascade">
+        ${[1, 2, 3].map((i) => html`<li><span class="etapes-credit-num">${i}</span><strong>${c.t(`entretien.calcul.etape${i}Titre`)}</strong><span>${c.t(`entretien.calcul.etape${i}Texte`)}</span></li>`)}
+      </ol>
+      <div class="sap" data-anime>
+        ${c.media({ nom: 'sap', alt: 'Logo Services à la personne', cadrage: '50% 50%', classe: 'sap-logo', sizes: '96px' })}
+        <p>${c.t('calcul.sap')}</p>
+      </div>
     </div>
     ${calculateur(c, 'calcul-entretien')}
   </div>

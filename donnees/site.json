@@ -2,15 +2,44 @@
   "nom": "Annecy Montagne et Jardins",
   "adresse": "https://annecy-montagne-et-jardins-maquette.vercel.app",
   "siteActuel": "annecy-montagne-et-jardins.fr",
-  "version": 1,
-  "langues": ["fr"],
-  "navigation": ["accueil", "entretien", "creation", "eco-paturage", "contact"],
-  "actionEntete": { "page": "contact", "ancre": "devis" },
-  "couleurs": { "fond": "#f4f2ea", "texte": "#1b2a20", "voile": "#1b2a20", "theme": "#f4f2ea", "ouverture": "#1b2a20", "menu": "#1b2a20" },
+  "version": 2,
+  "langues": [
+    "fr"
+  ],
+  "navigation": [
+    "accueil",
+    "entretien",
+    "creation",
+    "eco-paturage",
+    "contact"
+  ],
+  "actionEntete": {
+    "page": "contact",
+    "ancre": "devis"
+  },
+  "couleurs": {
+    "fond": "#f4f2ea",
+    "texte": "#1b2a20",
+    "voile": "#1b2a20",
+    "theme": "#f4f2ea",
+    "ouverture": "#1b2a20",
+    "menu": "#1b2a20"
+  },
   "formeVoile": "vague",
-  "contact": { "telephone": "06 70 54 93 24", "telephoneLien": "+33670549324", "email": "creations@a-m-j.fr", "adresse": "201 route du Robinson, 74150 Vallières-sur-Fier" },
-  "reseaux": { "facebook": "https://www.facebook.com/annecymontagneetjardins", "instagram": "https://www.instagram.com/annecymontagneetjardins/" },
-  "polices": ["/assets/fonts/bricolage.woff2", "/assets/fonts/figtree.woff2"],
+  "contact": {
+    "telephone": "06 70 54 93 24",
+    "telephoneLien": "+33670549324",
+    "email": "creations@a-m-j.fr",
+    "adresse": "201 route du Robinson, 74150 Vallières-sur-Fier"
+  },
+  "reseaux": {
+    "facebook": "https://www.facebook.com/annecymontagneetjardins",
+    "instagram": "https://www.instagram.com/annecymontagneetjardins/"
+  },
+  "polices": [
+    "/assets/fonts/bricolage.woff2",
+    "/assets/fonts/figtree.woff2"
+  ],
   "imagePartage": "accueil-ouverture-1280.webp",
   "curseur": false
 }

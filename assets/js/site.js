@@ -1,7 +1,7 @@
 /* Effets propres à AMJ (chacun porte data-effet="nom-du-plan") :
    calques (ouverture de l'accueil), secateur (calculateur du crédit d'impôt), broutage (herbe rasée par le troupeau),
    lacs (carte de la zone), croquis (ouverture de la page Création). Le reste vient de la bibliothèque du socle. */
-import { demarrer, versObjet } from './socle/index.js?v=1';
+import { demarrer, versObjet } from './socle/index.js?v=2';
 
 const gsap = window.gsap;
 const ST = () => window.ScrollTrigger;
@@ -52,6 +52,7 @@ function calculateurs() {
       [$('[data-calcul-reste-barre]'), $('[data-calcul-credit-barre]')].forEach((b) => { const sp = b.querySelector('span'); b.classList.remove('etroit'); if (sp.scrollWidth > b.clientWidth - 16) b.classList.add('etroit'); });
       $('[data-calcul-plafond]').classList.toggle('visible', m > 5000);
       curseur.setAttribute('aria-valuetext', euros(m));
+      curseur.style.setProperty('--pct', `${((m - curseur.min) / (curseur.max - curseur.min)) * 100}%`);
     };
     let attente;
     curseur.addEventListener('input', () => {
@@ -63,10 +64,22 @@ function calculateurs() {
     if (!ST()) return;
     /* Le coup de sécateur, piloté par le défilement : le pointillé se trace, la lame passe, la moitié se détache. */
     const tl = gsap.timeline({ scrollTrigger: { trigger: root, start: 'top 85%', end: 'top 35%', scrub: 0.6 } });
+    const gauche = $('[data-secateur-gauche]'), droite = $('[data-secateur-droite]');
     tl.fromTo($('[data-calcul-coupe]'), { scaleY: 0 }, { scaleY: 1, ease: 'none', duration: 0.35 }, 0)
-      .fromTo($('[data-calcul-lame]'), { y: -8, rotation: -25 }, { y: 96, rotation: 15, ease: 'power1.inOut', duration: 0.45 }, 0.15)
+      .fromTo($('[data-calcul-lame]'), { y: -24 }, { y: 34, ease: 'power2.in', duration: 0.3 }, 0.1)
+      .fromTo(gauche, { rotation: -18 }, { rotation: 0, ease: 'back.in(2)', duration: 0.1 }, 0.36)
+      .fromTo(droite, { rotation: 18 }, { rotation: 0, ease: 'back.in(2)', duration: 0.1 }, 0.36)
+      .to($('[data-calcul-lame]'), { y: 0, ease: 'power2.out', duration: 0.25 }, 0.5)
       .fromTo($('[data-calcul-credit-barre]'), { y: 0, rotation: 0 }, { y: 10, rotation: 2, transformOrigin: '0% 50%', ease: 'power2.out', duration: 0.35 }, 0.55);
   });
+}
+
+/* Les pattes bougent tant que le troupeau avance, puis s'arrêtent. */
+const arrets = new WeakMap();
+function marche(el) {
+  el.classList.add('marche');
+  clearTimeout(arrets.get(el));
+  arrets.set(el, setTimeout(() => el.classList.remove('marche'), 220));
 }
 
 /* --- broutage : bande d'herbe haute rasée de gauche à droite derrière le troupeau, et sous la souris. --- */
@@ -99,6 +112,7 @@ function broutages() {
         onUpdate(self) {
           const p = self.progress, larg = zone.clientWidth, tw = troupeau.offsetWidth || 160;
           gsap.set(troupeau, { x: -tw + p * (larg + tw * 1.1) });
+          marche(troupeau);
           const front = (p * (larg + tw * 1.1) - tw * 0.4) / larg;
           brins.forEach((b) => couper(b, b.souris || b.x < front));
         },
@@ -137,6 +151,57 @@ function croquis() {
   tl.to({}, { duration: 0.03 })
     .fromTo(feuille, { xPercent: 0, yPercent: 0, rotation: -4 }, { xPercent: () => (petit() ? -18 : -34), yPercent: 34, rotation: -11, ease: 'none', duration: 0.97 }, 0.03)
     .fromTo(scene.querySelector('.croquis-photo img'), { scale: 1.08 }, { scale: 1, ease: 'none', duration: 0.97 }, 0.03);
+}
+
+/* --- transhumance : le petit troupeau marche sur la ligne de crête de l'appel final. --- */
+function transhumance() {
+  if (!ST()) return;
+  document.querySelectorAll('[data-transhumance]').forEach((paysage) => {
+    const troupeau = paysage.querySelector('[data-transhumance-troupeau]');
+    const d = paysage.querySelector('path').getAttribute('d');
+    const pts = [...d.matchAll(/(-?[\d.]+)\s+(-?[\d.]+)/g)].map((m) => [+m[1], +m[2]]);
+    const hauteur = (x) => { for (let i = 1; i < pts.length; i++) { if (x <= pts[i][0]) { const [x0, y0] = pts[i - 1], [x1, y1] = pts[i]; return y0 + ((y1 - y0) * (x - x0)) / (x1 - x0); } } return pts[pts.length - 1][1]; };
+    let W = 0, H = 0, tw = 0, th = 0;
+    const mesurer = () => { W = paysage.clientWidth; H = paysage.clientHeight; tw = troupeau.offsetWidth; th = troupeau.offsetHeight; };
+    mesurer();
+    const placer = (p) => {
+      const x = -tw + p * (W + tw);
+      const milieu = Math.min(Math.max(x + tw * 0.5, 0), W);
+      const y = (hauteur((milieu / W) * 1440) / 90) * H;
+      gsap.set(troupeau, { x, y: y - th + 3 });
+    };
+    ST().create({
+      trigger: paysage.closest('section'), start: 'top 95%', end: 'bottom 50%', scrub: true,
+      onRefresh: (self) => { mesurer(); placer(self.progress); },
+      onUpdate: (self) => { placer(self.progress); marche(troupeau); },
+    });
+  });
+}
+
+/* --- apercu : la grande photo de la page Création suit la prestation lue ou survolée. --- */
+function apercus() {
+  const liste = document.querySelector('[data-apercu-liste]');
+  if (!liste) return;
+  const items = [...liste.querySelectorAll('[data-apercu-item]')];
+  const images = [...document.querySelectorAll('[data-apercu]')];
+  const activer = (i) => {
+    items.forEach((li, k) => li.classList.toggle('actif', k === i));
+    images.forEach((im, k) => im.classList.toggle('actif', k === i));
+  };
+  items.forEach((li, i) => {
+    li.addEventListener('pointerenter', () => activer(i));
+    li.addEventListener('focusin', () => activer(i));
+    if (ST()) ST().create({ trigger: li, start: 'top 62%', end: 'bottom 62%', onToggle: (self) => { if (self.isActive) activer(i); } });
+  });
+}
+
+/* --- dessin : les pictos des avantages se dessinent au défilement. --- */
+function dessins() {
+  if (!ST()) return;
+  document.querySelectorAll('[data-effet="dessin"]').forEach((li) => {
+    const traits = li.querySelectorAll('[pathLength]');
+    gsap.fromTo(traits, { strokeDashoffset: 1 }, { strokeDashoffset: 0, ease: 'none', stagger: 0.08, scrollTrigger: { trigger: li, start: 'top 90%', end: 'top 50%', scrub: 0.5 } });
+  });
 }
 
 /* --- Demande de devis en quatre étapes, avec récapitulatif en direct. --- */
@@ -208,6 +273,9 @@ demarrer({
     broutages();
     lacs();
     croquis();
+    transhumance();
+    apercus();
+    dessins();
     devis();
   },
   /* Intro (2,3 s) : la crête du logo se trace, le logo monte, puis glisse jusqu'à l'objet d'ouverture de la page

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#f4f2ea">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -136,9 +136,32 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <p class="surtitre"><svg viewBox="0 0 40 14" aria-hidden="true"><path d="M1 12 L9 7 L13 9 L20 2 L26 8 L30 6 L39 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>Nos prestations</p>
   <h2 data-anime="lignes">Cinq savoir-faire pour <em>votre extérieur.</em></h2>
 </div>
+      <div class="prestations-apercu" data-effet="apercu" aria-hidden="true">
+        <figure class="media apercu-image actif" data-apercu="0" style="--cadrage:45% 60%">
+  <picture>
+    <img src="/assets/images/real-escalier-traverses-960.webp" srcset="/assets/images/real-escalier-traverses-480.webp 480w, /assets/images/real-escalier-traverses-640.webp 640w, /assets/images/real-escalier-traverses-960.webp 960w" sizes="(max-width: 760px) 1px, 38vw" alt="" width="960" height="1280" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media apercu-image" data-apercu="1" style="--cadrage:45% 40%">
+  <picture>
+    <img src="/assets/images/metier-creation-784.webp" srcset="/assets/images/metier-creation-480.webp 480w, /assets/images/metier-creation-640.webp 640w, /assets/images/metier-creation-784.webp 784w" sizes="(max-width: 760px) 1px, 38vw" alt="" width="784" height="1176" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media apercu-image" data-apercu="2" style="--cadrage:45% 45%">
+  <picture>
+    <img src="/assets/images/real-massif-960.webp" srcset="/assets/images/real-massif-480.webp 480w, /assets/images/real-massif-640.webp 640w, /assets/images/real-massif-960.webp 960w" sizes="(max-width: 760px) 1px, 38vw" alt="" width="960" height="1280" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media apercu-image" data-apercu="3" style="--cadrage:42% 50%">
+  <picture>
+    <img src="/assets/images/metier-entretien-784.webp" srcset="/assets/images/metier-entretien-480.webp 480w, /assets/images/metier-entretien-640.webp 640w, /assets/images/metier-entretien-784.webp 784w" sizes="(max-width: 760px) 1px, 38vw" alt="" width="784" height="1176" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media apercu-image" data-apercu="4" style="--cadrage:54% 48%">
+  <picture>
+    <img src="/assets/images/real-bacs-960.webp" srcset="/assets/images/real-bacs-480.webp 480w, /assets/images/real-bacs-640.webp 640w, /assets/images/real-bacs-960.webp 960w" sizes="(max-width: 760px) 1px, 38vw" alt="" width="960" height="1280" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      </div>
     </div>
-    <ol class="prestations-liste" data-anime="cascade">
-      <li class="prestation" data-fx="vitesse" data-fx-force="1.5">
+    <ol class="prestations-liste" data-apercu-liste data-anime="cascade">
+      <li class="prestation actif" data-apercu-item="0" data-fx="vitesse" data-fx-force="1.5">
         <span class="prestation-num">01</span>
         <h3>Semis de gazon</h3>
         <figure class="media prestation-media" style="--cadrage:45% 60%">
@@ -146,7 +169,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <img src="/assets/images/real-escalier-traverses-960.webp" srcset="/assets/images/real-escalier-traverses-480.webp 480w, /assets/images/real-escalier-traverses-640.webp 640w, /assets/images/real-escalier-traverses-960.webp 960w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="960" height="1280" loading="lazy" decoding="async">
   </picture>
 </figure>
-      </li><li class="prestation" data-fx="vitesse" data-fx-force="1.5">
+      </li><li class="prestation" data-apercu-item="1" data-fx="vitesse" data-fx-force="1.5">
         <span class="prestation-num">02</span>
         <h3>Clôtures</h3>
         <figure class="media prestation-media" style="--cadrage:45% 40%">
@@ -154,7 +177,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <img src="/assets/images/metier-creation-784.webp" srcset="/assets/images/metier-creation-480.webp 480w, /assets/images/metier-creation-640.webp 640w, /assets/images/metier-creation-784.webp 784w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="784" height="1176" loading="lazy" decoding="async">
   </picture>
 </figure>
-      </li><li class="prestation" data-fx="vitesse" data-fx-force="1.5">
+      </li><li class="prestation" data-apercu-item="2" data-fx="vitesse" data-fx-force="1.5">
         <span class="prestation-num">03</span>
         <h3>Massifs de vivaces</h3>
         <figure class="media prestation-media" style="--cadrage:45% 45%">
@@ -162,7 +185,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <img src="/assets/images/real-massif-960.webp" srcset="/assets/images/real-massif-480.webp 480w, /assets/images/real-massif-640.webp 640w, /assets/images/real-massif-960.webp 960w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="960" height="1280" loading="lazy" decoding="async">
   </picture>
 </figure>
-      </li><li class="prestation" data-fx="vitesse" data-fx-force="1.5">
+      </li><li class="prestation" data-apercu-item="3" data-fx="vitesse" data-fx-force="1.5">
         <span class="prestation-num">04</span>
         <h3>Plantation d&#39;arbres et d&#39;arbustes</h3>
         <figure class="media prestation-media" style="--cadrage:42% 50%">
@@ -170,7 +193,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <img src="/assets/images/metier-entretien-784.webp" srcset="/assets/images/metier-entretien-480.webp 480w, /assets/images/metier-entretien-640.webp 640w, /assets/images/metier-entretien-784.webp 784w" sizes="(max-width: 760px) 30vw, 14vw" alt="" width="784" height="1176" loading="lazy" decoding="async">
   </picture>
 </figure>
-      </li><li class="prestation" data-fx="vitesse" data-fx-force="1.5">
+      </li><li class="prestation" data-apercu-item="4" data-fx="vitesse" data-fx-force="1.5">
         <span class="prestation-num">05</span>
         <h3>Terrasses</h3>
         <figure class="media prestation-media" style="--cadrage:54% 48%">
@@ -273,7 +296,10 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </div>
 </section>
 <section class="section section--sapin fin" id="fin">
-  <svg class="fin-crete" viewBox="0 0 1440 90" preserveAspectRatio="none" data-fx="trace" data-visuel aria-hidden="true"><path d="M0 70 L90 60 L160 66 L260 40 L300 48 L380 14 L420 30 L450 22 L540 56 L600 50 L700 70 L780 62 L880 76 L960 56 L1040 34 L1100 44 L1190 66 L1280 58 L1360 68 L1440 62" fill="none" stroke="currentColor" stroke-width="2.5" vector-effect="non-scaling-stroke" stroke-linejoin="round" stroke-linecap="round"/></svg>
+  <div class="fin-paysage" data-transhumance data-effet="transhumance" data-visuel aria-hidden="true">
+    <svg class="fin-crete" viewBox="0 0 1440 90" preserveAspectRatio="none" data-fx="trace"><path d="M0 70 L90 60 L160 66 L260 40 L300 48 L380 14 L420 30 L450 22 L540 56 L600 50 L700 70 L780 62 L880 76 L960 56 L1040 34 L1100 44 L1190 66 L1280 58 L1360 68 L1440 62" fill="none" stroke="currentColor" stroke-width="2.5" vector-effect="non-scaling-stroke" stroke-linejoin="round" stroke-linecap="round"/></svg>
+    <div class="fin-troupeau" data-transhumance-troupeau><svg class="mouton mouton-0" viewBox="0 0 64 46"><g class="mouton-corps"><g fill="currentColor"><ellipse cx="30" cy="22" rx="20" ry="13"/><circle cx="16" cy="16" r="8"/><circle cx="27" cy="11" r="8"/><circle cx="39" cy="12" r="8"/><circle cx="46" cy="20" r="7"/><circle cx="20" cy="28" r="7"/><circle cx="38" cy="30" r="7"/></g><ellipse class="mouton-tete" cx="54" cy="25" rx="7" ry="9"/></g><rect class="mouton-patte mouton-patte-a" x="18" y="32" width="3.5" height="12" rx="1.5"/><rect class="mouton-patte mouton-patte-b" x="38" y="32" width="3.5" height="12" rx="1.5"/></svg><svg class="mouton mouton-1" viewBox="0 0 64 46"><g class="mouton-corps"><g fill="currentColor"><ellipse cx="30" cy="22" rx="20" ry="13"/><circle cx="16" cy="16" r="8"/><circle cx="27" cy="11" r="8"/><circle cx="39" cy="12" r="8"/><circle cx="46" cy="20" r="7"/><circle cx="20" cy="28" r="7"/><circle cx="38" cy="30" r="7"/></g><ellipse class="mouton-tete" cx="54" cy="25" rx="7" ry="9"/></g><rect class="mouton-patte mouton-patte-a" x="18" y="32" width="3.5" height="12" rx="1.5"/><rect class="mouton-patte mouton-patte-b" x="38" y="32" width="3.5" height="12" rx="1.5"/></svg><svg class="mouton mouton-2" viewBox="0 0 64 46"><g class="mouton-corps"><g fill="currentColor"><ellipse cx="30" cy="22" rx="20" ry="13"/><circle cx="16" cy="16" r="8"/><circle cx="27" cy="11" r="8"/><circle cx="39" cy="12" r="8"/><circle cx="46" cy="20" r="7"/><circle cx="20" cy="28" r="7"/><circle cx="38" cy="30" r="7"/></g><ellipse class="mouton-tete" cx="54" cy="25" rx="7" ry="9"/></g><rect class="mouton-patte mouton-patte-a" x="18" y="32" width="3.5" height="12" rx="1.5"/><rect class="mouton-patte mouton-patte-b" x="38" y="32" width="3.5" height="12" rx="1.5"/></svg></div>
+  </div>
   <div class="conteneur fin-grille">
     <h2 data-anime="lignes">Parlons de <em>votre jardin.</em></h2>
     <div>
@@ -287,7 +313,6 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </section>
 </main>
 <footer class="pied" id="pied">
-  <svg class="pied-crete" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true" data-fx="trace"><path d="M0 70 L90 60 L160 66 L260 40 L300 48 L380 14 L420 30 L450 22 L540 56 L600 50 L700 70 L780 62 L880 76 L960 56 L1040 34 L1100 44 L1190 66 L1280 58 L1360 68 L1440 62" fill="none" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round"/></svg>
   <div class="conteneur pied-grille">
     <div class="pied-marque">
       <img src="/assets/images/logo-clair-240.webp" alt="Annecy Montagne et Jardins" width="240" height="114" loading="lazy">

@@ -42,9 +42,12 @@ export default (c) => html`
   <div class="conteneur prestations-grille">
     <div class="prestations-tete">
       ${tete(c, 'creation.prestations')}
+      <div class="prestations-apercu" data-effet="apercu" aria-hidden="true">
+        ${prestations.map((p, i) => c.media({ nom: p.image, alt: '', cadrage: p.cadrage, classe: `apercu-image${i === 0 ? ' actif' : ''}`, sizes: '(max-width: 760px) 1px, 38vw', attrs: `data-apercu="${i}"` }))}
+      </div>
     </div>
-    <ol class="prestations-liste" data-anime="cascade">
-      ${prestations.map((p, i) => html`<li class="prestation" data-fx="vitesse" data-fx-force="1.5">
+    <ol class="prestations-liste" data-apercu-liste data-anime="cascade">
+      ${prestations.map((p, i) => html`<li class="prestation${i === 0 ? ' actif' : ''}" data-apercu-item="${i}" data-fx="vitesse" data-fx-force="1.5">
         <span class="prestation-num">0${i + 1}</span>
         <h3>${c.t(`creation.prestations.${p.cle}`)}</h3>
         ${c.media({ nom: p.image, alt: '', cadrage: p.cadrage, classe: 'prestation-media', sizes: '(max-width: 760px) 30vw, 14vw' })}

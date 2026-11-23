@@ -56,7 +56,8 @@ export default (c) => html`
       ${metiers.map((m) => html`<li class="carte-metier" data-fx="vitesse" data-fx-force="2">
         <a href="${c.url(m.page, m.ancre || '')}" data-libelle="${c.libelle(m.page)}" data-survol="incline" data-survol-force="5">
           ${c.media({ nom: m.image, alt: '', cadrage: m.cadrage, classe: 'carte-metier-media', sizes: '(max-width: 760px) 90vw, (max-width: 1100px) 45vw, 23vw' })}
-          <span class="carte-metier-texte"><strong>${c.t(`accueil.metiers.${m.cle}.titre`)}</strong><span>${c.t(`accueil.metiers.${m.cle}.texte`)}</span><span class="carte-metier-lien">${c.t(`accueil.metiers.${m.cle}.lien`)} <span aria-hidden="true">→</span></span></span>
+          <span class="carte-metier-num" aria-hidden="true">0${metiers.indexOf(m) + 1}</span>
+          <span class="carte-metier-texte"><strong>${c.t(`accueil.metiers.${m.cle}.titre`)}</strong><span>${c.t(`accueil.metiers.${m.cle}.texte`)}</span><span class="carte-metier-lien">${c.t(`accueil.metiers.${m.cle}.lien`)} <span class="fleche-ronde" aria-hidden="true">→</span></span></span>
         </a>
       </li>`)}
     </ul>
@@ -69,25 +70,32 @@ export default (c) => html`
       ${tete(c, 'accueil.budget', { classe: 'tete--clair' })}
       <p data-anime>${c.t('accueil.budget.texte')}</p>
       <p data-anime>${c.lien('entretien', { classe: 'lien-fleche', texte: c.t('accueil.budget.lien') })}</p>
-      ${c.media({ nom: 'sap', alt: c.s('pages.entretien.nav') + ' : logo Services à la personne', cadrage: '50% 50%', classe: 'budget-sap', sizes: '160px', attrs: 'data-anime="rideau"' })}
+      <div class="sap" data-anime>
+        ${c.media({ nom: 'sap', alt: 'Logo Services à la personne', cadrage: '50% 50%', classe: 'sap-logo', sizes: '96px' })}
+        <p>${c.t('calcul.sap')}</p>
+      </div>
     </div>
     ${calculateur(c, 'calcul-accueil')}
   </div>
 </section>
 
 <section class="eco-bloc" id="eco">
-  ${c.media({ nom: 'eco-troupeau', alt: 'Troupeau de moutons blancs, bruns et noirs dans une prairie au soleil du matin', cadrage: '55% 45%', classe: 'eco-bloc-media', sizes: '100vw', attrs: 'data-fx="parallaxe" data-fx-force="12"' })}
+  <div class="eco-bloc-scene">
+    ${c.media({ nom: 'eco-troupeau', alt: 'Troupeau de moutons blancs, bruns et noirs dans une prairie au soleil du matin', cadrage: '46% 64%', cadrageMobile: '62% 60%', classe: 'eco-bloc-media', sizes: '100vw', attrs: 'data-fx="parallaxe" data-fx-force="10"' })}
+    ${broutage()}
+  </div>
   <div class="conteneur eco-bloc-contenu">
     <div class="eco-bloc-carte">
-      ${tete(c, 'accueil.eco')}
-      <p data-anime>${c.t('accueil.eco.texte')}</p>
+      <div class="eco-bloc-texte">
+        ${tete(c, 'accueil.eco')}
+        <p data-anime>${c.t('accueil.eco.texte')}</p>
+        <p class="actions" data-anime>${c.lien('eco-paturage', { classe: 'bouton', texte: c.t('accueil.eco.lien'), attrs: 'data-survol="magnetique"' })}</p>
+      </div>
       <ul class="avantages-mini" data-anime="cascade">
-        ${avantages.map((a) => html`<li><strong>${c.t(`avantages.${a}.titre`)}</strong> ${c.t(`avantages.${a}.texte`)}</li>`)}
+        ${avantages.map((a) => html`<li><span class="avantages-mini-titre">${c.t(`avantages.${a}.titre`)}</span><strong>${c.t(`avantages.${a}.accroche`)}</strong><span>${c.t(`avantages.${a}.texte`)}</span></li>`)}
       </ul>
-      <p>${c.lien('eco-paturage', { classe: 'bouton', texte: c.t('accueil.eco.lien'), attrs: 'data-survol="magnetique"' })}</p>
     </div>
   </div>
-  ${broutage()}
 </section>
 
 <section class="section matieres" id="matieres">
@@ -112,6 +120,7 @@ export default (c) => html`
   <div class="conteneur realisations-tete">
     ${tete(c, 'accueil.realisations')}
     <p class="masque-ecran-bas">${c.t('accueil.realisations.texte')}</p>
+    <p class="glisser" aria-hidden="true"><span>${c.t('commun.glisser')}</span></p>
   </div>
   <div class="piste galerie-piste" data-galerie tabindex="0" role="region" aria-label="${c.s('accueil.realisations.region')}">
     ${c.donnees.realisations.map((r, i) => html`<article class="carte-real" id="realisation-${i + 1}">
@@ -158,7 +167,7 @@ export default (c) => html`
     ${c.media({ nom: 'equipe-terrain', alt: 'L’équipe et son camion-benne au travail dans une résidence', cadrage: '40% 40%', classe: 'confiance-photo', sizes: '(max-width: 760px) 100vw, 40vw', attrs: 'data-fx="parallaxe"' })}
   </div>
   <div class="ruban-section">
-    <div class="ruban" id="ruban-references" data-boucle-css data-ruban><p>${[...c.donnees.references, ...c.donnees.references].map((r) => html`<span>${r}</span>`)}</p></div>
+    <div class="ruban" id="ruban-references" data-boucle-css data-ruban><p>${[...c.donnees.references, ...c.donnees.references].map((r, i) => html`<span class="${i % 2 ? 'ruban-italique' : ''}">${r}<svg viewBox="0 0 40 14" aria-hidden="true"><path d="M1 12 L9 7 L13 9 L20 2 L26 8 L30 6 L39 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></span>`)}</p></div>
     <button type="button" class="ruban-pause" data-pause-pour="ruban-references" data-libelle-pause="${c.s('commun.pause')}" data-libelle-lecture="${c.s('commun.lecture')}"><span data-libelle-bouton>${c.t('commun.pause')}</span></button>
   </div>
 </section>

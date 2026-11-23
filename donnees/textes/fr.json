@@ -20,7 +20,8 @@
     "nouvelOnglet": "(nouvel onglet)",
     "tampon": "Crédit d'impôt · service à la personne · ",
     "tamponChiffre": "50 %",
-    "tamponLegende": "Crédit d'impôt de 50 % sur l'entretien"
+    "tamponLegende": "Crédit d'impôt de 50 % sur l'entretien",
+    "glisser": "Faites glisser"
   },
   "pages": {
     "accueil": {
@@ -172,24 +173,29 @@
     "plafond": "Au-delà de 5 000 € de dépenses par an, le crédit d'impôt est plafonné à 2 500 €.",
     "note": "Exemple de calcul, sans valeur de devis. Pour les particuliers, dans leur résidence principale ou secondaire en France ; dépenses retenues jusqu'à 5 000 € par an et par foyer pour les petits travaux de jardinage, selon la réglementation en vigueur.",
     "resteCourt": "À payer",
-    "creditCourt": "Crédit"
+    "creditCourt": "Crédit",
+    "sap": "AMJ est déclarée service à la personne : l'entretien régulier ouvre droit au crédit d'impôt."
   },
   "avantages": {
     "patrimoine": {
       "titre": "Patrimoine",
-      "texte": "Des races rustiques locales préservées."
+      "texte": "Des races rustiques locales préservées.",
+      "accroche": "Races locales"
     },
     "ecologie": {
       "titre": "Écologie",
-      "texte": "Un meilleur bilan carbone et plus de biodiversité."
+      "texte": "Un meilleur bilan carbone et plus de biodiversité.",
+      "accroche": "+ de biodiversité"
     },
     "tranquillite": {
       "titre": "Tranquillité",
-      "texte": "Aucune nuisance sonore."
+      "texte": "Aucune nuisance sonore.",
+      "accroche": "0 nuisance sonore"
     },
     "dechets": {
       "titre": "Déchets",
-      "texte": "Aucun déchet de tonte."
+      "texte": "Aucun déchet de tonte.",
+      "accroche": "0 déchet de tonte"
     }
   },
   "matieres": {
@@ -253,7 +259,13 @@
     "calcul": {
       "surtitre": "Simulez votre crédit d'impôt",
       "titre": "Combien vous coûte <em>vraiment</em> l'entretien ?",
-      "texte": "Faites glisser le montant de votre budget annuel : la moitié revient en crédit d'impôt, dans la limite du plafond."
+      "texte": "Faites glisser le montant de votre budget annuel : la moitié revient en crédit d'impôt, dans la limite du plafond.",
+      "etape1Titre": "Vous réglez la facture",
+      "etape1Texte": "AMJ entretient votre jardin et vous facture la prestation.",
+      "etape2Titre": "Vous la déclarez",
+      "etape2Texte": "Le montant se déclare avec vos revenus, au titre des services à la personne.",
+      "etape3Titre": "50 % vous reviennent",
+      "etape3Texte": "La moitié vous revient en crédit d'impôt, dans la limite du plafond annuel."
     },
     "elagage": {
       "surtitre": "Élagage et abattage",
@@ -282,7 +294,8 @@
       "clotures": "Clôtures",
       "vivaces": "Massifs de vivaces",
       "arbres": "Plantation d'arbres et d'arbustes",
-      "terrasses": "Terrasses"
+      "terrasses": "Terrasses",
+      "apercu": "Aperçu de la prestation"
     },
     "matieres": {
       "surtitre": "Démarche durable",

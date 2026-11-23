@@ -103,6 +103,59 @@
       "effetsRetires": [],
       "grilleDispenses": {},
       "notes": "Images Grok reçues à 1168 px, agrandies à 1600 px avant produire (leçon). Pages intérieures construites en même temps que l'accueil (même système, composants partagés). Audit standard final : 0 échec (Safari non lancé, à vérifier sur le Mac)."
+    },
+    {
+      "version": 2,
+      "skill": "v11.1.1",
+      "perimetre": [
+        "accueil",
+        "entretien",
+        "creation",
+        "eco-paturage",
+        "contact",
+        "404"
+      ],
+      "demande": "Dernier audit complet et analyse de l'ensemble du site, puis ajustements pour une version optimale, ludique et de haut niveau.",
+      "etapes": [
+        {
+          "etape": "analyse page par page (planches de vrai défilement, ordinateur et téléphone)",
+          "debut": "2026-11-23T15:00:00+01:00",
+          "fin": "2026-11-23T15:03:00+01:00"
+        },
+        {
+          "etape": "améliorations v2",
+          "debut": "2026-11-23T15:03:00+01:00",
+          "fin": "2026-11-23T15:13:00+01:00"
+        },
+        {
+          "etape": "audit complet et corrections",
+          "debut": "2026-11-23T15:13:00+01:00",
+          "fin": "2026-11-23T15:52:00+01:00"
+        },
+        {
+          "etape": "livraison",
+          "debut": "2026-11-23T15:52:00+01:00",
+          "fin": "2026-11-23T15:56:00+01:00"
+        }
+      ],
+      "attentes": [],
+      "allersRetours": 0,
+      "effetsAjoutes": [
+        "transhumance",
+        "apercu",
+        "dessin"
+      ],
+      "audit": {
+        "niveau": "complet",
+        "echecsPremierPassage": 4,
+        "relances": 2,
+        "corrections": [
+          "grand guillemet de l'avis passé en pseudo-élément (chevauchement et contraste)",
+          "lien profond vers le devis au téléphone : revérifié, passé au second essai",
+          "ouverture de l'éco-pâturage recadrée sur tablette en portrait"
+        ]
+      },
+      "notes": "sharp passé en 0.35 (entrée dist/) : lien _biblio/node_modules/sharp refait."
     }
   ]
 }

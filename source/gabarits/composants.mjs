@@ -12,7 +12,7 @@ export const tete = (c, cle, { niveau = 'h2', classe = '', anime = 'lignes' } = 
 export const tampon = (c, { chiffre, texte, legende, attrs = '' } = {}) => html`<div class="tampon" data-iris-centre="disque" data-superpose role="img" aria-label="${legende || c.s('commun.tamponLegende')}"${brut(attrs ? ' ' + attrs : '')}>
   <svg class="tampon-texte" viewBox="0 0 200 200" aria-hidden="true">
     <defs><path id="tampon-cercle" d="M100 100 m-78 0 a78 78 0 1 1 156 0 a78 78 0 1 1 -156 0"/></defs>
-    <text><textPath href="#tampon-cercle" textLength="486" lengthAdjust="spacingAndGlyphs">${texte || c.s('commun.tampon')}</textPath></text>
+    <text><textPath href="#tampon-cercle" textLength="484" lengthAdjust="spacing">${texte || c.s('commun.tampon')}</textPath></text>
   </svg>
   <span class="tampon-coeur" aria-hidden="true">${chiffre ? brut(chiffre) : html`<strong>${c.t('commun.tamponChiffre')}</strong>`}</span>
 </div>`;
@@ -28,7 +28,11 @@ export const calculateur = (c, id = 'calcul') => html`<div class="calcul" data-c
     <div class="calcul-part calcul-part--reste" data-calcul-reste-barre><span>${c.t('calcul.resteCourt')}</span></div>
     <div class="calcul-part calcul-part--credit" data-calcul-credit-barre><span>${c.t('calcul.creditCourt')}</span></div>
     <svg class="calcul-coupe" viewBox="0 0 20 100" preserveAspectRatio="none" data-calcul-coupe><line x1="10" y1="0" x2="10" y2="100" stroke="currentColor" stroke-width="3" stroke-dasharray="6 6" vector-effect="non-scaling-stroke"/></svg>
-    <svg class="calcul-lame" viewBox="0 0 48 48" data-calcul-lame><path d="M24 4 C30 14 30 22 24 30 C18 22 18 14 24 4 Z" fill="currentColor"/><circle cx="24" cy="36" r="7" fill="none" stroke="currentColor" stroke-width="3"/></svg>
+    <svg class="calcul-lame secateur" viewBox="0 0 56 80" data-calcul-lame>
+      <g class="secateur-branche secateur-gauche" data-secateur-gauche><path class="secateur-manche" d="M28 34 C20 26 12 16 11 3 L18 2 C20 14 23 24 28 34 Z"/><path class="secateur-lame" d="M28 34 C33 44 34 58 30 77 L27 50 Z"/></g>
+      <g class="secateur-branche secateur-droite" data-secateur-droite><path class="secateur-manche" d="M28 34 C36 26 44 16 45 3 L38 2 C36 14 33 24 28 34 Z"/><path class="secateur-lame" d="M28 34 C23 44 22 58 26 77 L29 50 Z"/></g>
+      <circle class="secateur-axe" cx="28" cy="34" r="3.6"/>
+    </svg>
   </div>
   <dl class="calcul-chiffres">
     <div><dt>${c.t('calcul.facture')}</dt><dd data-calcul-facture data-prix>1 200 €</dd></div>
@@ -84,17 +88,23 @@ export const carte = (c) => html`<figure class="carte-zone" data-effet="lacs" da
   <figcaption>${c.t('accueil.zone.legende')}</figcaption>
 </figure>`;
 
+/* Un mouton dessiné (laine, tête, deux pattes qui bougent quand il marche). */
+export const mouton = (i) => html`<svg class="mouton mouton-${i}" viewBox="0 0 64 46"><g class="mouton-corps"><g fill="currentColor"><ellipse cx="30" cy="22" rx="20" ry="13"/><circle cx="16" cy="16" r="8"/><circle cx="27" cy="11" r="8"/><circle cx="39" cy="12" r="8"/><circle cx="46" cy="20" r="7"/><circle cx="20" cy="28" r="7"/><circle cx="38" cy="30" r="7"/></g><ellipse class="mouton-tete" cx="54" cy="25" rx="7" ry="9"/></g><rect class="mouton-patte mouton-patte-a" x="18" y="32" width="3.5" height="12" rx="1.5"/><rect class="mouton-patte mouton-patte-b" x="38" y="32" width="3.5" height="12" rx="1.5"/></svg>`;
+
 /* Bande d'herbe haute que le troupeau rase au défilement (effet « broutage »). Les brins sont dessinés par site.js. */
 export const broutage = () => html`<div class="broutage" data-broutage data-effet="broutage" data-souris data-visuel aria-hidden="true">
   <svg class="broutage-herbe" viewBox="0 0 1000 120" preserveAspectRatio="none" data-broutage-herbe></svg>
   <div class="broutage-troupeau" data-broutage-troupeau>
-    ${[0, 1, 2].map((i) => html`<svg class="mouton mouton-${i}" viewBox="0 0 64 44"><g fill="currentColor"><ellipse cx="30" cy="22" rx="20" ry="13"/><circle cx="16" cy="16" r="8"/><circle cx="27" cy="11" r="8"/><circle cx="39" cy="12" r="8"/><circle cx="46" cy="20" r="7"/><circle cx="20" cy="28" r="7"/><circle cx="38" cy="30" r="7"/></g><ellipse class="mouton-tete" cx="54" cy="25" rx="7" ry="9"/><rect class="mouton-patte" x="18" y="32" width="3.5" height="11" rx="1.5"/><rect class="mouton-patte" x="38" y="32" width="3.5" height="11" rx="1.5"/></svg>`)}
+    ${[0, 1, 2].map((i) => html`${mouton(i)}`)}
   </div>
 </div>`;
 
 /* Appel final, commun à toutes les pages. */
 export const fin = (c, { params = '' } = {}) => html`<section class="section section--sapin fin" id="fin">
-  <svg class="fin-crete" viewBox="0 0 1440 90" preserveAspectRatio="none" data-fx="trace" data-visuel aria-hidden="true"><path d="${CRETE_LONGUE}" fill="none" stroke="currentColor" stroke-width="2.5" vector-effect="non-scaling-stroke" stroke-linejoin="round" stroke-linecap="round"/></svg>
+  <div class="fin-paysage" data-transhumance data-effet="transhumance" data-visuel aria-hidden="true">
+    <svg class="fin-crete" viewBox="0 0 1440 90" preserveAspectRatio="none" data-fx="trace"><path d="${CRETE_LONGUE}" fill="none" stroke="currentColor" stroke-width="2.5" vector-effect="non-scaling-stroke" stroke-linejoin="round" stroke-linecap="round"/></svg>
+    <div class="fin-troupeau" data-transhumance-troupeau>${[0, 1, 2].map((i) => html`${mouton(i)}`)}</div>
+  </div>
   <div class="conteneur fin-grille">
     <h2 data-anime="lignes">${c.tb('accueil.fin.titre')}</h2>
     <div>

@@ -5,10 +5,10 @@ import { tete, tampon, broutage, fin } from '../gabarits/composants.mjs';
 export const page = { cle: 'eco-paturage', fichier: 'eco-paturage', imagePartage: 'eco-troupeau-1280.webp' };
 
 const avantages = [
-  { cle: 'patrimoine', icone: '<path d="M10 40 C10 24 22 16 32 16 C42 16 54 24 54 40 Z"/><circle cx="20" cy="22" r="6"/><circle cx="31" cy="15" r="6"/><circle cx="43" cy="21" r="6"/><path d="M14 40 V50 M50 40 V50"/>' },
-  { cle: 'ecologie', icone: '<path d="M32 54 V26"/><path d="M32 30 C18 30 12 20 12 10 C26 10 32 18 32 30 Z"/><path d="M32 38 C44 38 52 30 52 20 C40 20 32 28 32 38 Z"/>' },
-  { cle: 'tranquillite', icone: '<path d="M14 26 H24 L36 14 V50 L24 38 H14 Z"/><path d="M44 24 L54 40 M54 24 L44 40"/>' },
-  { cle: 'dechets', icone: '<path d="M16 20 H48 L44 54 H20 Z"/><path d="M12 20 H52 M26 20 V12 H38 V20"/><path d="M8 58 L56 8"/>' },
+  { cle: 'patrimoine', icone: '<path pathLength="1" d="M10 40 C10 24 22 16 32 16 C42 16 54 24 54 40 Z"/><circle pathLength="1" cx="20" cy="22" r="6"/><circle pathLength="1" cx="31" cy="15" r="6"/><circle pathLength="1" cx="43" cy="21" r="6"/><path pathLength="1" d="M14 40 V50 M50 40 V50"/>' },
+  { cle: 'ecologie', icone: '<path pathLength="1" d="M32 54 V26"/><path pathLength="1" d="M32 30 C18 30 12 20 12 10 C26 10 32 18 32 30 Z"/><path pathLength="1" d="M32 38 C44 38 52 30 52 20 C40 20 32 28 32 38 Z"/>' },
+  { cle: 'tranquillite', icone: '<path pathLength="1" d="M14 26 H24 L36 14 V50 L24 38 H14 Z"/><path pathLength="1" d="M44 24 L54 40 M54 24 L44 40"/>' },
+  { cle: 'dechets', icone: '<path pathLength="1" d="M16 20 H48 L44 54 H20 Z"/><path pathLength="1" d="M12 20 H52 M26 20 V12 H38 V20"/><path pathLength="1" d="M8 58 L56 8"/>' },
 ];
 const galerie = [
   { image: 'eco-panorama', alt: 'Troupeau qui pâture une grande prairie, arbres en fleurs au fond', cadrage: '54% 42%', classe: 'mosaique-large' },
@@ -46,9 +46,10 @@ export default (c) => html`
   <div class="conteneur">
     ${tete(c, 'eco.avantages', { classe: 'tete--clair' })}
     <ul class="avantages-grille" data-anime="cascade">
-      ${avantages.map((a) => html`<li class="avantage" data-fx="vitesse" data-fx-force="2">
-        <svg class="avantage-icone" viewBox="0 0 64 64" aria-hidden="true" data-visuel><g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">${brut(a.icone)}</g></svg>
-        <h3>${c.t(`avantages.${a.cle}.titre`)}</h3>
+      ${avantages.map((a) => html`<li class="avantage" data-effet="dessin" data-fx="vitesse" data-fx-force="2">
+        <svg class="avantage-icone" viewBox="0 0 64 64" aria-hidden="true" data-visuel data-dessin><g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">${brut(a.icone)}</g></svg>
+        <p class="avantage-titre">${c.t(`avantages.${a.cle}.titre`)}</p>
+        <h3>${c.t(`avantages.${a.cle}.accroche`)}</h3>
         <p>${c.t(`avantages.${a.cle}.texte`)}</p>
       </li>`)}
     </ul>

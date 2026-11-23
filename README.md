@@ -1,4 +1,4 @@
-# Annecy Montagne et Jardins : maquette v1
+# Annecy Montagne et Jardins : maquette v2
 
 Maquette de démonstration du futur site d'AMJ (direction « Lac et crêtes »), en ligne sur https://annecy-montagne-et-jardins-maquette.vercel.app
 
